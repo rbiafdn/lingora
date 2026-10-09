@@ -1,0 +1,7 @@
+[
+  { "id": "en", "name": "English", "nativeName": "English", "active": true },
+  { "id": "de", "name": "German", "nativeName": "Deutsch", "active": false },
+  { "id": "es", "name": "Spanish", "nativeName": "Español", "active": false },
+  { "id": "fr", "name": "French", "nativeName": "Français", "active": false },
+  { "id": "it", "name": "Italian", "nativeName": "Italiano", "active": false }
+]

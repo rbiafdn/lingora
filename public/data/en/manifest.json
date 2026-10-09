@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "languageId": "en",
+  "categories": [
+    {
+      "id": "words",
+      "label": "Kelimeler",
+      "shortLabel": "Kelimeler",
+      "kind": "lexical",
+      "levels": true,
+      "files": [
+        "words/a1.json",
+        "words/a2.json",
+        "words/b1.json",
+        "words/b2.json",
+        "words/c1.json",
+        "words/c2.json"
+      ]
+    },
+    {
+      "id": "idioms",
+      "label": "Deyimler",
+      "shortLabel": "Deyimler",
+      "kind": "lexical",
+      "files": [
+        "idioms/a2.json",
+        "idioms/b1.json",
+        "idioms/b2.json",
+        "idioms/c1.json",
+        "idioms/c2.json"
+      ]
+    },
+    {
+      "id": "phrasal-verbs",
+      "label": "Deyimsel",
+      "shortLabel": "Deyimsel",
+      "kind": "lexical",
+      "files": [
+        "phrasal-verbs/a1.json",
+        "phrasal-verbs/a2.json",
+        "phrasal-verbs/b1.json",
+        "phrasal-verbs/b2.json",
+        "phrasal-verbs/c1.json",
+        "phrasal-verbs/c2.json"
+      ]
+    },
+    {
+      "id": "expressions",
+      "label": "Kalıplaşmış İfadeler",
+      "shortLabel": "İfadeler",
+      "kind": "lexical",
+      "files": [
+        "expressions/a1.json",
+        "expressions/a2.json",
+        "expressions/b1.json",
+        "expressions/b2.json",
+        "expressions/c1.json"
+      ]
+    },
+    {
+      "id": "collocations",
+      "label": "Kalıplaşmış",
+      "shortLabel": "Kalıplaşmış",
+      "kind": "lexical",
+      "files": [
+        "collocations/a1.json",
+        "collocations/a2.json",
+        "collocations/b1.json",
+        "collocations/b2.json",
+        "collocations/c1.json"
+      ]
+    },
+    {
+      "id": "proverbs",
+      "label": "Atasözleri",
+      "shortLabel": "Atasözleri",
+      "kind": "lexical",
+      "files": [
+        "proverbs/b1.json",
+        "proverbs/b2.json",
+        "proverbs/c1.json"
+      ]
+    },
+    {
+      "id": "abbreviations",
+      "label": "Kısaltmalar",
+      "shortLabel": "Kısaltmalar",
+      "kind": "lexical",
+      "files": [
+        "abbreviations/a1.json",
+        "abbreviations/a2.json",
+        "abbreviations/b1.json",
+        "abbreviations/b2.json",
+        "abbreviations/c1.json"
+      ]
+    },
+    {
+      "id": "daily",
+      "label": "Günlük Konuşma",
+      "shortLabel": "Günlük",
+      "kind": "lexical",
+      "files": [
+        "daily/a1.json",
+        "daily/a2.json",
+        "daily/b1.json",
+        "daily/b2.json"
+      ]
+    },
+    {
+      "id": "slang",
+      "label": "Argo",
+      "shortLabel": "Argo",
+      "kind": "lexical",
+      "files": [
+        "slang/a1.json",
+        "slang/a2.json",
+        "slang/b1.json",
+        "slang/b2.json",
+        "slang/c1.json"
+      ]
+    },
+    {
+      "id": "grammar",
+      "label": "Dilbilgisi",
+      "shortLabel": "Dilbilgisi",
+      "kind": "grammar",
+      "order": [
+        "en-gr-verb-to-be",
+        "en-gr-subject-and-object-pronouns",
+        "en-gr-possessive-adjectives-and-possessive-s",
+        "en-gr-this-that-these-those",
+        "en-gr-articles-a-an-the",
+        "en-gr-plural-nouns",
+        "en-gr-there-is-there-are",
+        "en-gr-question-words",
+        "en-gr-have-got-have",
+        "en-gr-simple-present",
+        "en-gr-adverbs-of-frequency",
+        "en-gr-present-continuous",
+        "en-gr-imperatives",
+        "en-gr-can",
+        "en-gr-prepositions-of-place",
+        "en-gr-prepositions-of-time-in-on-at",
+        "en-gr-countable-and-uncountable-nouns",
+        "en-gr-some-any",
+        "en-gr-much-many-a-lot-of",
+        "en-gr-possessive-pronouns",
+        "en-gr-simple-past",
+        "en-gr-past-continuous",
+        "en-gr-be-going-to",
+        "en-gr-will-future",
+        "en-gr-present-continuous-for-future-plans",
+        "en-gr-comparatives",
+        "en-gr-superlatives",
+        "en-gr-too-enough",
+        "en-gr-must-have-to",
+        "en-gr-should",
+        "en-gr-present-perfect",
+        "en-gr-present-perfect-vs-simple-past",
+        "en-gr-present-perfect-continuous",
+        "en-gr-used-to-would-past-habits",
+        "en-gr-future-continuous",
+        "en-gr-modals-of-possibility",
+        "en-gr-zero-conditional",
+        "en-gr-first-conditional",
+        "en-gr-second-conditional",
+        "en-gr-passive-voice",
+        "en-gr-relative-clauses-defining",
+        "en-gr-gerunds-and-infinitives",
+        "en-gr-indefinite-pronouns",
+        "en-gr-question-tags",
+        "en-gr-so-such",
+        "en-gr-reported-speech",
+        "en-gr-past-perfect",
+        "en-gr-past-perfect-continuous",
+        "en-gr-third-conditional",
+        "en-gr-mixed-conditionals",
+        "en-gr-unless-as-long-as-provided-that",
+        "en-gr-non-defining-relative-clauses",
+        "en-gr-reduced-relative-clauses",
+        "en-gr-passive-with-reporting-verbs",
+        "en-gr-reporting-verbs",
+        "en-gr-causative-have-get-something-done",
+        "en-gr-wish-if-only",
+        "en-gr-modal-perfects",
+        "en-gr-future-perfect-and-future-perfect-continuous",
+        "en-gr-future-in-the-past",
+        "en-gr-inverted-and-alternative-conditionals",
+        "en-gr-participle-clauses",
+        "en-gr-subjunctive",
+        "en-gr-negative-inversion",
+        "en-gr-cleft-sentences",
+        "en-gr-nominalisation",
+        "en-gr-advanced-modality",
+        "en-gr-hedging",
+        "en-gr-ellipsis-and-substitution",
+        "en-gr-emphatic-structures",
+        "en-gr-fronting-and-extraposition",
+        "en-gr-inversion-after-so-such-only",
+        "en-gr-concessive-clauses",
+        "en-gr-nuanced-modal-meanings",
+        "en-gr-complex-noun-phrases",
+        "en-gr-formal-and-literary-constructions",
+        "en-gr-register-dependent-grammar",
+        "en-gr-discourse-organisation"
+      ],
+      "files": [
+        "grammar/a1.json",
+        "grammar/a2.json",
+        "grammar/b1.json",
+        "grammar/b2.json",
+        "grammar/c1.json",
+        "grammar/c2.json"
+      ]
+    }
+  ]
+}
