@@ -5,7 +5,7 @@ import { LEVELS, type ContentItem, type Level } from '../core/types'
 import { prefs } from '../core/prefs'
 import { navigate } from '../router'
 import { DashIcon } from '../components/DashIcons'
-import { computeGeometry } from './orbitLayout'
+import { computeGeometry, type Pt } from './orbitLayout'
 import { TONE, DEFAULT_TONE } from '../core/palette'
 import type { LangContext } from './LanguageShell'
 
@@ -214,10 +214,7 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
                   <line
                     key={l}
                     className="orbit-link"
-                    x1={geo.words.x}
-                    y1={geo.words.y}
-                    x2={geo.levels[i].x}
-                    y2={geo.levels[i].y}
+                    {...stringOf(geo.center, geo.ringR * 0.88, geo.levels[i], geo.levelR)}
                     style={{ stroke: LEVEL_TONE[l] }}
                   />
                 ))}
@@ -298,6 +295,14 @@ function Orb({
       </span>
     </button>
   )
+}
+
+/** A level orb's string: from the ring line to the top of the orb. */
+function stringOf(c: Pt, ringLine: number, p: Pt, r: number) {
+  const d = Math.hypot(p.x - c.x, p.y - c.y) || 1
+  const ux = (p.x - c.x) / d
+  const uy = (p.y - c.y) / d
+  return { x1: c.x + ux * ringLine, y1: c.y + uy * ringLine, x2: p.x - ux * r, y2: p.y - uy * r }
 }
 
 function CenterRing({ known, total, style }: { known: number; total: number; style: CSSProperties }) {
