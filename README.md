@@ -1,5 +1,7 @@
 # Lingora
 
+Canlı: https://rbiafdn.github.io/lingora/
+
 Track what you know. Learn what you don't.
 
 ## Çalıştırma
@@ -49,3 +51,14 @@ npm run validate
 ```
 
 Betik ID üretir, mevcut ID'leri korur, tekrarları atlar (`scripts/last-merge-skipped.txt`) ve dosyaları kategori/seviye bazında böler.
+
+## Yayınlama (GitHub Pages)
+
+Site `gh-pages` dalından yayınlanır. `npm run build` çıktısı (`dist/`, taban yol `/lingora/`) bu dala gönderilir:
+
+```
+npm run build
+# dist/ içeriğini (+ boş .nojekyll) gh-pages dalına commit edip push et
+```
+
+Uygulama hash yönlendirme kullandığı için ek sunucu ayarı gerekmez.
