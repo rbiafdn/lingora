@@ -11,6 +11,8 @@ import { Dashboard } from './Dashboard'
 import { CategoryPage } from './CategoryPage'
 import { FavoritesPage } from './FavoritesPage'
 import { SettingsPage } from './SettingsPage'
+import { Drawer } from '../components/Drawer'
+import { StarField } from '../components/StarField'
 import { SearchPage } from './SearchPage'
 
 export interface LangContext {
@@ -28,6 +30,7 @@ export function LanguageShell({ languageId }: { languageId: string }) {
   const progress = useProgress(languageId)
   const progressReady = useProgressReady()
   const saveError = useSaveError()
+  const [settingsOpen, setSettingsOpen] = useState(false)
 
   const language = languages?.find((l) => l.id === languageId)
   const [, section, sub] = route.path
@@ -45,22 +48,29 @@ export function LanguageShell({ languageId }: { languageId: string }) {
     navigate(route.path.join('/'), {}, true)
   }, [urlLevel, languageId, route.path])
 
+  // Settings is a right-side drawer now; old #/<lang>/settings links just open it.
+  useEffect(() => {
+    if (section !== 'settings') return
+    setSettingsOpen(true)
+    navigate(languageId, {}, true)
+  }, [section, languageId])
 
   const overall = useMemo(() => (allItems ? progressOf(allItems, progress) : null), [allItems, progress])
 
+  let ctx: LangContext | null = null
   let page: ReactNode = <div className="loading">Yükleniyor…</div>
   if (error) page = <p className="error">İçerik yüklenemedi: {error}</p>
   else if (manifest && allItems && progressReady) {
-    const ctx = { languageId, languageName: language?.name ?? languageId.toUpperCase(), manifest, allItems }
+    ctx = { languageId, languageName: language?.name ?? languageId.toUpperCase(), manifest, allItems }
     if (section === 'c' && sub) page = <CategoryPage key={sub} ctx={ctx} categoryId={sub} />
     else if (section === 'favorites') page = <FavoritesPage ctx={ctx} />
-    else if (section === 'settings') page = <SettingsPage ctx={ctx} />
     else if (section === 'search') page = <SearchPage ctx={ctx} query={route.params.get('q') ?? ''} />
     else page = <Dashboard ctx={ctx} />
   }
 
   return (
     <div className="shell">
+      <StarField />
       <header className="topbar">
         <div className="topbar-row">
           <a href={href(languageId)} className="topbar-logo" aria-label="Lingora panel">
@@ -74,11 +84,13 @@ export function LanguageShell({ languageId }: { languageId: string }) {
           <a href={href('')} className="lang-pill" title="Dil değiştir">
             {language?.name ?? languageId.toUpperCase()}
           </a>
-          <a
-            href={href(`${languageId}/settings`)}
-            className={`icon-link${section === 'settings' ? ' is-current' : ''}`}
+          <button
+            type="button"
+            className={`icon-link${settingsOpen ? ' is-current' : ''}`}
             aria-label="Ayarlar"
             title="Ayarlar"
+            aria-expanded={settingsOpen}
+            onClick={() => setSettingsOpen(true)}
           >
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" strokeWidth="1.7" />
@@ -90,7 +102,7 @@ export function LanguageShell({ languageId }: { languageId: string }) {
                 strokeLinejoin="round"
               />
             </svg>
-          </a>
+          </button>
           {overall && (
             <div
               className="topbar-progress"
@@ -110,6 +122,12 @@ export function LanguageShell({ languageId }: { languageId: string }) {
         <div className="save-error" role="alert">
           Son değişiklik cihaza kaydedilemedi ({saveError}). Sayfayı yenilemeden önce Ayarlar’dan yedek almanı öneririz.
         </div>
+      )}
+
+      {settingsOpen && ctx && (
+        <Drawer title="Ayarlar" onClose={() => setSettingsOpen(false)}>
+          <SettingsPage ctx={ctx} />
+        </Drawer>
       )}
 
       <main className="content">

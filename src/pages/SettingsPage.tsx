@@ -120,8 +120,7 @@ export function SettingsPage({ ctx }: { ctx: LangContext }) {
       <section className="settings-card">
         <h2>Verilerin</h2>
         <p className="muted">
-          Hesap yok: ilerlemen yalnızca bu cihazda, bu tarayıcıda saklanır ({progressStore.backendName()}). Başka
-          cihazla eşitlenmez. Tarayıcı verilerini temizlersen kaybolabilir; düzenli yedek almanı öneririz.
+          Hesap yok; ilerlemen sadece bu tarayıcıda saklanır ({progressStore.backendName()}). Düzenli yedek al.
         </p>
         <div className="stat-row">
           <div>
@@ -142,7 +141,7 @@ export function SettingsPage({ ctx }: { ctx: LangContext }) {
       <section className="settings-card">
         <h2>Verilerimi Yedekle</h2>
         <p className="muted">
-          Bildiklerin, favorilerin ve tercihlerin tek bir JSON dosyası olarak indirilir. Dosyayı güvenli bir yerde sakla.
+Bildiklerin, favorilerin ve tercihlerin tek bir dosya olarak iner.
         </p>
         <button type="button" className="btn btn-primary" onClick={onExport}>
           Yedeği indir
@@ -151,7 +150,7 @@ export function SettingsPage({ ctx }: { ctx: LangContext }) {
 
       <section className="settings-card">
         <h2>Yedeği Geri Yükle</h2>
-        <p className="muted">Daha önce Lingora’dan indirdiğin yedek dosyasını seç. Değişiklikten önce onay istenir.</p>
+        <p className="muted">Lingora yedeğini seç; değişiklikten önce onay istenir.</p>
         <input ref={fileRef} type="file" accept="application/json,.json" hidden onChange={onFile} />
         <button type="button" className="btn" onClick={() => fileRef.current?.click()}>
           Yedek dosyası seç…
@@ -173,7 +172,7 @@ export function SettingsPage({ ctx }: { ctx: LangContext }) {
 
       <section className="settings-card settings-danger">
         <h2>İlerlemeyi Sıfırla</h2>
-        <p className="muted">Tüm diller için öğrenme işaretlerini ve favorileri siler. İçeriklere dokunmaz.</p>
+        <p className="muted">Tüm işaretleri ve favorileri siler; içeriklere dokunmaz.</p>
         <button type="button" className="btn btn-danger" onClick={() => setResetStep(1)}>
           İlerlemeyi sıfırla…
         </button>

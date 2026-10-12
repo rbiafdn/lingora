@@ -1,4 +1,4 @@
-import { useCallback, useDeferredValue, useMemo, useState } from 'react'
+import { useCallback, useDeferredValue, useMemo, useState, type CSSProperties } from 'react'
 import { useProgress } from '../core/progress'
 import { applyFilters, defaultFilters, progressOf, statusCounts, type Filters } from '../core/filter'
 import type { ContentItem } from '../core/types'
@@ -8,6 +8,7 @@ import { ItemList } from '../components/ItemList'
 import { PageHead } from '../components/ProgressBar'
 import { GrammarCards } from '../components/GrammarCards'
 import { DetailModal } from '../components/DetailModal'
+import { TONE, DEFAULT_TONE } from '../core/palette'
 import type { LangContext } from './LanguageShell'
 
 export function CategoryPage({ ctx, categoryId }: { ctx: LangContext; categoryId: string }) {
@@ -72,8 +73,9 @@ export function CategoryPage({ ctx, categoryId }: { ctx: LangContext; categoryId
     filters.status === 'favorites' ? 'Henüz favori yok. Bir içeriğin (?) penceresinden ☆ ile ekleyebilirsin.' : undefined
 
   return (
-    <div className="category-page">
-      <PageHead
+    <div className="category-page" style={{ '--cat': TONE[categoryId] ?? DEFAULT_TONE } as CSSProperties}>
+      <div className="list-head">
+        <PageHead
         title={
           <>
             {level !== 'all' && <span className="muted">{level} </span>}
@@ -81,15 +83,15 @@ export function CategoryPage({ ctx, categoryId }: { ctx: LangContext; categoryId
           </>
         }
         progress={p}
-      />
-
-      <FilterBar
-        filters={filters}
-        onChange={setFilters}
-        posOptions={posOptions}
-        statusCounts={counts}
-        hideLevel={!showLevels}
-      />
+        />
+        <FilterBar
+          filters={filters}
+          onChange={setFilters}
+          posOptions={posOptions}
+          statusCounts={counts}
+          hideLevel={!showLevels}
+        />
+      </div>
 
       {category.kind === 'grammar' ? (
         <GrammarCards items={visible} learned={progress.learned} onInfo={setOpen} emptyText={emptyText} />

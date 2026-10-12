@@ -1,4 +1,4 @@
-import { useCallback, useDeferredValue, useMemo, useState } from 'react'
+import { useCallback, useDeferredValue, useMemo, useState, type CSSProperties } from 'react'
 import { useProgress } from '../core/progress'
 import { applyFilters, defaultFilters, statusCounts, type Filters } from '../core/filter'
 import type { ContentItem } from '../core/types'
@@ -7,6 +7,7 @@ import { FilterBar } from '../components/FilterBar'
 import { ItemList } from '../components/ItemList'
 import { DetailModal } from '../components/DetailModal'
 import { PageHead } from '../components/ProgressBar'
+import { TONE } from '../core/palette'
 import type { LangContext } from './LanguageShell'
 
 export function FavoritesPage({ ctx }: { ctx: LangContext }) {
@@ -47,17 +48,18 @@ export function FavoritesPage({ ctx }: { ctx: LangContext }) {
   )
 
   return (
-    <div className="category-page">
-      <PageHead title="Favoriler" sub={`${favItems.length} içerik · tüm kategorilerden`} />
-
-      <FilterBar
-        filters={filters}
-        onChange={setFilters}
-        categories={manifest.categories}
-        statusCounts={counts}
-        hideFavoritesStatus
-        hideLevel
-      />
+    <div className="category-page" style={{ '--cat': TONE.favorites } as CSSProperties}>
+      <div className="list-head">
+        <PageHead title="Favoriler" sub={`${favItems.length} içerik · tüm kategorilerden`} />
+        <FilterBar
+          filters={filters}
+          onChange={setFilters}
+          categories={manifest.categories}
+          statusCounts={counts}
+          hideFavoritesStatus
+          hideLevel
+        />
+      </div>
 
       <ItemList
         items={visible}

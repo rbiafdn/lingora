@@ -1,4 +1,5 @@
 import { useEffect, useRef, type ReactNode } from 'react'
+import { createPortal } from 'react-dom'
 
 export function Modal({
   onClose,
@@ -17,7 +18,7 @@ export function Modal({
 
   useEffect(() => {
     const prevFocus = document.activeElement as HTMLElement | null
-    panelRef.current?.focus()
+    panelRef.current?.focus({ preventScroll: true })
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') closeRef.current()
     }
@@ -31,7 +32,8 @@ export function Modal({
     }
   }, [])
 
-  return (
+  // Rendered into <body> so no animated/transformed ancestor can affect its position.
+  return createPortal(
     <div className="modal-backdrop" onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
       <div
         ref={panelRef}
@@ -46,6 +48,7 @@ export function Modal({
         </button>
         {children}
       </div>
-    </div>
+    </div>,
+    document.body,
   )
 }

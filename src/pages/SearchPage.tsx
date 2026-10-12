@@ -45,9 +45,9 @@ export function SearchPage({ ctx, query }: { ctx: LangContext; query: string }) 
 
   return (
     <div className="category-page">
-      <PageHead title="Arama" sub={q ? `“${q}” için ${results.length} sonuç` : 'Üstteki kutuya yazarak tüm kategorilerde ara.'} />
-      {q && (
-        <>
+      <div className="list-head">
+        <PageHead title="Arama" sub={q ? `“${q}” için ${results.length} sonuç` : 'Üstteki kutuya yazarak tüm kategorilerde ara.'} />
+        {q && (
           <FilterBar
             filters={filters}
             onChange={setFilters}
@@ -56,6 +56,10 @@ export function SearchPage({ ctx, query }: { ctx: LangContext; query: string }) 
             hideLevel
             hideSearch
           />
+        )}
+      </div>
+      {q && (
+        <>
           <ItemList
             items={visible}
             learned={progress.learned}
