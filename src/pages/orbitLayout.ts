@@ -102,25 +102,36 @@ export function computeGeometry(W: number, H: number, n: number): OrbitGeometry 
       const hw = Math.max(s, label * 6.4) / 2
       const hh = (s + label * 1.9 + 6) / 2
       const rx = W / 2 - hw - margin
-      // Top and bottom halves may differ: the centre sits below the middle.
+      // The ellipse may be shorter above the centre than below it.
       const ryTop = center.y - hh - margin - FLOAT
       const ryBot = H - center.y - hh - margin
       if (rx <= 0 || ryTop <= 0 || ryBot <= 0) continue
-      // Tall screens: two columns down the sides; wide screens: an ellipse.
-      const slots = wide ? ellipseSlots(n, center, rx, ryTop, ryBot) : columnSlots(n, W, H, hw, hh, margin)
       // Each orb is its bubble (circle) plus the label pill underneath it.
       const lh = label * 1.9
-      const shapes = slots.map((p): Box[] => [
-        { x: p.x, y: p.y - hh + s / 2, hw: s / 2, hh: s / 2, round: s / 2 },
-        { x: p.x, y: p.y + hh - lh / 2, hw: (label * 6.4) / 2, hh: lh / 2 },
-      ])
       const clear = (a: Box[], b: Box[]) => a.every((x) => b.every((y) => gap(x, y) >= need))
-      let ok = true
-      for (let i = 0; i < shapes.length && ok; i++) {
-        if (!clear(shapes[i], fixed)) ok = false
-        for (let j = i + 1; j < shapes.length && ok; j++) if (!clear(shapes[i], shapes[j])) ok = false
+      const fits = (slots: Pt[]) => {
+        const shapes = slots.map((p): Box[] => [
+          { x: p.x, y: p.y - hh + s / 2, hw: s / 2, hh: s / 2, round: s / 2 },
+          { x: p.x, y: p.y + hh - lh / 2, hw: (label * 6.4) / 2, hh: lh / 2 },
+        ])
+        for (let i = 0; i < shapes.length; i++) {
+          if (!clear(shapes[i], fixed)) return false
+          for (let j = i + 1; j < shapes.length; j++) if (!clear(shapes[i], shapes[j])) return false
+        }
+        return true
       }
-      if (ok)
+      // Wide screens: an ellipse. Tall screens: two columns down the sides,
+      // starting as high as possible (below the centre cluster if need be).
+      let slots: Pt[] | undefined
+      if (wide) {
+        const e = ellipseSlots(n, center, rx, ryTop, ryBot)
+        if (fits(e)) slots = e
+      } else
+        for (let start = 0; start < H * 0.6 && !slots; start += 12) {
+          const c = columnSlots(n, W, H, hw, hh, margin, start)
+          if (fits(c)) slots = c
+        }
+      if (slots)
         return {
           W,
           H,
@@ -162,11 +173,11 @@ export function computeGeometry(W: number, H: number, n: number): OrbitGeometry 
     }
   }
 
-  // Wide screens: a bit above the middle. Tall screens: try heights and keep the
-  // one (not much below the middle) that leaves the most room for the side columns.
-  const lo = clusterTop + g * 1.5
+  // The centre cluster sits at the top of the page. Tall screens: try a few
+  // heights just below that and keep the one with the most room for the columns.
+  const lo = clusterTop + g
   const hi = Math.max(lo, H - clusterBottom - g * 1.5)
-  const preferred = clamp(wide ? H * 0.45 : H * 0.48, lo, hi)
+  const preferred = lo
   let best = layoutAt(preferred)
   if (!wide)
     for (let y = lo; y <= Math.min(hi, preferred + H * 0.04); y += 6) {
@@ -210,10 +221,10 @@ function ellipseSlots(n: number, c: Pt, rx: number, ryTop: number, ryBot: number
 }
 
 /** Tall screens: right column top→bottom, then left column bottom→top (clockwise). */
-function columnSlots(n: number, W: number, H: number, hw: number, hh: number, margin: number): Pt[] {
+function columnSlots(n: number, W: number, H: number, hw: number, hh: number, margin: number, start = 0): Pt[] {
   const right = Math.ceil(n / 2)
   const left = n - right
-  const top = hh + margin + FLOAT
+  const top = Math.max(start, hh + margin + FLOAT)
   const bottom = H - hh - margin
   const col = (count: number, x: number) =>
     Array.from({ length: count }, (_, i) => ({
