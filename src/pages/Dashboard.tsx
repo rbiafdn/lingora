@@ -53,6 +53,10 @@ const ORBIT_ORDER = [
   'grammar',
   'favorites',
 ]
+// Height kept free above an orb for its hover card; otherwise it opens below.
+// Level orbs hang under the ring, so theirs always open below (empty space).
+const TIP_ROOM = 120
+
 const fmt = (n: number) => n.toLocaleString('tr-TR')
 
 interface OrbInfo {
@@ -221,7 +225,7 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
               </svg>
               {cluster.map((o, i) => {
                 const p = i === 0 ? geo.words : geo.levels[i - 1]
-                return <Orb key={o.key} o={o} style={{ left: p.x, top: p.y }} tipLeft={p.x > geo.W * 0.6} />
+                return <Orb key={o.key} o={o} style={{ left: p.x, top: p.y }} tipDown={o.kind === 'level' || p.y - o.size / 2 < TIP_ROOM} />
               })}
             </div>
 
@@ -234,7 +238,7 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
                   labelSize={geo.catLabel}
                   floating
                   style={{ left: p.x, top: p.y }}
-                  tipLeft={p.x > geo.W * 0.6}
+                  tipDown={p.y - geo.catSize / 2 - geo.catLabel * 1.5 < TIP_ROOM}
                 />
               )
             })}
@@ -249,13 +253,14 @@ function Orb({
   o,
   style,
   labelSize,
-  tipLeft,
+  tipDown,
   floating,
 }: {
   o: OrbInfo
   style: CSSProperties
   labelSize?: number
-  tipLeft?: boolean
+  /** Open the hover card below the orb (no room above it). */
+  tipDown?: boolean
   /** Category orbs float on their own; the words cluster floats as a group. */
   floating?: boolean
 }) {
@@ -263,7 +268,7 @@ function Orb({
   return (
     <button
       type="button"
-      className={`orbit-node orbit-${o.kind}${tipLeft ? ' tip-left' : ''}${floating ? ' is-floating' : ''}`}
+      className={`orbit-node orbit-${o.kind}${tipDown ? ' tip-down' : ' tip-up'}${floating ? ' is-floating' : ''}`}
       style={
         {
           ...style,
