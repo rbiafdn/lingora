@@ -4233,3 +4233,11 @@ body {
 .orbit-level {
   will-change: auto;
 }
+
+/* Level orbs: keep the darker reds readable on navy */
+.orbit-level .orbit-text {
+  color: color-mix(in srgb, var(--c) 45%, #fff);
+}
+.orbit-level .orbit-bubble {
+  border-color: color-mix(in srgb, var(--c) 80%, #fff 20%);
+}

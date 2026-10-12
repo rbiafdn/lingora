@@ -93,13 +93,18 @@ export function computeGeometry(W: number, H: number, n: number): OrbitGeometry 
 
     // Category orbs: largest size whose evenly spaced ellipse fits without touching.
     const sMax = wide ? Math.min(0.22 * H, 170) : Math.min(0.24 * W, 96)
-    const sMin = wide ? 50 : 40
+    const sMin = wide ? 50 : 32
     const margin = Math.max(8, u * 0.015)
     // Floating offsets lie in [-FLOAT, 0], so two orbs drift apart by at most FLOAT.
     const need = g + FLOAT
+    // Tall screens: keep the categories well away from the centre cluster.
+    const needFixed = wide ? need : need + g * 2.5
+    const needCat = wide ? need : need + 4
     for (let s = sMax; s >= sMin; s -= 2) {
       const label = clamp(s * 0.13, 11, 16)
-      const hw = Math.max(s, label * 6.4) / 2
+      // Label pill width (phones get a little extra room for the longest names).
+      const lw = label * (wide ? 6.4 : 7.2)
+      const hw = Math.max(s, lw) / 2
       const hh = (s + label * 1.9 + 6) / 2
       const rx = W / 2 - hw - margin
       // The ellipse may be shorter above the centre than below it.
@@ -108,27 +113,28 @@ export function computeGeometry(W: number, H: number, n: number): OrbitGeometry 
       if (rx <= 0 || ryTop <= 0 || ryBot <= 0) continue
       // Each orb is its bubble (circle) plus the label pill underneath it.
       const lh = label * 1.9
-      const clear = (a: Box[], b: Box[]) => a.every((x) => b.every((y) => gap(x, y) >= need))
+      const clear = (a: Box[], b: Box[], min: number) => a.every((x) => b.every((y) => gap(x, y) >= min))
       const fits = (slots: Pt[]) => {
         const shapes = slots.map((p): Box[] => [
           { x: p.x, y: p.y - hh + s / 2, hw: s / 2, hh: s / 2, round: s / 2 },
-          { x: p.x, y: p.y + hh - lh / 2, hw: (label * 6.4) / 2, hh: lh / 2 },
+          { x: p.x, y: p.y + hh - lh / 2, hw: lw / 2, hh: lh / 2 },
         ])
         for (let i = 0; i < shapes.length; i++) {
-          if (!clear(shapes[i], fixed)) return false
-          for (let j = i + 1; j < shapes.length; j++) if (!clear(shapes[i], shapes[j])) return false
+          if (!clear(shapes[i], fixed, needFixed)) return false
+          for (let j = i + 1; j < shapes.length; j++)
+            if (!clear(shapes[i], shapes[j], needCat)) return false
         }
         return true
       }
-      // Wide screens: an ellipse. Tall screens: two columns down the sides,
-      // starting as high as possible (below the centre cluster if need be).
+      // Wide screens: an ellipse. Tall screens: scattered rows below the centre
+      // cluster, starting as high as they fit.
       let slots: Pt[] | undefined
       if (wide) {
         const e = ellipseSlots(n, center, rx, ryTop, ryBot)
         if (fits(e)) slots = e
       } else
-        for (let start = 0; start < H * 0.6 && !slots; start += 12) {
-          const c = columnSlots(n, W, H, hw, hh, margin, start)
+        for (let start = 0; start < H * 0.7 && !slots; start += 8) {
+          const c = scatterSlots(n, W, H, hw, hh, margin, start)
           if (fits(c)) slots = c
         }
       if (slots)
@@ -149,15 +155,17 @@ export function computeGeometry(W: number, H: number, n: number): OrbitGeometry 
     // Best effort on very small screens.
     const s = sMin
     const label = 11
-    const hw = Math.max(s, label * 6.4) / 2
+    const hw = Math.max(s, label * (wide ? 6.4 : 7.2)) / 2
     const hh = (s + label * 1.9 + 6) / 2
-    const slots = ellipseSlots(
-      n,
-      center,
-      Math.max(1, W / 2 - hw - margin),
-      Math.max(1, center.y - hh - margin - FLOAT),
-      Math.max(1, H - center.y - hh - margin),
-    )
+    const slots = wide
+      ? ellipseSlots(
+          n,
+          center,
+          Math.max(1, W / 2 - hw - margin),
+          Math.max(1, center.y - hh - margin - FLOAT),
+          Math.max(1, H - center.y - hh - margin),
+        )
+      : scatterSlots(n, W, H, hw, hh, margin, center.y + clusterBottom + g + hh)
     return {
       W,
       H,
@@ -174,7 +182,7 @@ export function computeGeometry(W: number, H: number, n: number): OrbitGeometry 
   }
 
   // The centre cluster sits at the top of the page. Tall screens: try a few
-  // heights just below that and keep the one with the most room for the columns.
+  // heights just below that and keep the one with the most room for the orbs.
   const lo = clusterTop + g
   const hi = Math.max(lo, H - clusterBottom - g * 1.5)
   const preferred = lo
@@ -220,16 +228,32 @@ function ellipseSlots(n: number, c: Pt, rx: number, ryTop: number, ryBot: number
   })
 }
 
-/** Tall screens: right column top→bottom, then left column bottom→top (clockwise). */
-function columnSlots(n: number, W: number, H: number, hw: number, hh: number, margin: number, start = 0): Pt[] {
-  const right = Math.ceil(n / 2)
-  const left = n - right
+/**
+ * Tall screens: rows of 3 and 2 orbs alternating (a loose honeycomb) from
+ * `start` down to the bottom, nudged a little so it looks scattered.
+ */
+function scatterSlots(n: number, W: number, H: number, hw: number, hh: number, margin: number, start = 0): Pt[] {
+  const rows: number[] = []
+  for (let left = n, i = 0; left > 0; i++) {
+    const k = Math.min(left, i % 2 ? 2 : 3)
+    rows.push(k)
+    left -= k
+  }
   const top = Math.max(start, hh + margin + FLOAT)
   const bottom = H - hh - margin
-  const col = (count: number, x: number) =>
-    Array.from({ length: count }, (_, i) => ({
-      x,
-      y: count < 2 ? (top + bottom) / 2 : top + ((bottom - top) * i) / (count - 1),
-    }))
-  return [...col(right, W - hw - margin), ...col(left, hw + margin).reverse()]
+  const x3 = [hw + margin, W / 2, W - hw - margin]
+  const x2 = [(x3[0] + x3[1]) / 2, (x3[1] + x3[2]) / 2]
+  const NUDGE = [-0.1, 0.07, -0.05, 0.09, -0.07, 0.05, 0.1, -0.09, 0.06, -0.06]
+  const out: Pt[] = []
+  rows.forEach((k, r) => {
+    const y = rows.length < 2 ? (top + bottom) / 2 : top + ((bottom - top) * r) / (rows.length - 1)
+    const xs = k === 3 ? x3 : k === 2 ? x2 : [W / 2]
+    const step = rows.length < 2 ? 0 : (bottom - top) / (rows.length - 1)
+    for (const x of xs) {
+      // Nudge inner rows only, so the top and bottom edges stay inside the screen.
+      const ny = r > 0 && r < rows.length - 1 ? NUDGE[out.length % NUDGE.length] * step : 0
+      out.push({ x, y: y + ny })
+    }
+  })
+  return out
 }

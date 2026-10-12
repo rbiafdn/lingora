@@ -13,13 +13,14 @@ import type { LangContext } from './LanguageShell'
 // the Kelimeler orb above it with its CEFR level orbs, and the other categories
 // on an ellipse around. Orbs only float gently in place; nothing can be dragged.
 
+// CEFR levels: light red at A1 deepening to dark red at C2.
 const LEVEL_TONE: Record<Level, string> = {
-  A1: '#cfe0f3',
-  A2: '#a9c4e6',
-  B1: '#7fa8dc',
-  B2: '#5f8fc8',
-  C1: '#4a78b0',
-  C2: '#f07a45',
+  A1: '#ffc4bc',
+  A2: '#ff9a8e',
+  B1: '#f76f63',
+  B2: '#e04a3f',
+  C1: '#b8312a',
+  C2: '#8a1f1d',
 }
 const ORBIT_ORDER = [
   'idioms',
