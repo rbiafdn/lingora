@@ -2202,3 +2202,194 @@ a.level-card {
 .tile-hint {
   white-space: normal;
 }
+
+/* ---------- Dashboard v7: calm tiles — icon, name, count, bar (no previews, no %) ---------- */
+.cat-tile {
+  gap: 8px;
+}
+.cat-tile .tile-icon {
+  margin-bottom: 6px;
+}
+.cat-tile .cat-tile-name {
+  margin-top: 0;
+}
+.cat-tile .tile-count {
+  margin-top: auto;
+}
+.tile-count {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+}
+.cat-tile .progress {
+  height: 6px;
+}
+.cat-tile .progress-fill,
+.dash-words .level-card .progress-fill {
+  background: var(--tone);
+}
+.fav-count {
+  font-size: 1.6rem;
+  color: var(--tone);
+}
+.dash-words .level-card {
+  justify-content: space-between;
+}
+.dash-words .level-card .tile-count {
+  margin-top: auto;
+}
+.dash-words .level-name {
+  align-self: flex-start;
+}
+@media (min-width: 1201px) {
+  .tile-count {
+    font-size: 1.2rem;
+  }
+}
+
+/* ---------- Grammar list: name-only cards, whole card opens the popup ---------- */
+.grammar-grid {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: 10px;
+}
+.grammar-card {
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.grammar-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.grammar-card .gc-known,
+.grammar-card.is-known .gc-known {
+  position: relative;
+  z-index: 1;
+  width: 44px;
+  height: 44px;
+  margin: 8px 0 0 6px;
+}
+.gc-open {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+  padding: 18px 16px 16px 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+/* Stretch the button's click area over the whole card (checkbox stays on top). */
+.gc-open::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+.gc-title-text {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.gc-open:focus-visible {
+  outline: none;
+}
+.gc-open:focus-visible::after {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+/* ---------- Back button (every page except the dashboard) ---------- */
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: -4px 0 10px -6px;
+  padding: 5px 10px 5px 6px;
+  border: 0;
+  border-radius: 7px;
+  background: none;
+  color: var(--text-2);
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.back-btn svg {
+  width: 18px;
+  height: 18px;
+}
+.back-btn:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+/* ---------- Dashboard v8: centred tiles ---------- */
+.cat-tile,
+.dash-words .level-card {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 6px;
+}
+.cat-tile .tile-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  margin: 0 0 8px;
+  transition: transform 0.25s ease;
+}
+.cat-tile .tile-icon svg {
+  width: 28px;
+  height: 28px;
+}
+.cat-tile:hover .tile-icon {
+  transform: scale(1.06);
+}
+.cat-tile .cat-tile-name {
+  font-size: 1.2rem;
+}
+.tile-desc {
+  font-size: 0.84rem;
+  color: var(--text-3);
+}
+.cat-tile .tile-count,
+.dash-words .level-card .tile-count {
+  margin-top: 10px;
+  font-size: 1.05rem;
+}
+.cat-tile .progress,
+.dash-words .level-card .progress {
+  width: 70%;
+  margin-top: 4px;
+}
+.cat-tile .fav-count {
+  font-size: 1.15rem;
+}
+.dash-words .level-name {
+  align-self: center;
+  font-size: 1.35rem;
+  padding: 6px 16px;
+  border-radius: 10px;
+}
+.dash-words .level-card .tile-desc {
+  margin-top: 2px;
+}
+.tile-watermark {
+  opacity: 0.05;
+}
+@media (min-width: 1201px) {
+  .cat-tile .cat-tile-name {
+    font-size: 1.3rem;
+  }
+  .cat-tile .tile-count,
+  .dash-words .level-card .tile-count {
+    font-size: 1.15rem;
+  }
+}

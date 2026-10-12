@@ -1,11 +1,10 @@
 import { useMemo, type CSSProperties } from 'react'
 import { useProgress } from '../core/progress'
 import { progressOf } from '../core/filter'
-import { LEVELS, UI_LANG, type CategoryDef, type ContentItem } from '../core/types'
+import { LEVELS, type CategoryDef, type ContentItem } from '../core/types'
 import { prefs } from '../core/prefs'
 import { href, navigate } from '../router'
 import { ProgressBar } from '../components/ProgressBar'
-import { ProgressRing } from '../components/ProgressRing'
 import { DashIcon } from '../components/DashIcons'
 import type { LangContext } from './LanguageShell'
 
@@ -24,7 +23,28 @@ const TONES: Record<string, string> = {
   favorites: '#e0b23a',
 }
 
-const meaning = (it: ContentItem) => (it.translations[UI_LANG] ?? [])[0]
+// Short static descriptions (not previews) shown under each tile title.
+const DESCRIPTIONS: Record<string, string> = {
+  idioms: 'Mecazlı kalıp sözler',
+  'phrasal-verbs': 'Fiil + edat öbekleri',
+  expressions: 'Hazır söz kalıpları',
+  collocations: 'Birlikte kullanılan kelimeler',
+  proverbs: 'Halk deyişleri',
+  abbreviations: 'ASAP, FYI, e.g. …',
+  daily: 'Konuşmada sık duyulanlar',
+  slang: 'Gündelik ve sokak dili',
+  grammar: 'Yapılar ve kurallar',
+  favorites: 'Kaydettiğin içerikler',
+}
+
+const LEVEL_NAMES: Record<string, string> = {
+  A1: 'Başlangıç',
+  A2: 'Temel',
+  B1: 'Orta',
+  B2: 'Orta üstü',
+  C1: 'İleri',
+  C2: 'Ustalık',
+}
 
 function orderItems(c: CategoryDef, items: ContentItem[]) {
   if (!c.order?.length) return items
@@ -51,26 +71,6 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
     () => allItems.filter((it) => progress.favorites.has(it.id)),
     [allItems, progress.favorites],
   )
-  // Most recently added favorites first (the Set keeps insertion order).
-  const recentFavs = useMemo(() => {
-    const byId = new Map(favItems.map((it) => [it.id, it]))
-    return [...progress.favorites]
-      .reverse()
-      .map((id) => byId.get(id))
-      .filter(Boolean)
-      .slice(0, 3) as ContentItem[]
-  }, [favItems, progress.favorites])
-
-  // The next few items the user hasn't marked yet, in learning/data order.
-  const nextUnknown = (items: ContentItem[], n = 3) => {
-    const out: ContentItem[] = []
-    for (const it of items) {
-      if (!progress.learned.has(it.id)) out.push(it)
-      if (out.length === n) break
-    }
-    return out
-  }
-
   const levelled = manifest.categories.filter((c) => c.levels)
   const others = manifest.categories.filter((c) => !c.levels)
   let i = 0
@@ -94,13 +94,13 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
                     {fmt(p.known)} / {fmt(p.total)} kelime biliniyor
                   </span>
                 </div>
-                <ProgressRing pct={p.pct} size={52} stroke={5} />
               </header>
               <div className="level-grid">
                 {LEVELS.map((l) => {
-                  const lv = items.filter((it) => it.level === l)
-                  const lp = progressOf(lv, progress)
-                  const next = nextUnknown(lv)
+                  const lp = progressOf(
+                    items.filter((it) => it.level === l),
+                    progress,
+                  )
                   return (
                     <button
                       key={l}
@@ -112,24 +112,12 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
                         navigate(`${languageId}/c/${c.id}`)
                       }}
                     >
-                      <span className="level-row">
-                        <span className="level-name">{l}</span>
-                        <span className="level-pct">%{lp.pct}</span>
-                      </span>
-                      <ProgressBar pct={lp.pct} />
-                      {next.length > 0 && (
-                        <span className="tile-next">
-                          <span className="tile-next-label">Sıradaki</span>
-                          {next.map((it) => (
-                            <span key={it.id} className="tile-next-text" lang={languageId}>
-                              <b>{it.sourceText}</b> · {meaning(it)}
-                            </span>
-                          ))}
-                        </span>
-                      )}
-                      <span className="muted small">
+                      <span className="level-name">{l}</span>
+                      <span className="tile-desc">{LEVEL_NAMES[l]}</span>
+                      <span className="tile-count">
                         {fmt(lp.known)} / {fmt(lp.total)}
                       </span>
+                      <ProgressBar pct={lp.pct} />
                     </button>
                   )
                 })}
@@ -139,63 +127,31 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
         })}
 
         {others.map((c) => {
-          const items = byCategory.get(c.id) ?? []
-          const p = progressOf(items, progress)
-          const next = nextUnknown(items)
+          const p = progressOf(byCategory.get(c.id) ?? [], progress)
           return (
             <a key={c.id} className="dash-panel cat-tile tile-anim" href={href(`${languageId}/c/${c.id}`)} style={anim(TONES[c.id])}>
               <DashIcon name={c.id} className="tile-watermark" />
-              <span className="tile-top">
-                <span className="tile-icon">
-                  <DashIcon name={c.id} />
-                </span>
-                <ProgressRing pct={p.pct} size={50} stroke={5} />
+              <span className="tile-icon">
+                <DashIcon name={c.id} />
               </span>
               <span className="cat-tile-name">{c.shortLabel ?? c.label}</span>
-              {next.length ? (
-                <span className="tile-next">
-                  <span className="tile-next-label">Sıradaki</span>
-                  {next.map((it) => (
-                    <span key={it.id} className="tile-next-text" lang={languageId}>
-                      <b>{it.sourceText}</b>
-                      {c.kind !== 'grammar' && <> · {meaning(it)}</>}
-                    </span>
-                  ))}
-                </span>
-              ) : (
-                <span className="tile-next tile-done">Hepsini biliyorsun ✓</span>
-              )}
-              <span className="muted small">
+              <span className="tile-desc">{DESCRIPTIONS[c.id]}</span>
+              <span className="tile-count">
                 {fmt(p.known)} / {fmt(p.total)}
               </span>
+              <ProgressBar pct={p.pct} label={c.label} />
             </a>
           )
         })}
 
         <a className="dash-panel cat-tile tile-anim" href={href(`${languageId}/favorites`)} style={anim(TONES.favorites)}>
           <DashIcon name="favorites" className="tile-watermark" />
-          <span className="tile-top">
-            <span className="tile-icon">
-              <DashIcon name="favorites" />
-            </span>
-            <span className="fav-count">{fmt(favItems.length)}</span>
+          <span className="tile-icon">
+            <DashIcon name="favorites" />
           </span>
           <span className="cat-tile-name">Favoriler</span>
-          {recentFavs.length ? (
-            <span className="tile-next">
-              <span className="tile-next-label">Son eklenenler</span>
-              {recentFavs.map((it) => (
-                <span key={it.id} className="tile-next-text" lang={languageId}>
-                  <b>{it.sourceText}</b>
-                </span>
-              ))}
-            </span>
-          ) : (
-            <span className="tile-next">
-              <span className="tile-next-text tile-hint">Bir içeriğin (?) penceresinden ☆ ile ekleyebilirsin.</span>
-            </span>
-          )}
-          <span className="muted small">kayıtlı içerik</span>
+          <span className="tile-desc">{DESCRIPTIONS.favorites}</span>
+          <span className="tile-count fav-count">★ {fmt(favItems.length)}</span>
         </a>
       </div>
     </div>

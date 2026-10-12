@@ -1,6 +1,6 @@
 import { useCallback, useDeferredValue, useMemo, useState } from 'react'
 import { useProgress } from '../core/progress'
-import { applyFilters, defaultFilters, normalize, statusCounts, type Filters } from '../core/filter'
+import { applyFilters, defaultFilters, lowerSource, statusCounts, type Filters } from '../core/filter'
 import type { ContentItem } from '../core/types'
 import { FilterBar } from '../components/FilterBar'
 import { ItemList } from '../components/ItemList'
@@ -23,9 +23,9 @@ export function SearchPage({ ctx, query }: { ctx: LangContext; query: string }) 
     const found = applyFilters(allItems, { ...defaultFilters, query: q, category, sort }, progress)
     if (sort !== 'default') return found
     // Best matches first: exact, then starts-with, then anywhere.
-    const nq = normalize(q)
+    const nq = lowerSource(q)
     const rank = (it: ContentItem) => {
-      const s = normalize(it.sourceText)
+      const s = lowerSource(it.sourceText)
       return s === nq ? 0 : s.startsWith(nq) ? 1 : 2
     }
     return found.map((it, i) => [rank(it), i, it] as const).sort((a, b) => a[0] - b[0] || a[1] - b[1]).map((x) => x[2])

@@ -4,7 +4,7 @@ import { useProgress, useProgressReady, useSaveError } from '../core/progress'
 import { prefs } from '../core/prefs'
 import { progressOf } from '../core/filter'
 import { LEVELS, type ContentItem, type Level, type LanguageManifest } from '../core/types'
-import { href, navigate, useRoute } from '../router'
+import { goBack, href, navigate, useRoute } from '../router'
 import { Logo } from '../components/Logo'
 import { ScrollTopButton } from '../components/ScrollTopButton'
 import { Dashboard } from './Dashboard'
@@ -97,7 +97,9 @@ export function LanguageShell({ languageId }: { languageId: string }) {
               title={`${overall.known.toLocaleString('tr-TR')} / ${overall.total.toLocaleString('tr-TR')} içerik biliniyor`}
             >
               <span className="tp-label">İlerleme</span>
-              <span className="tp-pct">%{overall.pct}</span>
+              <span className="tp-pct">
+                {overall.known.toLocaleString('tr-TR')} / {overall.total.toLocaleString('tr-TR')}
+              </span>
             </div>
           )}
         </div>
@@ -110,7 +112,17 @@ export function LanguageShell({ languageId }: { languageId: string }) {
         </div>
       )}
 
-      <main className="content">{page}</main>
+      <main className="content">
+        {section && (
+          <button type="button" className="back-btn" onClick={() => goBack(languageId)}>
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M12.5 4.5 7 10l5.5 5.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            Geri
+          </button>
+        )}
+        {page}
+      </main>
       <ScrollTopButton />
     </div>
   )

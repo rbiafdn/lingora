@@ -159,7 +159,11 @@ describe('filters', async () => {
   it('searches English and Turkish, case-insensitively', () => {
     expect(applyFilters(words, { ...defaultFilters, query: 'BİLMEK' }, p).map((i) => i.sourceText)).toContain('know')
     expect(applyFilters(words, { ...defaultFilters, query: 'Know' }, p).map((i) => i.sourceText)).toContain('know')
-    expect(applyFilters(words, { ...defaultFilters, query: 'odunc' }, p).map((i) => i.sourceText)).toContain('borrow')
+    expect(applyFilters(words, { ...defaultFilters, query: 'ödünç' }, p).map((i) => i.sourceText)).toContain('borrow')
+    // exact letters: no accent folding ("must" must not find "müşteri")
+    expect(applyFilters(words, { ...defaultFilters, query: 'odunc' }, p)).toEqual([])
+    expect(applyFilters(words, { ...defaultFilters, query: 'must' }, p).every((i) => /must/i.test(i.sourceText))).toBe(true)
+    expect(applyFilters(words, { ...defaultFilters, query: 'I' }, p).length).toBeGreaterThan(0)
   })
 
   it('combines level + status + part of speech', () => {

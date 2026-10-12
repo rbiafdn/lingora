@@ -22,7 +22,7 @@ export const defaultFilters: Filters = {
   sort: 'default',
 }
 
-/** Case- and accent-insensitive form, so "BİLMEK", "bilmek" and "bilmek" all match. */
+/** Case- and accent-insensitive form; used to detect duplicate content (not for search). */
 export function normalize(s: string): string {
   return s
     .toLocaleLowerCase('tr')
@@ -31,18 +31,32 @@ export function normalize(s: string): string {
     .replace(/[̀-ͯ]/g, '')
 }
 
-const searchIndex = new WeakMap<ContentItem, string>()
-function haystack(item: ContentItem): string {
+/** Lowercase for the learned language (English rules: "I" → "i"). */
+export const lowerSource = (s: string) => s.replace(/İ/g, 'i').toLowerCase()
+/** Lowercase for Turkish text (Turkish rules: "I" → "ı", "İ" → "i"). */
+export const lowerTr = (s: string) => s.toLocaleLowerCase('tr')
+
+// Search is exact apart from letter case: "must" never matches "müşteri".
+const searchIndex = new WeakMap<ContentItem, { src: string; tr: string }>()
+function haystack(item: ContentItem) {
   let h = searchIndex.get(item)
   if (h === undefined) {
-    h = normalize([item.sourceText, ...(item.translations[UI_LANG] ?? []), item.details?.expansion ?? ''].join(' | '))
+    h = {
+      src: lowerSource([item.sourceText, item.details?.expansion ?? ''].join(' | ')),
+      tr: lowerTr((item.translations[UI_LANG] ?? []).join(' | ')),
+    }
     searchIndex.set(item, h)
   }
   return h
 }
 
+function matches(item: ContentItem, query: string) {
+  const h = haystack(item)
+  return h.src.includes(lowerSource(query)) || h.tr.includes(lowerTr(query))
+}
+
 export function applyFilters(items: ContentItem[], f: Filters, p: ProgressState): ContentItem[] {
-  const q = normalize(f.query.trim())
+  const q = f.query.trim()
   const out = items.filter((it) => {
     if (f.level !== 'all' && it.level !== f.level) return false
     if (f.category !== 'all' && it.category !== f.category) return false
@@ -50,7 +64,7 @@ export function applyFilters(items: ContentItem[], f: Filters, p: ProgressState)
     if (f.status === 'known' && !p.learned.has(it.id)) return false
     if (f.status === 'unknown' && p.learned.has(it.id)) return false
     if (f.status === 'favorites' && !p.favorites.has(it.id)) return false
-    if (q && !haystack(it).includes(q)) return false
+    if (q && !matches(it, q)) return false
     return true
   })
   if (f.sort !== 'default') {

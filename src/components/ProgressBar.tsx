@@ -17,7 +17,7 @@ export function ProgressBar({ pct, label }: { pct: number; label?: string }) {
 
 const fmt = (n: number) => n.toLocaleString('tr-TR')
 
-/** Compact page title with "425 / 1.200 · %35" and a short bar. */
+/** Compact page title with "425 / 1.200" and a short bar. */
 export function PageHead({
   title,
   progress,
@@ -33,7 +33,7 @@ export function PageHead({
       {progress && (
         <div className="page-progress">
           <span>
-            {fmt(progress.known)} / {fmt(progress.total)} · %{progress.pct}
+            {fmt(progress.known)} / {fmt(progress.total)}
           </span>
           <ProgressBar pct={progress.pct} />
         </div>
