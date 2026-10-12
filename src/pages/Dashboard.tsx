@@ -21,26 +21,6 @@ const LEVEL_TONE: Record<Level, string> = {
   C1: '#4a78b0',
   C2: '#f07a45',
 }
-const LEVEL_NAMES: Record<Level, string> = {
-  A1: 'Başlangıç',
-  A2: 'Temel',
-  B1: 'Orta',
-  B2: 'Orta üstü',
-  C1: 'İleri',
-  C2: 'Ustalık',
-}
-const DESCRIPTIONS: Record<string, string> = {
-  idioms: 'Mecazlı kalıp sözler',
-  'phrasal-verbs': 'Fiil + edat öbekleri',
-  expressions: 'Hazır söz kalıpları',
-  collocations: 'Birlikte kullanılan kelimeler',
-  proverbs: 'Halk deyişleri',
-  abbreviations: 'ASAP, FYI, e.g. …',
-  daily: 'Konuşmada sık duyulanlar',
-  slang: 'Gündelik ve sokak dili',
-  grammar: 'Yapılar ve kurallar',
-  favorites: 'Kaydettiğin içerikler',
-}
 const ORBIT_ORDER = [
   'idioms',
   'phrasal-verbs',
@@ -53,16 +33,11 @@ const ORBIT_ORDER = [
   'grammar',
   'favorites',
 ]
-// Height kept free above an orb for its hover card; otherwise it opens below.
-// Level orbs hang under the ring, so theirs always open below (empty space).
-const TIP_ROOM = 120
-
 const fmt = (n: number) => n.toLocaleString('tr-TR')
 
 interface OrbInfo {
   key: string
   label: string
-  sub: string
   known: number
   total: number
   color: string
@@ -120,7 +95,6 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
     cluster.push({
       key: wordsCat.id,
       label: wordsCat.label,
-      sub: 'Tüm seviyeler',
       known: wordsP.known,
       total: wordsP.total,
       color: TONE.words,
@@ -141,7 +115,6 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
       cluster.push({
         key: `lvl-${l}`,
         label: l,
-        sub: LEVEL_NAMES[l],
         known: p.known,
         total: p.total,
         color: LEVEL_TONE[l],
@@ -161,7 +134,6 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
       return {
         key: id,
         label: 'Favoriler',
-        sub: DESCRIPTIONS.favorites,
         known: favCount,
         total: -1,
         color: TONE.favorites,
@@ -176,7 +148,6 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
     return {
       key: id,
       label: c.shortLabel ?? c.label,
-      sub: DESCRIPTIONS[id] ?? '',
       known: p.known,
       total: p.total,
       color: TONE[id] ?? DEFAULT_TONE,
@@ -225,7 +196,7 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
               </svg>
               {cluster.map((o, i) => {
                 const p = i === 0 ? geo.words : geo.levels[i - 1]
-                return <Orb key={o.key} o={o} style={{ left: p.x, top: p.y }} tipDown={o.kind === 'level' || p.y - o.size / 2 < TIP_ROOM} />
+                return <Orb key={o.key} o={o} style={{ left: p.x, top: p.y }} />
               })}
             </div>
 
@@ -238,7 +209,6 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
                   labelSize={geo.catLabel}
                   floating
                   style={{ left: p.x, top: p.y }}
-                  tipDown={p.y - geo.catSize / 2 - geo.catLabel * 1.5 < TIP_ROOM}
                 />
               )
             })}
@@ -253,22 +223,18 @@ function Orb({
   o,
   style,
   labelSize,
-  tipDown,
   floating,
 }: {
   o: OrbInfo
   style: CSSProperties
   labelSize?: number
-  /** Open the hover card below the orb (no room above it). */
-  tipDown?: boolean
   /** Category orbs float on their own; the words cluster floats as a group. */
   floating?: boolean
 }) {
-  const pct = o.total > 0 ? Math.round((o.known / o.total) * 100) : 0
   return (
     <button
       type="button"
-      className={`orbit-node orbit-${o.kind}${tipDown ? ' tip-down' : ' tip-up'}${floating ? ' is-floating' : ''}`}
+      className={`orbit-node orbit-${o.kind}${floating ? ' is-floating' : ''}`}
       style={
         {
           ...style,
@@ -286,18 +252,6 @@ function Orb({
         {o.kind === 'words' && <span className="orbit-inner-label">{o.label}</span>}
       </span>
       {o.kind === 'cat' && <span className="orbit-label">{o.label}</span>}
-      <span className="orbit-tip" role="tooltip">
-        <b>{o.label}</b>
-        <span className="orbit-tip-sub">{o.sub}</span>
-        <span className="orbit-tip-count">
-          {o.total >= 0 ? `${fmt(o.known)} / ${fmt(o.total)}` : `★ ${fmt(o.known)} kayıt`}
-        </span>
-        {o.total > 0 && (
-          <span className="orbit-tip-bar">
-            <i style={{ width: `${pct}%` }} />
-          </span>
-        )}
-      </span>
     </button>
   )
 }

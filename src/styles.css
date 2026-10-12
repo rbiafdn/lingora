@@ -4233,38 +4233,3 @@ body {
 .orbit-level {
   will-change: auto;
 }
-
-/* Hover cards open above the orb (below it when there is no room) */
-.orbit-node.tip-up .orbit-tip,
-.orbit-node.tip-down .orbit-tip {
-  left: 50%;
-  right: auto;
-  translate: -50% 0;
-  text-align: center;
-  justify-items: center;
-}
-.orbit-node.tip-up .orbit-tip {
-  top: auto;
-  bottom: calc(100% + 10px);
-  transform: translateY(6px) scale(0.96);
-}
-.orbit-node.tip-down .orbit-tip {
-  top: calc(100% + 10px);
-  bottom: auto;
-  transform: translateY(-6px) scale(0.96);
-}
-.orbit-node.tip-up:hover .orbit-tip,
-.orbit-node.tip-up:focus-visible .orbit-tip,
-.orbit-node.tip-down:hover .orbit-tip,
-.orbit-node.tip-down:focus-visible .orbit-tip {
-  transform: none;
-}
-.orbit-node:hover,
-.orbit-node:focus-visible,
-.cluster-float:has(.orbit-node:hover, .orbit-node:focus-visible) {
-  z-index: 30;
-}
-.orbit-node.tip-up .orbit-tip-bar,
-.orbit-node.tip-down .orbit-tip-bar {
-  justify-self: stretch;
-}
