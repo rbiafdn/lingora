@@ -82,7 +82,7 @@ export function LanguageShell({ languageId }: { languageId: string }) {
             query={section === 'search' ? (route.params.get('q') ?? '') : ''}
           />
           <a href={href('')} className="lang-pill" title="Dil değiştir">
-            {language?.name ?? languageId.toUpperCase()}
+            {language?.nativeName ?? languageId.toUpperCase()}
           </a>
           <button
             type="button"

@@ -42,7 +42,9 @@ function haystack(item: ContentItem) {
   let h = searchIndex.get(item)
   if (h === undefined) {
     h = {
-      src: lowerSource([item.sourceText, item.details?.expansion ?? ''].join(' | ')),
+      src: lowerSource(
+        [item.sourceText, item.details?.expansion, item.details?.reading, item.details?.kana].filter(Boolean).join(' | '),
+      ),
       tr: lowerTr((item.translations[UI_LANG] ?? []).join(' | ')),
     }
     searchIndex.set(item, h)

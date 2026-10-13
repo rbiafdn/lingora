@@ -1,0 +1,161 @@
+cross-category: "avoir faim" (expressions) already in collocations
+cross-category: "avoir soif" (expressions) already in collocations
+cross-category: "avoir froid" (expressions) already in collocations
+cross-category: "avoir chaud" (expressions) already in collocations
+cross-category: "avoir … ans" (expressions) already in collocations
+cross-category: "avoir besoin de" (expressions) already in collocations
+cross-category: "faire les courses" (expressions) already in collocations
+cross-category: "faire la cuisine" (expressions) already in collocations
+cross-category: "faire du sport" (expressions) already in collocations
+cross-category: "se brosser les dents" (phrasal-verbs) already in collocations
+cross-category: "avoir faim" (phrasal-verbs) already in collocations
+cross-category: "avoir soif" (phrasal-verbs) already in collocations
+cross-category: "avoir chaud" (phrasal-verbs) already in collocations
+cross-category: "avoir froid" (phrasal-verbs) already in collocations
+cross-category: "avoir sommeil" (phrasal-verbs) already in collocations
+cross-category: "avoir … ans" (phrasal-verbs) already in collocations
+cross-category: "avoir besoin de" (phrasal-verbs) already in collocations
+cross-category: "avoir envie de" (phrasal-verbs) already in collocations
+cross-category: "il y a" (phrasal-verbs) already in expressions
+cross-category: "il faut" (phrasal-verbs) already in expressions
+cross-category: "aller (+ infinitif)" (phrasal-verbs) already in expressions
+cross-category: "faire la cuisine" (phrasal-verbs) already in collocations
+cross-category: "faire les courses" (phrasal-verbs) already in collocations
+cross-category: "faire du shopping" (phrasal-verbs) already in collocations
+cross-category: "faire du sport" (phrasal-verbs) already in collocations
+cross-category: "faire du vélo" (phrasal-verbs) already in collocations
+cross-category: "faire beau" (phrasal-verbs) already in collocations
+cross-category: "prendre le petit-déjeuner" (phrasal-verbs) already in collocations
+cross-category: "prendre une douche" (phrasal-verbs) already in collocations
+cross-category: "prendre le bus" (phrasal-verbs) already in collocations
+cross-category: "prendre une photo" (phrasal-verbs) already in collocations
+cross-category: "être en retard" (phrasal-verbs) already in collocations
+cross-category: "avoir envie de" (expressions) already in collocations
+cross-category: "avoir peur de" (expressions) already in phrasal-verbs
+cross-category: "avoir raison" (expressions) already in collocations
+cross-category: "avoir tort" (expressions) already in collocations
+cross-category: "avoir mal à" (expressions) already in phrasal-verbs
+cross-category: "avoir sommeil" (expressions) already in collocations
+cross-category: "avoir l'air" (expressions) already in collocations
+cross-category: "faire le ménage" (expressions) already in collocations
+cross-category: "faire la queue" (expressions) already in collocations
+cross-category: "faire attention" (expressions) already in collocations
+cross-category: "faire une promenade" (expressions) already in collocations
+cross-category: "faire la fête" (expressions) already in collocations
+cross-category: "avoir de la chance" (expressions) already in collocations
+cross-category: "faire la grasse matinée" (idioms) already in collocations
+cross-category: "passer un coup de fil" (idioms) already in collocations
+cross-category: "être à l'heure" (phrasal-verbs) already in collocations
+cross-category: "être en avance" (phrasal-verbs) already in collocations
+cross-category: "être en train de" (phrasal-verbs) already in expressions
+cross-category: "avoir raison" (phrasal-verbs) already in collocations
+cross-category: "avoir tort" (phrasal-verbs) already in collocations
+cross-category: "avoir de la chance" (phrasal-verbs) already in collocations
+cross-category: "avoir le temps de" (phrasal-verbs) already in expressions
+cross-category: "avoir l'air" (phrasal-verbs) already in collocations
+cross-category: "avoir rendez-vous" (phrasal-verbs) already in collocations
+cross-category: "faire la vaisselle" (phrasal-verbs) already in collocations
+cross-category: "faire le ménage" (phrasal-verbs) already in collocations
+cross-category: "faire la queue" (phrasal-verbs) already in collocations
+cross-category: "faire une promenade" (phrasal-verbs) already in collocations
+cross-category: "faire des études" (phrasal-verbs) already in collocations
+cross-category: "faire la fête" (phrasal-verbs) already in collocations
+cross-category: "faire la bise" (phrasal-verbs) already in collocations
+cross-category: "se faire mal" (phrasal-verbs) already in collocations
+cross-category: "rendre visite à" (phrasal-verbs) already in collocations
+cross-category: "prendre rendez-vous" (phrasal-verbs) already in collocations
+cross-category: "mettre la table" (phrasal-verbs) already in collocations
+cross-category: "passer un examen" (phrasal-verbs) already in collocations
+cross-category: "passer du temps" (phrasal-verbs) already in collocations
+cross-category: "tomber malade" (phrasal-verbs) already in collocations
+cross-category: "faire la tête" (collocations) already in idioms
+cross-category: "donner un coup de main" (collocations) already in idioms
+cross-category: "jeter un coup d'œil" (collocations) already in idioms
+cross-category: "se faire du souci" (expressions) already in collocations
+cross-category: "avoir lieu" (expressions) already in collocations
+cross-category: "ça tombe bien" (idioms) already in daily
+cross-category: "se rendre compte" (phrasal-verbs) already in collocations
+cross-category: "avoir lieu" (phrasal-verbs) already in collocations
+cross-category: "avoir hâte de" (phrasal-verbs) already in collocations
+cross-category: "avoir l'habitude de" (phrasal-verbs) already in collocations
+cross-category: "faire exprès" (phrasal-verbs) already in collocations
+cross-category: "faire confiance à" (phrasal-verbs) already in collocations
+cross-category: "faire la connaissance de" (phrasal-verbs) already in collocations
+cross-category: "faire partie de" (phrasal-verbs) already in collocations
+cross-category: "faire de son mieux" (phrasal-verbs) already in collocations
+cross-category: "tenir à" (phrasal-verbs) already in collocations
+cross-category: "en avoir marre" (phrasal-verbs) already in idioms
+cross-category: "avoir du mal à" (phrasal-verbs) already in collocations
+cross-category: "avoir l'intention de" (phrasal-verbs) already in collocations
+cross-category: "avoir confiance en" (phrasal-verbs) already in collocations
+cross-category: "avoir la flemme" (phrasal-verbs) already in idioms
+cross-category: "se mettre en colère" (phrasal-verbs) already in collocations
+cross-category: "se mettre d'accord" (phrasal-verbs) already in collocations
+cross-category: "se faire des amis" (phrasal-verbs) already in collocations
+cross-category: "se faire couper les cheveux" (phrasal-verbs) already in collocations
+cross-category: "se faire du souci" (phrasal-verbs) already in collocations
+cross-category: "s'entendre bien avec" (phrasal-verbs) already in collocations
+cross-category: "être sur le point de" (phrasal-verbs) already in expressions
+cross-category: "il vaut mieux" (phrasal-verbs) already in expressions
+cross-category: "faire la tête" (phrasal-verbs) already in idioms
+cross-category: "faire le tour de" (phrasal-verbs) already in collocations
+cross-category: "faire un tour" (phrasal-verbs) already in collocations
+cross-category: "prendre soin de" (phrasal-verbs) already in collocations
+cross-category: "prendre sa retraite" (phrasal-verbs) already in collocations
+cross-category: "prendre froid" (phrasal-verbs) already in collocations
+cross-category: "faire le plein" (phrasal-verbs) already in collocations
+cross-category: "donner sur" (phrasal-verbs) already in collocations
+cross-category: "remettre à plus tard" (phrasal-verbs) already in collocations
+cross-category: "je m'en fiche" (slang) already in daily
+cross-category: "pas mal" (slang) already in daily
+cross-category: "perdre la tête" (collocations) already in idioms
+cross-category: "faire le pont" (collocations) already in idioms
+cross-category: "dormir comme un loir" (collocations) already in idioms
+cross-category: "briser la glace" (collocations) already in idioms
+cross-category: "tenir compte de" (phrasal-verbs) already in collocations
+cross-category: "il s'agit de" (phrasal-verbs) already in expressions
+cross-category: "tenir le coup" (phrasal-verbs) already in idioms
+cross-category: "se tenir au courant" (phrasal-verbs) already in collocations
+cross-category: "mettre au courant" (phrasal-verbs) already in collocations
+cross-category: "faire face à" (phrasal-verbs) already in collocations
+cross-category: "faire le point" (phrasal-verbs) already in collocations
+cross-category: "faire appel à" (phrasal-verbs) already in collocations
+cross-category: "mettre en place" (phrasal-verbs) already in collocations
+cross-category: "mettre fin à" (phrasal-verbs) already in collocations
+cross-category: "mettre à jour" (phrasal-verbs) already in collocations
+cross-category: "mettre en doute" (phrasal-verbs) already in collocations
+cross-category: "remettre en question" (phrasal-verbs) already in collocations
+cross-category: "prendre part à" (phrasal-verbs) already in collocations
+cross-category: "prendre conscience de" (phrasal-verbs) already in collocations
+cross-category: "prendre la parole" (phrasal-verbs) already in collocations
+cross-category: "prendre en charge" (phrasal-verbs) already in collocations
+cross-category: "prendre en compte" (phrasal-verbs) already in collocations
+cross-category: "prendre au sérieux" (phrasal-verbs) already in collocations
+cross-category: "tirer au sort" (phrasal-verbs) already in collocations
+cross-category: "se faire avoir" (phrasal-verbs) already in idioms
+cross-category: "faire le malin" (phrasal-verbs) already in idioms
+cross-category: "se planter" (slang) already in phrasal-verbs
+cross-category: "se marrer" (slang) already in phrasal-verbs
+cross-category: "avoir la pêche" (slang) already in idioms
+cross-category: "avoir la trouille" (slang) already in idioms
+cross-category: "ça roule" (slang) already in idioms
+cross-category: "faire un tabac" (idioms) already in collocations
+cross-category: "faire fausse route" (idioms) already in collocations
+cross-category: "faire la une" (idioms) already in collocations
+cross-category: "battre son plein" (idioms) already in collocations
+cross-category: "rendre compte de" (phrasal-verbs) already in collocations
+cross-category: "mettre en œuvre" (phrasal-verbs) already in collocations
+cross-category: "mettre au point" (phrasal-verbs) already in collocations
+cross-category: "mettre en valeur" (phrasal-verbs) already in collocations
+cross-category: "faire allusion à" (phrasal-verbs) already in collocations
+cross-category: "faire preuve de" (phrasal-verbs) already in collocations
+cross-category: "faire l'objet de" (phrasal-verbs) already in collocations
+cross-category: "aller de soi" (phrasal-verbs) already in idioms
+cross-category: "tirer profit de" (phrasal-verbs) already in collocations
+cross-category: "tirer parti de" (phrasal-verbs) already in collocations
+cross-category: "donner lieu à" (phrasal-verbs) already in collocations
+cross-category: "donner suite à" (phrasal-verbs) already in collocations
+cross-category: "Le jeu n'en vaut pas la chandelle." (proverbs) already in idioms
+cross-category: "se tirer" (slang) already in phrasal-verbs
+cross-category: "se pointer" (slang) already in phrasal-verbs
+cross-category: "péter les plombs" (slang) already in idioms

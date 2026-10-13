@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "languageId": "ru",
+  "categories": [
+    {
+      "id": "alphabet",
+      "label": "Alfabe ve Okunuş",
+      "shortLabel": "Alfabe",
+      "kind": "alphabet",
+      "glyph": "Бб",
+      "files": [
+        "alphabet/a1.json",
+        "alphabet/a2.json"
+      ]
+    },
+    {
+      "id": "words",
+      "label": "Kelimeler",
+      "shortLabel": "Kelimeler",
+      "kind": "lexical",
+      "levels": true,
+      "files": [
+        "words/a1.json",
+        "words/a2.json",
+        "words/b1.json",
+        "words/b2.json",
+        "words/c1.json",
+        "words/c2.json"
+      ]
+    },
+    {
+      "id": "verb-pairs",
+      "label": "Fiil Çiftleri",
+      "shortLabel": "Fiil Çiftleri",
+      "kind": "lexical",
+      "files": [
+        "verb-pairs/a1.json",
+        "verb-pairs/a2.json",
+        "verb-pairs/b1.json",
+        "verb-pairs/b2.json",
+        "verb-pairs/c1.json"
+      ]
+    },
+    {
+      "id": "idioms",
+      "label": "Deyimler",
+      "shortLabel": "Deyimler",
+      "kind": "lexical",
+      "files": [
+        "idioms/a2.json",
+        "idioms/b1.json",
+        "idioms/b2.json",
+        "idioms/c1.json",
+        "idioms/c2.json"
+      ]
+    },
+    {
+      "id": "expressions",
+      "label": "Kalıplaşmış İfadeler",
+      "shortLabel": "İfadeler",
+      "kind": "lexical",
+      "files": [
+        "expressions/a1.json",
+        "expressions/a2.json",
+        "expressions/b1.json",
+        "expressions/b2.json",
+        "expressions/c1.json"
+      ]
+    },
+    {
+      "id": "collocations",
+      "label": "Kalıplaşmış",
+      "shortLabel": "Kalıplaşmış",
+      "kind": "lexical",
+      "files": [
+        "collocations/a1.json",
+        "collocations/a2.json",
+        "collocations/b1.json",
+        "collocations/b2.json",
+        "collocations/c1.json"
+      ]
+    },
+    {
+      "id": "proverbs",
+      "label": "Atasözleri",
+      "shortLabel": "Atasözleri",
+      "kind": "lexical",
+      "files": [
+        "proverbs/b1.json",
+        "proverbs/b2.json",
+        "proverbs/c1.json",
+        "proverbs/c2.json"
+      ]
+    },
+    {
+      "id": "abbreviations",
+      "label": "Kısaltmalar",
+      "shortLabel": "Kısaltmalar",
+      "kind": "lexical",
+      "files": [
+        "abbreviations/a1.json",
+        "abbreviations/a2.json",
+        "abbreviations/b1.json",
+        "abbreviations/b2.json",
+        "abbreviations/c1.json"
+      ]
+    },
+    {
+      "id": "daily",
+      "label": "Günlük Konuşma",
+      "shortLabel": "Günlük",
+      "kind": "lexical",
+      "files": [
+        "daily/a1.json",
+        "daily/a2.json",
+        "daily/b1.json",
+        "daily/b2.json"
+      ]
+    },
+    {
+      "id": "slang",
+      "label": "Argo",
+      "shortLabel": "Argo",
+      "kind": "lexical",
+      "files": [
+        "slang/b1.json",
+        "slang/b2.json",
+        "slang/c1.json",
+        "slang/c2.json"
+      ]
+    },
+    {
+      "id": "grammar",
+      "label": "Dilbilgisi",
+      "shortLabel": "Dilbilgisi",
+      "kind": "grammar",
+      "files": [
+        "grammar/a1.json",
+        "grammar/a2.json",
+        "grammar/b1.json",
+        "grammar/b2.json",
+        "grammar/c1.json",
+        "grammar/c2.json"
+      ]
+    }
+  ]
+}

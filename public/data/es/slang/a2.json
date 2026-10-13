@@ -1,0 +1,5 @@
+[
+  {"id":"es-slang-vale","languageId":"es","category":"slang","level":"A2","sourceText":"vale","translations":{"tr":["tamam","olur"]},"details":{"usage":"İspanya'da çok sık; Latin Amerika'da 'ok', 'dale', 'órale' tercih edilir.","register":"informal"},"examples":[{"text":"—¿Quedamos a las siete? —Vale.","tr":"—Yedide buluşalım mı? —Tamam."}]},
+  {"id":"es-slang-porfa","languageId":"es","category":"slang","level":"A2","sourceText":"porfa","translations":{"tr":["lütfen"]},"tags":["reduced-form"],"details":{"register":"informal","expansion":"por favor"},"examples":[{"text":"Pásame la sal, porfa.","tr":"Tuzu uzatır mısın, lütfen."}]},
+  {"id":"es-slang-finde","languageId":"es","category":"slang","level":"A2","sourceText":"finde","translations":{"tr":["hafta sonu"]},"tags":["reduced-form"],"details":{"usage":"İspanya.","register":"informal","expansion":"fin de semana"},"examples":[{"text":"¿Qué planes tienes para el finde?","tr":"Hafta sonu için ne planların var?"}]}
+]

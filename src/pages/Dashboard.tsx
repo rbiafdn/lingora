@@ -23,8 +23,10 @@ const LEVEL_TONE: Record<Level, string> = {
   C2: '#8a1f1d',
 }
 const ORBIT_ORDER = [
+  'alphabet',
   'idioms',
   'phrasal-verbs',
+  'verb-pairs',
   'expressions',
   'collocations',
   'proverbs',
@@ -154,6 +156,8 @@ export function Dashboard({ ctx }: { ctx: LangContext }) {
       color: TONE[id] ?? DEFAULT_TONE,
       size: geo?.catSize ?? 0,
       icon: id,
+      // The alphabet orb shows a letter of the language instead of an icon.
+      ...(c.glyph ? { text: c.glyph } : {}),
       kind: 'cat',
       onOpen: () => navigate(`${languageId}/c/${id}`),
       delay: delay++,

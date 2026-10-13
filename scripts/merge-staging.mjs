@@ -26,29 +26,44 @@ const PREFIX = {
   daily: 'daily',
   slang: 'slang',
   grammar: 'gr',
+  alphabet: 'abc',
+  'verb-pairs': 'vp',
 }
 const REGISTERS = new Set(['formal', 'neutral', 'informal', 'slang', 'offensive', 'vulgar'])
-const POS = new Set(['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'determiner', 'interjection'])
+const POS = new Set(['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'determiner', 'interjection', 'particle', 'numeral'])
 
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'))
+// Works for every script: keeps letters, digits and combining marks of any alphabet.
 const norm = (s) =>
   String(s)
     .toLowerCase()
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
     .replace(/[’']/g, "'")
-    .replace(/[^a-z0-9' ]+/g, ' ')
+    .replace(/[^\p{L}\p{N}\p{M}' ]+/gu, ' ')
     .replace(/\s+/g, ' ')
     .trim()
+// Ids are plain ASCII. Latin text is slugged directly; other scripts use their reading (`rom`).
 const slug = (s) =>
   String(s)
     .toLowerCase()
+    .replace(/ß/g, 'ss')
+    .replace(/œ/g, 'oe')
+    .replace(/æ/g, 'ae')
+    .replace(/ø/g, 'o')
+    .replace(/ł/g, 'l')
+    .replace(/đ/g, 'd')
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
     .replace(/&/g, ' and ')
-    .replace(/['’.]/g, '')
+    .replace(/['’.ʼʻ]/g, '')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '')
+const isLatin = (s) => !/[^\p{Script=Latin}\p{Script=Common}\p{Script=Inherited}]/u.test(String(s))
+/** Slug for an id: from the text itself when it is Latin, otherwise from its reading. */
+// Letters whose reading is only a symbol (Ъ = ʺ) fall back to the letter's name.
+const idSlug = (it) =>
+  slug(isLatin(it.sourceText) ? it.sourceText : (it.details?.reading ?? '')) || slug(it.details?.letterName ?? '')
 const cleanList = (v) => (Array.isArray(v) ? v.filter((x) => typeof x === 'string' && x.trim()).map((x) => x.trim()) : [])
 const str = (v) => (typeof v === 'string' && v.trim() ? v.trim() : undefined)
 
@@ -86,18 +101,42 @@ for (const f of stagingFiles.filter((f) => f.startsWith('fixes-'))) {
 console.log(`fixes applied: ${fixed}`)
 
 // ---------- convert staging ----------
-const categoryOf = (file) => Object.keys(PREFIX).find((c) => file.startsWith(c + '-'))
+const categoryOf = (file) =>
+  Object.keys(PREFIX)
+    .sort((a, b) => b.length - a.length)
+    .find((c) => file.startsWith(c + '-'))
+
+/** rom → reading (Latin letters), ipa, kana (Japanese) */
+function readingFields(details, r) {
+  if (str(r.rom)) details.reading = str(r.rom)
+  if (str(r.ipa)) details.ipa = str(r.ipa)
+  if (str(r.kana)) details.kana = str(r.kana)
+}
 
 function convert(category, r) {
   const level = r.l
   if (!LEVELS.includes(level)) return { error: `bad level ${level}` }
   const tr = cleanList(r.tr).slice(0, 3)
   if (!tr.length) return { error: 'no tr' }
-  const ex = str(r.ex) ? [{ text: str(r.ex), ...(str(r.ex_tr) ? { tr: str(r.ex_tr) } : {}) }] : undefined
+  const ex = str(r.ex)
+    ? [{ text: str(r.ex), ...(str(r.ex_rom) ? { reading: str(r.ex_rom) } : {}), ...(str(r.ex_tr) ? { tr: str(r.ex_tr) } : {}) }]
+    : undefined
 
   if (category === 'grammar') {
     if (!str(r.t) || !r.grammar?.sections?.length) return { error: 'bad grammar' }
-    return { item: { level, sourceText: str(r.t), translations: { tr }, grammar: r.grammar } }
+    // Grammar titles are Latin (or carry a reading) so they get readable ids.
+    const details = {}
+    readingFields(details, r)
+    if (!isLatin(str(r.t)) && !details.reading) return { error: 'no rom' }
+    return {
+      item: {
+        level,
+        sourceText: str(r.t),
+        translations: { tr },
+        ...(Object.keys(details).length ? { details } : {}),
+        grammar: r.grammar,
+      },
+    }
   }
 
   if (category === 'words') {
@@ -106,6 +145,8 @@ function convert(category, r) {
     const pos = POS.has(r.pos) ? r.pos : undefined
     const details = {}
     if (str(r.uk) || str(r.us)) details.pronunciation = { ...(str(r.uk) ? { uk: str(r.uk) } : {}), ...(str(r.us) ? { us: str(r.us) } : {}) }
+    readingFields(details, r)
+    if (!isLatin(w) && !details.reading) return { error: 'no rom' }
     const om = cleanList(r.om).slice(0, 2)
     if (om.length) details.otherMeanings = om
     if (str(r.note)) details.usage = str(r.note)
@@ -118,6 +159,14 @@ function convert(category, r) {
   const t = str(r.t)
   if (!t) return { error: 'no t' }
   const details = {}
+  readingFields(details, r)
+  if (category === 'alphabet') {
+    if (!details.reading) return { error: 'no rom' }
+    if (str(r.name)) details.letterName = str(r.name)
+    if (str(r.note)) details.usage = str(r.note)
+    return { item: { level, sourceText: t, translations: { tr }, details, ...(ex ? { examples: ex } : {}) } }
+  }
+  if (!isLatin(t) && !details.reading) return { error: 'no rom' }
   if (typeof r.sep === 'boolean') details.separable = r.sep
   if (str(r.note)) details.usage = str(r.note)
   if (str(r.exp)) {
@@ -135,7 +184,7 @@ function convert(category, r) {
       level,
       sourceText: t,
       translations: { tr },
-      ...(category === 'phrasal-verbs' ? { partOfSpeech: 'verb' } : {}),
+      ...(category === 'phrasal-verbs' || category === 'verb-pairs' ? { partOfSpeech: 'verb' } : {}),
       ...(tags.length ? { tags: [...new Set(tags)] } : {}),
       details,
       ...(ex ? { examples: ex } : {}),
@@ -193,12 +242,17 @@ for (const { category, r, f } of records) {
       skipped.duplicate++
       continue
     }
-    id = `${lang}-word-${slug(it.sourceText)}`
-    if (ids.has(id)) id = `${id}--${res.sense ?? it.partOfSpeech ?? 'x'}`
-    if (ids.has(id)) {
-      skipped.duplicate++
+    const base = idSlug(it)
+    if (!base) {
+      skipped.invalid++
+      skippedList.push(`${f}: empty id slug ${JSON.stringify(r).slice(0, 80)}`)
       continue
     }
+    id = `${lang}-word-${base}`
+    // Homophones in non-Latin scripts share a reading (橋 / 箸 = hashi): number them.
+    const suffix = res.sense ?? it.partOfSpeech ?? 'x'
+    if (ids.has(id)) id = `${lang}-word-${base}--${suffix}`
+    for (let n = 2; ids.has(id); n++) id = `${lang}-word-${base}--${suffix}-${n}`
     seenWords.set(wk, id)
     seenWordText.add(k)
   } else {
@@ -215,9 +269,15 @@ for (const { category, r, f } of records) {
       skippedList.push(`cross-category: "${it.sourceText}" (${category}) already in ${owner}`)
       continue
     }
-    id = `${lang}-${PREFIX[category]}-${slug(it.sourceText)}`
+    const base = idSlug(it)
+    if (!base) {
+      skipped.invalid++
+      skippedList.push(`${f}: empty id slug ${JSON.stringify(r).slice(0, 80)}`)
+      continue
+    }
+    id = `${lang}-${PREFIX[category]}-${base}`
     let n = 2
-    while (ids.has(id)) id = `${lang}-${PREFIX[category]}-${slug(it.sourceText)}--${n++}`
+    while (ids.has(id)) id = `${lang}-${PREFIX[category]}-${base}--${n++}`
     set.add(k)
     if (category !== 'grammar' && !phraseOwner.has(k)) phraseOwner.set(k, category)
   }
@@ -264,7 +324,7 @@ for (const f of stagingFiles) fs.rmSync(path.join(stagingDir, f))
 if (fs.existsSync(stagingDir) && !fs.readdirSync(stagingDir).length) fs.rmdirSync(stagingDir)
 
 console.log(`added: ${added.length}`, skipped)
-if (skippedList.length) fs.writeFileSync(path.resolve('scripts/last-merge-skipped.txt'), skippedList.join('\n') + '\n')
+if (skippedList.length) fs.writeFileSync(path.resolve(`scripts/last-merge-skipped-${lang}.txt`), skippedList.join('\n') + '\n')
 const summary = {}
 for (const [cat, m] of out) summary[cat] = Object.fromEntries(LEVELS.map((l) => [l, m.get(l)?.length ?? 0]))
 console.table(summary)

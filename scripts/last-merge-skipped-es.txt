@@ -1,0 +1,127 @@
+abbreviations-1.json: empty id slug {"t":"€","l":"A1","tr":["avro"],"full":"euro(s)","ctx":"Günlük","reg":"neutral",
+cross-category: "lavarse las manos" (phrasal-verbs) already in collocations
+cross-category: "lavarse los dientes" (phrasal-verbs) already in collocations
+cross-category: "tener hambre" (phrasal-verbs) already in collocations
+cross-category: "tener sed" (phrasal-verbs) already in collocations
+cross-category: "tener frío" (phrasal-verbs) already in collocations
+cross-category: "tener calor" (phrasal-verbs) already in collocations
+cross-category: "tener sueño" (phrasal-verbs) already in collocations
+cross-category: "tener … años" (phrasal-verbs) already in collocations
+cross-category: "tener prisa" (phrasal-verbs) already in collocations
+cross-category: "hacer frío" (phrasal-verbs) already in collocations
+cross-category: "hacer calor" (phrasal-verbs) already in collocations
+cross-category: "ir de compras" (phrasal-verbs) already in collocations
+cross-category: "ir de vacaciones" (phrasal-verbs) already in collocations
+cross-category: "hacer la compra" (phrasal-verbs) already in collocations
+cross-category: "dar un paseo" (phrasal-verbs) already in collocations
+cross-category: "estar de acuerdo" (expressions) already in collocations
+cross-category: "tener razón" (expressions) already in collocations
+cross-category: "tener ganas de" (phrasal-verbs) already in collocations
+cross-category: "tener razón" (phrasal-verbs) already in collocations
+cross-category: "tener cuidado" (phrasal-verbs) already in collocations
+cross-category: "tener suerte" (phrasal-verbs) already in collocations
+cross-category: "estar de acuerdo" (phrasal-verbs) already in collocations
+cross-category: "pasarlo bien" (phrasal-verbs) already in collocations
+cross-category: "hacer cola" (phrasal-verbs) already in collocations
+cross-category: "hacer la maleta" (phrasal-verbs) already in collocations
+cross-category: "caer bien" (phrasal-verbs) already in collocations
+cross-category: "caer mal" (phrasal-verbs) already in collocations
+cross-category: "estar de vacaciones" (phrasal-verbs) already in collocations
+cross-category: "echar una mano" (collocations) already in idioms
+cross-category: "ponerse rojo" (collocations) already in phrasal-verbs
+cross-category: "ponerse nervioso" (collocations) already in phrasal-verbs
+cross-category: "hacer el tonto" (collocations) already in idioms
+cross-category: "dar miedo" (collocations) already in phrasal-verbs
+cross-category: "dar igual" (collocations) already in phrasal-verbs
+cross-category: "salir bien" (collocations) already in phrasal-verbs
+cross-category: "hacer falta" (phrasal-verbs) already in collocations
+cross-category: "tener que ver con" (phrasal-verbs) already in collocations
+cross-category: "estar a punto de" (phrasal-verbs) already in collocations
+cross-category: "dar pena" (phrasal-verbs) already in collocations
+cross-category: "dar vergüenza" (phrasal-verbs) already in collocations
+cross-category: "echar una mano" (phrasal-verbs) already in idioms
+cross-category: "echar un vistazo" (phrasal-verbs) already in collocations
+cross-category: "echar la culpa" (phrasal-verbs) already in collocations
+cross-category: "dar la vuelta" (phrasal-verbs) already in collocations
+cross-category: "dar de comer" (phrasal-verbs) already in collocations
+cross-category: "ponerse de acuerdo" (phrasal-verbs) already in collocations
+cross-category: "tener en cuenta" (phrasal-verbs) already in collocations
+cross-category: "tener éxito" (phrasal-verbs) already in collocations
+cross-category: "tener la culpa" (phrasal-verbs) already in collocations
+cross-category: "dejar en paz" (phrasal-verbs) already in collocations
+cross-category: "me da igual" (slang) already in daily
+cross-category: "o sea" (slang) already in expressions
+cross-category: "hacer el ridículo" (collocations) already in idioms
+cross-category: "tener lugar" (collocations) already in phrasal-verbs
+cross-category: "dejar claro" (collocations) already in phrasal-verbs
+cross-category: "romper el hielo" (collocations) already in idioms
+cross-category: "por si las moscas" (expressions) already in idioms
+cross-category: "echar un cable" (idioms) already in collocations
+cross-category: "salir adelante" (phrasal-verbs) already in collocations
+cross-category: "llevar a cabo" (phrasal-verbs) already in collocations
+cross-category: "dar marcha atrás" (phrasal-verbs) already in collocations
+cross-category: "dar a luz" (phrasal-verbs) already in collocations
+cross-category: "hacer frente a" (phrasal-verbs) already in collocations
+cross-category: "hacer las paces" (phrasal-verbs) already in collocations
+cross-category: "hacerse el tonto" (phrasal-verbs) already in idioms
+cross-category: "poner en marcha" (phrasal-verbs) already in collocations
+cross-category: "poner en duda" (phrasal-verbs) already in collocations
+cross-category: "poner en práctica" (phrasal-verbs) already in collocations
+cross-category: "quedarse en blanco" (phrasal-verbs) already in idioms
+cross-category: "tirar la toalla" (phrasal-verbs) already in idioms
+cross-category: "sacar tiempo" (phrasal-verbs) already in collocations
+cross-category: "ir al grano" (phrasal-verbs) already in idioms
+cross-category: "meter la pata" (phrasal-verbs) already in idioms
+cross-category: "pasar lista" (phrasal-verbs) already in collocations
+cross-category: "hacer gracia" (phrasal-verbs) already in collocations
+cross-category: "hacer el ridículo" (phrasal-verbs) already in idioms
+cross-category: "echar a perder" (phrasal-verbs) already in collocations
+cross-category: "estar hecho polvo" (phrasal-verbs) already in idioms
+cross-category: "llevar la contraria" (phrasal-verbs) already in collocations
+cross-category: "salir a la luz" (phrasal-verbs) already in idioms
+cross-category: "ponerse las pilas" (phrasal-verbs) already in idioms
+cross-category: "tomar el pelo" (phrasal-verbs) already in idioms
+cross-category: "dar la razón" (phrasal-verbs) already in collocations
+cross-category: "dar la lata" (phrasal-verbs) already in idioms
+cross-category: "dar en el clavo" (phrasal-verbs) already in idioms
+cross-category: "caer gordo" (phrasal-verbs) already in idioms
+cross-category: "sacar conclusiones" (phrasal-verbs) already in collocations
+cross-category: "quedarse con la boca abierta" (phrasal-verbs) already in idioms
+cross-category: "estar hecho polvo" (slang) already in idioms
+cross-category: "pasar de" (slang) already in phrasal-verbs
+cross-category: "estar en las nubes" (slang) already in idioms
+cross-category: "dar la lata" (slang) already in idioms
+cross-category: "qué fuerte" (slang) already in daily
+cross-category: "meter la pata" (slang) already in idioms
+cross-category: "ni de broma" (slang) already in expressions
+cross-category: "dar por hecho" (collocations) already in phrasal-verbs
+cross-category: "sacar adelante" (collocations) already in phrasal-verbs
+cross-category: "salir a la luz" (collocations) already in idioms
+cross-category: "pasar por alto" (collocations) already in phrasal-verbs
+cross-category: "echar raíces" (collocations) already in idioms
+cross-category: "tomar cartas en el asunto" (collocations) already in idioms
+cross-category: "de buenas a primeras" (expressions) already in idioms
+cross-category: "dar por sentado" (phrasal-verbs) already in collocations
+cross-category: "poner de manifiesto" (phrasal-verbs) already in collocations
+cross-category: "salirse con la suya" (phrasal-verbs) already in idioms
+cross-category: "sacar de quicio" (phrasal-verbs) already in idioms
+cross-category: "irse de la lengua" (phrasal-verbs) already in idioms
+cross-category: "hacer la vista gorda" (phrasal-verbs) already in idioms
+cross-category: "echar en cara" (phrasal-verbs) already in idioms
+cross-category: "echar por tierra" (phrasal-verbs) already in idioms
+cross-category: "hacer hincapié en" (phrasal-verbs) already in collocations
+cross-category: "traer de cabeza" (phrasal-verbs) already in idioms
+cross-category: "sacar a la luz" (phrasal-verbs) already in collocations
+cross-category: "dar lugar a" (phrasal-verbs) already in collocations
+cross-category: "darse por aludido" (phrasal-verbs) already in idioms
+cross-category: "pasarse de la raya" (phrasal-verbs) already in idioms
+cross-category: "cobrar fuerza" (phrasal-verbs) already in collocations
+cross-category: "rendir cuentas" (phrasal-verbs) already in collocations
+cross-category: "ir de" (slang) already in phrasal-verbs
+cross-category: "dar plantón" (slang) already in idioms
+cross-category: "hacer acto de presencia" (phrasal-verbs) already in collocations
+cross-category: "hacer las veces de" (phrasal-verbs) already in collocations
+cross-category: "volver a las andadas" (phrasal-verbs) already in idioms
+cross-category: "quedarse tan ancho" (phrasal-verbs) already in idioms
+cross-category: "irse al traste" (phrasal-verbs) already in idioms
+cross-category: "hacer constar" (phrasal-verbs) already in collocations

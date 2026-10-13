@@ -1,0 +1,132 @@
+cross-category: "tomar banho" (phrasal-verbs) already in collocations
+cross-category: "escovar os dentes" (phrasal-verbs) already in collocations
+cross-category: "pentear o cabelo" (phrasal-verbs) already in collocations
+cross-category: "ir embora" (phrasal-verbs) already in collocations
+cross-category: "precisar de" (phrasal-verbs) already in collocations
+cross-category: "gostar de" (phrasal-verbs) already in collocations
+cross-category: "ir a pé" (phrasal-verbs) already in collocations
+cross-category: "ter medo de" (collocations) already in phrasal-verbs
+cross-category: "perto de" (expressions) already in collocations
+cross-category: "longe de" (expressions) already in collocations
+cross-category: "ao lado de" (expressions) already in collocations
+cross-category: "dar uma volta" (phrasal-verbs) already in collocations
+cross-category: "dar uma olhada" (phrasal-verbs) already in collocations
+cross-category: "fazer aniversário" (phrasal-verbs) already in collocations
+cross-category: "sentir falta de" (phrasal-verbs) already in collocations
+cross-category: "ter vontade de" (phrasal-verbs) already in collocations
+cross-category: "ter razão" (phrasal-verbs) already in collocations
+cross-category: "tomar cuidado" (phrasal-verbs) already in collocations
+cross-category: "chegar a tempo" (phrasal-verbs) already in collocations
+cross-category: "perder tempo" (phrasal-verbs) already in collocations
+cross-category: "passar o tempo" (phrasal-verbs) already in collocations
+cross-category: "pensar em" (phrasal-verbs) already in collocations
+cross-category: "depender de" (phrasal-verbs) already in collocations
+cross-category: "acreditar em" (phrasal-verbs) already in collocations
+cross-category: "sonhar com" (phrasal-verbs) already in collocations
+cross-category: "concordar com" (phrasal-verbs) already in collocations
+cross-category: "cuidar de" (phrasal-verbs) already in collocations
+cross-category: "pedir desculpas" (phrasal-verbs) already in collocations
+cross-category: "prestar atenção" (phrasal-verbs) already in collocations
+cross-category: "fazer sentido" (collocations) already in phrasal-verbs
+cross-category: "fazer as pazes" (collocations) already in idioms
+cross-category: "fazer mal" (collocations) already in phrasal-verbs
+cross-category: "fazer bem" (collocations) already in phrasal-verbs
+cross-category: "dar certo" (collocations) already in phrasal-verbs
+cross-category: "dar errado" (collocations) already in phrasal-verbs
+cross-category: "dar um jeito" (collocations) already in idioms
+cross-category: "dar uma mão" (collocations) already in idioms
+cross-category: "dar uma força" (collocations) already in idioms
+cross-category: "levar tempo" (collocations) already in phrasal-verbs
+cross-category: "ficar com raiva" (collocations) already in phrasal-verbs
+cross-category: "ficar de olho" (collocations) already in idioms
+cross-category: "rir de" (collocations) already in phrasal-verbs
+cross-category: "preocupar-se com" (collocations) already in phrasal-verbs
+cross-category: "apaixonar-se por" (collocations) already in phrasal-verbs
+cross-category: "valer a pena" (collocations) already in phrasal-verbs
+cross-category: "perder a cabeça" (idioms) already in collocations
+cross-category: "pôr a mão na massa" (idioms) already in collocations
+cross-category: "interessar-se por" (phrasal-verbs) already in collocations
+cross-category: "ficar à vontade" (phrasal-verbs) already in collocations
+cross-category: "ficar sabendo" (phrasal-verbs) already in collocations
+cross-category: "dar um jeito" (phrasal-verbs) already in idioms
+cross-category: "dar uma força" (phrasal-verbs) already in idioms
+cross-category: "dar um tempo" (phrasal-verbs) already in collocations
+cross-category: "dar trabalho" (phrasal-verbs) already in collocations
+cross-category: "fazer falta" (phrasal-verbs) already in collocations
+cross-category: "fazer as pazes" (phrasal-verbs) already in idioms
+cross-category: "fazer o possível" (phrasal-verbs) already in collocations
+cross-category: "ter a ver com" (phrasal-verbs) already in collocations
+cross-category: "ter jeito para" (phrasal-verbs) already in collocations
+cross-category: "tomar conta de" (phrasal-verbs) already in collocations
+cross-category: "tomar coragem" (phrasal-verbs) already in collocations
+cross-category: "levar a sério" (phrasal-verbs) already in collocations
+cross-category: "levar um susto" (phrasal-verbs) already in collocations
+cross-category: "levar em conta" (phrasal-verbs) already in collocations
+cross-category: "pôr a culpa em" (phrasal-verbs) already in collocations
+cross-category: "estar com saudade" (phrasal-verbs) already in collocations
+cross-category: "passar mal" (phrasal-verbs) already in collocations
+cross-category: "pegar no sono" (phrasal-verbs) already in collocations
+cross-category: "pegar fogo" (phrasal-verbs) already in collocations
+cross-category: "confiar em" (phrasal-verbs) already in collocations
+cross-category: "chamar a atenção" (phrasal-verbs) already in collocations
+cross-category: "bater papo" (phrasal-verbs) already in idioms
+cross-category: "perder a paciência" (phrasal-verbs) already in collocations
+cross-category: "matar aula" (phrasal-verbs) already in idioms
+cross-category: "fala sério" (slang) already in daily
+cross-category: "que saco" (slang) already in daily
+cross-category: "abrir mão de" (collocations) already in idioms
+cross-category: "pegar no pé" (collocations) already in idioms
+cross-category: "cair a ficha" (collocations) already in idioms
+cross-category: "cair na real" (collocations) already in idioms
+cross-category: "quebrar a cabeça" (collocations) already in idioms
+cross-category: "quebrar o galho" (collocations) already in idioms
+cross-category: "quebrar o gelo" (collocations) already in idioms
+cross-category: "dar conta de" (collocations) already in phrasal-verbs
+cross-category: "dar o fora" (idioms) already in collocations
+cross-category: "tirar sarro" (idioms) already in collocations
+cross-category: "abrir o jogo" (idioms) already in collocations
+cross-category: "na marra" (idioms) already in expressions
+cross-category: "chegar a" (phrasal-verbs) already in collocations
+cross-category: "dar o fora" (phrasal-verbs) already in collocations
+cross-category: "dar à luz" (phrasal-verbs) already in collocations
+cross-category: "dar razão a" (phrasal-verbs) already in collocations
+cross-category: "fazer questão de" (phrasal-verbs) already in collocations
+cross-category: "fazer de conta" (phrasal-verbs) already in collocations
+cross-category: "tomar partido" (phrasal-verbs) already in collocations
+cross-category: "levar a mal" (phrasal-verbs) already in collocations
+cross-category: "pôr em prática" (phrasal-verbs) already in collocations
+cross-category: "pôr fim a" (phrasal-verbs) already in collocations
+cross-category: "estar por dentro" (phrasal-verbs) already in idioms
+cross-category: "estar por fora" (phrasal-verbs) already in idioms
+cross-category: "ir direto ao ponto" (phrasal-verbs) already in idioms
+cross-category: "passar a limpo" (phrasal-verbs) already in collocations
+cross-category: "chegar a uma conclusão" (phrasal-verbs) already in collocations
+cross-category: "sair caro" (phrasal-verbs) already in collocations
+cross-category: "cair bem" (phrasal-verbs) already in collocations
+cross-category: "cair na real" (phrasal-verbs) already in idioms
+cross-category: "deixar a desejar" (phrasal-verbs) already in idioms
+cross-category: "pegar o jeito" (phrasal-verbs) already in collocations
+cross-category: "pegar leve" (phrasal-verbs) already in idioms
+cross-category: "pegar mal" (phrasal-verbs) already in idioms
+cross-category: "abrir mão de" (phrasal-verbs) already in idioms
+cross-category: "mandar bem" (phrasal-verbs) already in slang
+cross-category: "ganhar tempo" (phrasal-verbs) already in collocations
+cross-category: "se achar" (slang) already in phrasal-verbs
+cross-category: "encher o saco" (slang) already in idioms
+cross-category: "fazer vista grossa" (collocations) already in idioms
+cross-category: "tirar o atraso" (idioms) already in collocations
+cross-category: "dar a volta por cima" (phrasal-verbs) already in idioms
+cross-category: "fazer hora" (phrasal-verbs) already in idioms
+cross-category: "ter lugar" (phrasal-verbs) already in collocations
+cross-category: "tomar posse" (phrasal-verbs) already in collocations
+cross-category: "levar a cabo" (phrasal-verbs) already in collocations
+cross-category: "levar um fora" (phrasal-verbs) already in idioms
+cross-category: "botar fé" (phrasal-verbs) already in idioms
+cross-category: "vir a calhar" (phrasal-verbs) already in collocations
+cross-category: "vir à tona" (phrasal-verbs) already in collocations
+cross-category: "cair a ficha" (phrasal-verbs) already in idioms
+cross-category: "cair em si" (phrasal-verbs) already in idioms
+cross-category: "pegar no pé" (phrasal-verbs) already in idioms
+cross-category: "tirar onda" (slang) already in idioms
+cross-category: "dar mole" (slang) already in idioms
+cross-category: "encher linguiça" (slang) already in idioms

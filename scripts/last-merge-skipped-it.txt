@@ -1,0 +1,127 @@
+cross-category: "avere fame" (expressions) already in collocations
+cross-category: "avere sete" (expressions) already in collocations
+cross-category: "avere freddo" (expressions) already in collocations
+cross-category: "avere caldo" (expressions) already in collocations
+cross-category: "avere sonno" (expressions) already in collocations
+cross-category: "avere bisogno di" (expressions) already in collocations
+cross-category: "avere fame" (phrasal-verbs) already in collocations
+cross-category: "avere sete" (phrasal-verbs) already in collocations
+cross-category: "avere caldo" (phrasal-verbs) already in collocations
+cross-category: "avere freddo" (phrasal-verbs) already in collocations
+cross-category: "avere sonno" (phrasal-verbs) already in collocations
+cross-category: "avere … anni" (phrasal-verbs) already in collocations
+cross-category: "fare colazione" (phrasal-verbs) already in collocations
+cross-category: "fare la spesa" (phrasal-verbs) already in collocations
+cross-category: "fare una passeggiata" (phrasal-verbs) already in collocations
+cross-category: "fare una domanda" (phrasal-verbs) already in collocations
+cross-category: "fare una foto" (phrasal-verbs) already in collocations
+cross-category: "fare sport" (phrasal-verbs) already in collocations
+cross-category: "fare i compiti" (phrasal-verbs) already in collocations
+cross-category: "tornare a casa" (phrasal-verbs) already in collocations
+cross-category: "andare a letto" (phrasal-verbs) already in collocations
+cross-category: "avere voglia di" (expressions) already in collocations
+cross-category: "avere ragione" (expressions) already in collocations
+cross-category: "avere torto" (expressions) already in collocations
+cross-category: "avere fretta" (expressions) already in collocations
+cross-category: "fare un salto" (idioms) already in collocations
+cross-category: "ricordarsi di" (phrasal-verbs) already in collocations
+cross-category: "innamorarsi di" (phrasal-verbs) already in collocations
+cross-category: "avere paura di" (phrasal-verbs) already in expressions
+cross-category: "avere fretta" (phrasal-verbs) already in collocations
+cross-category: "avere ragione" (phrasal-verbs) already in collocations
+cross-category: "avere torto" (phrasal-verbs) already in collocations
+cross-category: "avere bisogno di" (phrasal-verbs) already in collocations
+cross-category: "avere voglia di" (phrasal-verbs) already in collocations
+cross-category: "fare un viaggio" (phrasal-verbs) already in collocations
+cross-category: "fare attenzione" (phrasal-verbs) already in collocations
+cross-category: "fare tardi" (phrasal-verbs) already in collocations
+cross-category: "fare la fila" (phrasal-verbs) already in collocations
+cross-category: "fare benzina" (phrasal-verbs) already in collocations
+cross-category: "fare le pulizie" (phrasal-verbs) already in collocations
+cross-category: "fare un regalo" (phrasal-verbs) already in collocations
+cross-category: "fare un favore" (phrasal-verbs) already in collocations
+cross-category: "venire a trovare" (phrasal-verbs) already in collocations
+cross-category: "mettere in ordine" (phrasal-verbs) already in collocations
+cross-category: "dare una mano" (phrasal-verbs) already in idioms
+cross-category: "dare un passaggio" (phrasal-verbs) already in collocations
+cross-category: "dare una festa" (phrasal-verbs) already in collocations
+cross-category: "dare un esame" (phrasal-verbs) already in collocations
+cross-category: "prendere in prestito" (phrasal-verbs) already in collocations
+cross-category: "stare zitto" (phrasal-verbs) already in collocations
+cross-category: "stare attento" (phrasal-verbs) already in collocations
+cross-category: "stare fermo" (phrasal-verbs) already in collocations
+cross-category: "stare in piedi" (phrasal-verbs) already in collocations
+cross-category: "iscriversi a" (collocations) already in phrasal-verbs
+cross-category: "stare per" (expressions) already in collocations
+cross-category: "avere intenzione di" (expressions) already in collocations
+cross-category: "fare il possibile" (expressions) already in collocations
+cross-category: "perdere la testa" (idioms) already in collocations
+cross-category: "fare bella figura" (idioms) already in collocations
+cross-category: "tenere d'occhio" (idioms) already in collocations
+cross-category: "fidarsi di" (phrasal-verbs) already in collocations
+cross-category: "fare finta di" (phrasal-verbs) already in expressions
+cross-category: "fare a meno di" (phrasal-verbs) already in expressions
+cross-category: "fare un salto" (phrasal-verbs) already in collocations
+cross-category: "prendere in giro" (phrasal-verbs) already in idioms
+cross-category: "mettersi a" (phrasal-verbs) already in expressions
+cross-category: "farsi gli affari propri" (phrasal-verbs) already in idioms
+cross-category: "farsi un'idea" (phrasal-verbs) already in collocations
+cross-category: "mettere in pratica" (phrasal-verbs) already in collocations
+cross-category: "tenere d'occhio" (phrasal-verbs) already in collocations
+cross-category: "dare retta a" (phrasal-verbs) already in collocations
+cross-category: "prendere sul serio" (phrasal-verbs) already in collocations
+cross-category: "prendere parte a" (phrasal-verbs) already in collocations
+cross-category: "prendere fuoco" (phrasal-verbs) already in collocations
+cross-category: "venire a sapere" (phrasal-verbs) already in collocations
+cross-category: "venire in mente" (phrasal-verbs) already in collocations
+cross-category: "farsi vivo" (collocations) already in phrasal-verbs
+cross-category: "tenere conto di" (collocations) already in phrasal-verbs
+cross-category: "rompere il ghiaccio" (collocations) already in idioms
+cross-category: "Porca miseria!" (daily) already in slang
+cross-category: "avere a che fare con" (expressions) already in collocations
+cross-category: "fare caso a" (expressions) already in collocations
+cross-category: "stare a cuore" (idioms) already in collocations
+cross-category: "innamorato cotto" (idioms) already in collocations
+cross-category: "andare in fumo" (idioms) already in collocations
+cross-category: "farsi vivo" (idioms) already in phrasal-verbs
+cross-category: "perdere il treno" (idioms) already in collocations
+cross-category: "tirare un sospiro di sollievo" (idioms) already in collocations
+cross-category: "stare al gioco" (idioms) already in collocations
+cross-category: "rompere le scatole" (idioms) already in slang
+cross-category: "mettere radici" (idioms) already in collocations
+cross-category: "dare per scontato" (idioms) already in collocations
+cross-category: "darsi una mossa" (idioms) already in phrasal-verbs
+cross-category: "ubriaco fradicio" (idioms) already in collocations
+cross-category: "nuovo di zecca" (idioms) already in collocations
+cross-category: "pieno zeppo" (idioms) already in collocations
+cross-category: "buio pesto" (idioms) already in collocations
+cross-category: "averla vinta" (phrasal-verbs) already in idioms
+cross-category: "darsela a gambe" (phrasal-verbs) already in idioms
+cross-category: "metterci una pietra sopra" (phrasal-verbs) already in idioms
+cross-category: "mettersi in testa" (phrasal-verbs) already in idioms
+cross-category: "farsi in quattro" (phrasal-verbs) already in idioms
+cross-category: "mettere in dubbio" (phrasal-verbs) already in collocations
+cross-category: "mettere al corrente" (phrasal-verbs) already in collocations
+cross-category: "portare avanti" (phrasal-verbs) already in collocations
+cross-category: "dare per scontato" (phrasal-verbs) already in collocations
+cross-category: "dare alla testa" (phrasal-verbs) already in idioms
+cross-category: "prendere in considerazione" (phrasal-verbs) already in collocations
+cross-category: "andare a ruba" (phrasal-verbs) already in idioms
+cross-category: "andare in onda" (phrasal-verbs) already in collocations
+cross-category: "fare marcia indietro" (phrasal-verbs) already in idioms
+cross-category: "dare buca" (slang) already in idioms
+cross-category: "ci sta" (slang) already in daily
+cross-category: "farsi strada" (collocations) already in phrasal-verbs
+cross-category: "fare fronte a" (collocations) already in phrasal-verbs
+cross-category: "fare presente" (collocations) already in phrasal-verbs
+cross-category: "andare incontro a" (collocations) already in phrasal-verbs
+cross-category: "andare a ruba" (collocations) already in idioms
+cross-category: "farla franca" (idioms) already in phrasal-verbs
+cross-category: "legarsela al dito" (phrasal-verbs) already in idioms
+cross-category: "tirare in ballo" (phrasal-verbs) already in idioms
+cross-category: "mettere in luce" (phrasal-verbs) already in collocations
+cross-category: "prendere piede" (phrasal-verbs) already in idioms
+cross-category: "prendere atto di" (phrasal-verbs) already in collocations
+cross-category: "venire meno" (phrasal-verbs) already in collocations
+cross-category: "venire a galla" (phrasal-verbs) already in idioms
+cross-category: "andare a monte" (phrasal-verbs) already in idioms

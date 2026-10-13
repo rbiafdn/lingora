@@ -1,0 +1,1919 @@
+[
+ {
+  "w": "أَنِيق",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "şık"
+  ],
+  "rom": "anīq",
+  "ex": "تَلْبَسُ مَلَابِسَ أَنِيقَةً.",
+  "ex_rom": "Talbasu malābisa anīqatan.",
+  "ex_tr": "Şık giysiler giyer."
+ },
+ {
+  "w": "قَبِيح",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "çirkin"
+  ],
+  "rom": "qabīḥ",
+  "ex": "الْمَبْنَى قَبِيحٌ.",
+  "ex_rom": "Al-mabnā qabīḥun.",
+  "ex_tr": "Bina çirkin."
+ },
+ {
+  "w": "وَسِيم",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "yakışıklı"
+  ],
+  "rom": "wasīm",
+  "ex": "خَطِيبُهَا وَسِيمٌ.",
+  "ex_rom": "Khaṭībuhā wasīmun.",
+  "ex_tr": "Nişanlısı yakışıklı."
+ },
+ {
+  "w": "شَابّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "genç"
+  ],
+  "rom": "shābb",
+  "ex": "مُدِيرُنَا شَابٌّ.",
+  "ex_rom": "Mudīrunā shābbun.",
+  "ex_tr": "Müdürümüz genç."
+ },
+ {
+  "w": "عَجُوز",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "yaşlı"
+  ],
+  "rom": "ʿajūz",
+  "ex": "سَاعَدْتُ امْرَأَةً عَجُوزًا.",
+  "ex_rom": "Sāʿadtu mraʾatan ʿajūzan.",
+  "ex_tr": "Yaşlı bir kadına yardım ettim.",
+  "note": "Kibar dilde كَبِير فِي السِّنِّ tercih edilir."
+ },
+ {
+  "w": "حَقِيقِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "gerçek"
+  ],
+  "rom": "ḥaqīqī",
+  "ex": "هَذِهِ قِصَّةٌ حَقِيقِيَّةٌ.",
+  "ex_rom": "Hādhihi qiṣṣatun ḥaqīqiyyatun.",
+  "ex_tr": "Bu gerçek bir hikâye."
+ },
+ {
+  "w": "مَوْجُود",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "mevcut",
+   "var"
+  ],
+  "rom": "mawjūd",
+  "ex": "هَلِ الْمُدِيرُ مَوْجُودٌ؟",
+  "ex_rom": "Hali l-mudīru mawjūdun?",
+  "ex_tr": "Müdür burada mı?"
+ },
+ {
+  "w": "حُرّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "özgür",
+   "serbest"
+  ],
+  "rom": "ḥurr",
+  "ex": "أَنْتَ حُرٌّ فِي اخْتِيَارِكَ.",
+  "ex_rom": "Anta ḥurrun fī khtiyārika.",
+  "ex_tr": "Seçiminde özgürsün."
+ },
+ {
+  "w": "إِلِكْتُرُونِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "elektronik"
+  ],
+  "rom": "iliktrūnī",
+  "ex": "أَرْسِلْ لِي بَرِيدًا إِلِكْتُرُونِيًّا.",
+  "ex_rom": "Arsil lī barīdan iliktrūniyyan.",
+  "ex_tr": "Bana bir e-posta gönder."
+ },
+ {
+  "w": "أَسَاسِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "temel"
+  ],
+  "rom": "asāsī",
+  "ex": "هَذِهِ قَوَاعِدُ أَسَاسِيَّةٌ.",
+  "ex_rom": "Hādhihi qawāʿidu asāsiyyatun.",
+  "ex_tr": "Bunlar temel kurallar."
+ },
+ {
+  "w": "رَئِيسِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "ana",
+   "başlıca"
+  ],
+  "rom": "raʾīsī",
+  "ex": "هَذَا هُوَ الشَّارِعُ الرَّئِيسِيُّ.",
+  "ex_rom": "Hādhā huwa sh-shāriʿu r-raʾīsiyyu.",
+  "ex_tr": "Bu ana cadde."
+ },
+ {
+  "w": "إِضَافِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "ek",
+   "ilave"
+  ],
+  "rom": "iḍāfī",
+  "ex": "أَحْتَاجُ إِلَى وَقْتٍ إِضَافِيٍّ.",
+  "ex_rom": "Aḥtāju ilā waqtin iḍāfiyyin.",
+  "ex_tr": "Ek süreye ihtiyacım var."
+ },
+ {
+  "w": "أَخِير",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "son"
+  ],
+  "rom": "akhīr",
+  "ex": "هَذِهِ الْفُرْصَةُ الْأَخِيرَةُ.",
+  "ex_rom": "Hādhihi l-furṣatu l-akhīratu.",
+  "ex_tr": "Bu son fırsat."
+ },
+ {
+  "w": "سَابِق",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "önceki",
+   "eski"
+  ],
+  "rom": "sābiq",
+  "ex": "قَابَلْتُ مُدِيرِي السَّابِقَ.",
+  "ex_rom": "Qābaltu mudīrī s-sābiqa.",
+  "ex_tr": "Eski müdürümle karşılaştım."
+ },
+ {
+  "w": "قَادِم",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "gelecek",
+   "önümüzdeki"
+  ],
+  "rom": "qādim",
+  "ex": "سَأُسَافِرُ الْأُسْبُوعَ الْقَادِمَ.",
+  "ex_rom": "Sa-usāfiru l-usbūʿa l-qādima.",
+  "ex_tr": "Önümüzdeki hafta seyahat edeceğim."
+ },
+ {
+  "w": "مَاضٍ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "geçen",
+   "geçmiş"
+  ],
+  "rom": "māḍin",
+  "ex": "زُرْتُهُ الشَّهْرَ الْمَاضِيَ.",
+  "ex_rom": "Zurtuhu sh-shahra l-māḍiya.",
+  "ex_tr": "Onu geçen ay ziyaret ettim.",
+  "note": "Belirli hâli: الْمَاضِي (al-māḍī)."
+ },
+ {
+  "w": "يَوْمِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "günlük"
+  ],
+  "rom": "yawmī",
+  "ex": "هَذَا رُوتِينِي الْيَوْمِيُّ.",
+  "ex_rom": "Hādhā rūtīniya l-yawmiyyu.",
+  "ex_tr": "Bu benim günlük rutinim."
+ },
+ {
+  "w": "أُسْبُوعِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "haftalık"
+  ],
+  "rom": "usbūʿī",
+  "ex": "لَدَيْنَا اجْتِمَاعٌ أُسْبُوعِيٌّ.",
+  "ex_rom": "Ladaynā jtimāʿun usbūʿiyyun.",
+  "ex_tr": "Haftalık bir toplantımız var."
+ },
+ {
+  "w": "شَهْرِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "aylık"
+  ],
+  "rom": "shahrī",
+  "ex": "الرَّاتِبُ الشَّهْرِيُّ قَلِيلٌ.",
+  "ex_rom": "Ar-rātibu sh-shahriyyu qalīlun.",
+  "ex_tr": "Aylık maaş az."
+ },
+ {
+  "w": "سَنَوِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "yıllık"
+  ],
+  "rom": "sanawī",
+  "ex": "هَذِهِ عُطْلَتِي السَّنَوِيَّةُ.",
+  "ex_rom": "Hādhihi ʿuṭlatiya s-sanawiyyatu.",
+  "ex_tr": "Bu benim yıllık iznim."
+ },
+ {
+  "w": "بُرْتُقَالِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "turuncu"
+  ],
+  "rom": "burtuqālī",
+  "ex": "اِشْتَرَيْتُ قَمِيصًا بُرْتُقَالِيًّا.",
+  "ex_rom": "Ishtaraytu qamīṣan burtuqāliyyan.",
+  "ex_tr": "Turuncu bir gömlek aldım."
+ },
+ {
+  "w": "بَنَفْسَجِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "mor"
+  ],
+  "rom": "banafsajī",
+  "ex": "الزُّهُورُ بَنَفْسَجِيَّةٌ.",
+  "ex_rom": "Az-zuhūru banafsajiyyatun.",
+  "ex_tr": "Çiçekler mor."
+ },
+ {
+  "w": "وَرْدِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "pembe"
+  ],
+  "rom": "wardī",
+  "ex": "غُرْفَتُهَا وَرْدِيَّةٌ.",
+  "ex_rom": "Ghurfatuhā wardiyyatun.",
+  "ex_tr": "Odası pembe."
+ },
+ {
+  "w": "رَمَادِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "gri"
+  ],
+  "rom": "ramādī",
+  "ex": "عِنْدِي مِعْطَفٌ رَمَادِيٌّ.",
+  "ex_rom": "ʿIndī miʿṭafun ramādiyyun.",
+  "ex_tr": "Gri bir paltom var."
+ },
+ {
+  "w": "بُنِّيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "kahverengi"
+  ],
+  "rom": "bunnī",
+  "ex": "عَيْنَاهُ بُنِّيَّتَانِ.",
+  "ex_rom": "ʿAynāhu bunniyyatāni.",
+  "ex_tr": "Gözleri kahverengi."
+ },
+ {
+  "w": "ذَهَبِيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "altın",
+   "altın rengi"
+  ],
+  "rom": "dhahabī",
+  "ex": "خَاتَمٌ ذَهَبِيٌّ.",
+  "ex_rom": "Khātamun dhahabiyyun.",
+  "ex_tr": "Altın bir yüzük."
+ },
+ {
+  "w": "فِضِّيّ",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "gümüş",
+   "gümüş rengi"
+  ],
+  "rom": "fiḍḍī",
+  "ex": "سَيَّارَتُهُ فِضِّيَّةٌ.",
+  "ex_rom": "Sayyāratuhu fiḍḍiyyatun.",
+  "ex_tr": "Arabası gümüş rengi."
+ },
+ {
+  "w": "فَاتِح",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "açık (renk)"
+  ],
+  "rom": "fātiḥ",
+  "ex": "أُحِبُّ اللَّوْنَ الْأَزْرَقَ الْفَاتِحَ.",
+  "ex_rom": "Uḥibbu l-lawna l-azraqa l-fātiḥa.",
+  "ex_tr": "Açık maviyi severim."
+ },
+ {
+  "w": "غَامِق",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "koyu (renk)"
+  ],
+  "rom": "ghāmiq",
+  "ex": "يَلْبَسُ بَدْلَةً زَرْقَاءَ غَامِقَةً.",
+  "ex_rom": "Yalbasu badlatan zarqāʾa ghāmiqatan.",
+  "ex_tr": "Koyu mavi bir takım elbise giyiyor."
+ },
+ {
+  "w": "آخَر",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "başka",
+   "diğer"
+  ],
+  "rom": "ākhar",
+  "ex": "أُرِيدُ لَوْنًا آخَرَ.",
+  "ex_rom": "Urīdu lawnan ākhara.",
+  "ex_tr": "Başka bir renk istiyorum.",
+  "note": "Dişili: أُخْرَى (ukhrā)."
+ },
+ {
+  "w": "مُتَأَكِّد",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "emin"
+  ],
+  "rom": "mutaʾakkid",
+  "ex": "هَلْ أَنْتَ مُتَأَكِّدٌ؟",
+  "ex_rom": "Hal anta mutaʾakkidun?",
+  "ex_tr": "Emin misin?"
+ },
+ {
+  "w": "مَسْؤُول",
+  "pos": "adjective",
+  "l": "A2",
+  "tr": [
+   "sorumlu"
+  ],
+  "rom": "masʾūl",
+  "ex": "مَنِ الْمَسْؤُولُ هُنَا؟",
+  "ex_rom": "Mani l-masʾūlu hunā?",
+  "ex_tr": "Burada sorumlu kim?"
+ },
+ {
+  "w": "أَحْيَانًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "bazen"
+  ],
+  "rom": "aḥyānan",
+  "ex": "أَحْيَانًا أَذْهَبُ إِلَى الْعَمَلِ مَشْيًا.",
+  "ex_rom": "Aḥyānan adhhabu ilā l-ʿamali mashyan.",
+  "ex_tr": "Bazen işe yürüyerek giderim."
+ },
+ {
+  "w": "غَالِبًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "çoğu zaman",
+   "genellikle"
+  ],
+  "rom": "ghāliban",
+  "ex": "غَالِبًا مَا يَتَأَخَّرُ.",
+  "ex_rom": "Ghāliban mā yataʾakhkharu.",
+  "ex_tr": "Çoğu zaman geç kalır."
+ },
+ {
+  "w": "عَادَةً",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "genellikle",
+   "çoğunlukla"
+  ],
+  "rom": "ʿādatan",
+  "ex": "عَادَةً أَشْرَبُ الشَّايَ صَبَاحًا.",
+  "ex_rom": "ʿĀdatan ashrabu sh-shāya ṣabāḥan.",
+  "ex_tr": "Genellikle sabah çay içerim."
+ },
+ {
+  "w": "نَادِرًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "nadiren"
+  ],
+  "rom": "nādiran",
+  "ex": "نَادِرًا مَا أُشَاهِدُ التِّلْفَازَ.",
+  "ex_rom": "Nādiran mā ushāhidu t-tilfāza.",
+  "ex_tr": "Nadiren televizyon izlerim."
+ },
+ {
+  "w": "أَبَدًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "asla",
+   "hiç"
+  ],
+  "rom": "abadan",
+  "ex": "لَمْ أَزُرْ مِصْرَ أَبَدًا.",
+  "ex_rom": "Lam azur miṣra abadan.",
+  "ex_tr": "Mısır'ı hiç ziyaret etmedim.",
+  "note": "Olumsuz cümlede kullanılır."
+ },
+ {
+  "w": "فَقَطْ",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "sadece",
+   "yalnızca"
+  ],
+  "rom": "faqaṭ",
+  "ex": "عِنْدِي سُؤَالٌ وَاحِدٌ فَقَطْ.",
+  "ex_rom": "ʿIndī suʾālun wāḥidun faqaṭ.",
+  "ex_tr": "Sadece bir sorum var."
+ },
+ {
+  "w": "تَقْرِيبًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "yaklaşık",
+   "neredeyse"
+  ],
+  "rom": "taqrīban",
+  "ex": "انْتَظَرْنَا سَاعَةً تَقْرِيبًا.",
+  "ex_rom": "Intaẓarnā sāʿatan taqrīban.",
+  "ex_tr": "Yaklaşık bir saat bekledik."
+ },
+ {
+  "w": "فَوْرًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "hemen",
+   "derhal"
+  ],
+  "rom": "fawran",
+  "ex": "تَعَالَ فَوْرًا!",
+  "ex_rom": "Taʿāla fawran!",
+  "ex_tr": "Hemen gel!"
+ },
+ {
+  "w": "قَرِيبًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "yakında"
+  ],
+  "rom": "qarīban",
+  "ex": "سَنَلْتَقِي قَرِيبًا.",
+  "ex_rom": "Sa-naltaqī qarīban.",
+  "ex_tr": "Yakında görüşeceğiz."
+ },
+ {
+  "w": "مُؤَخَّرًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "son zamanlarda"
+  ],
+  "rom": "muʾakhkharan",
+  "ex": "انْتَقَلَ مُؤَخَّرًا إِلَى دُبَيّ.",
+  "ex_rom": "Intaqala muʾakhkharan ilā dubayy.",
+  "ex_tr": "Son zamanlarda Dubai'ye taşındı."
+ },
+ {
+  "w": "سَابِقًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "önceden",
+   "eskiden"
+  ],
+  "rom": "sābiqan",
+  "ex": "كُنْتُ أَسْكُنُ هُنَا سَابِقًا.",
+  "ex_rom": "Kuntu askunu hunā sābiqan.",
+  "ex_tr": "Eskiden burada otururdum."
+ },
+ {
+  "w": "لَاحِقًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "sonra",
+   "daha sonra"
+  ],
+  "rom": "lāḥiqan",
+  "ex": "أَتَّصِلُ بِكَ لَاحِقًا.",
+  "ex_rom": "Attaṣilu bika lāḥiqan.",
+  "ex_tr": "Seni sonra ararım."
+ },
+ {
+  "w": "أَخِيرًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "sonunda",
+   "nihayet"
+  ],
+  "rom": "akhīran",
+  "ex": "وَصَلْنَا أَخِيرًا!",
+  "ex_rom": "Waṣalnā akhīran!",
+  "ex_tr": "Sonunda vardık!"
+ },
+ {
+  "w": "أَوَّلًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "önce",
+   "ilk olarak"
+  ],
+  "rom": "awwalan",
+  "ex": "أَوَّلًا، اغْسِلْ يَدَيْكَ.",
+  "ex_rom": "Awwalan, ighsil yadayka.",
+  "ex_tr": "Önce ellerini yıka."
+ },
+ {
+  "w": "ثَانِيًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "ikinci olarak"
+  ],
+  "rom": "thāniyan",
+  "ex": "ثَانِيًا، اقْرَأِ التَّعْلِيمَاتِ.",
+  "ex_rom": "Thāniyan, iqraʾi t-taʿlīmāti.",
+  "ex_tr": "İkinci olarak talimatları oku."
+ },
+ {
+  "w": "مَعًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "birlikte"
+  ],
+  "rom": "maʿan",
+  "ex": "نَدْرُسُ مَعًا كُلَّ مَسَاءٍ.",
+  "ex_rom": "Nadrusu maʿan kulla masāʾin.",
+  "ex_tr": "Her akşam birlikte ders çalışırız."
+ },
+ {
+  "w": "كَثِيرًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "çok",
+   "sık sık"
+  ],
+  "rom": "kathīran",
+  "ex": "يُسَافِرُ كَثِيرًا بِسَبَبِ عَمَلِهِ.",
+  "ex_rom": "Yusāfiru kathīran bi-sababi ʿamalihi.",
+  "ex_tr": "İşi yüzünden sık sık seyahat eder."
+ },
+ {
+  "w": "قَلِيلًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "biraz",
+   "az"
+  ],
+  "rom": "qalīlan",
+  "ex": "اِنْتَظِرْ قَلِيلًا.",
+  "ex_rom": "Intaẓir qalīlan.",
+  "ex_tr": "Biraz bekle."
+ },
+ {
+  "w": "تَمَامًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "tamamen",
+   "tam olarak"
+  ],
+  "rom": "tamāman",
+  "ex": "أَنْتَ عَلَى حَقٍّ تَمَامًا.",
+  "ex_rom": "Anta ʿalā ḥaqqin tamāman.",
+  "ex_tr": "Tamamen haklısın."
+ },
+ {
+  "w": "طَبْعًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "tabii ki",
+   "elbette"
+  ],
+  "rom": "ṭabʿan",
+  "ex": "هَلْ تَأْتِي؟ طَبْعًا!",
+  "ex_rom": "Hal taʾtī? Ṭabʿan!",
+  "ex_tr": "Geliyor musun? Tabii ki!"
+ },
+ {
+  "w": "حَقًّا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "gerçekten"
+  ],
+  "rom": "ḥaqqan",
+  "ex": "هَلْ هَذَا حَقًّا صَحِيحٌ؟",
+  "ex_rom": "Hal hādhā ḥaqqan ṣaḥīḥun?",
+  "ex_tr": "Bu gerçekten doğru mu?"
+ },
+ {
+  "w": "فِعْلًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "gerçekten",
+   "hakikaten"
+  ],
+  "rom": "fiʿlan",
+  "ex": "الطَّعَامُ لَذِيذٌ فِعْلًا.",
+  "ex_rom": "Aṭ-ṭaʿāmu ladhīdhun fiʿlan.",
+  "ex_tr": "Yemek gerçekten lezzetli."
+ },
+ {
+  "w": "رُبَّمَا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "belki"
+  ],
+  "rom": "rubbamā",
+  "ex": "رُبَّمَا يَأْتِي غَدًا.",
+  "ex_rom": "Rubbamā yaʾtī ghadan.",
+  "ex_tr": "Belki yarın gelir."
+ },
+ {
+  "w": "بِسُرْعَةٍ",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "hızlıca",
+   "çabuk"
+  ],
+  "rom": "bi-surʿatin",
+  "ex": "تَكَلَّمَ بِسُرْعَةٍ.",
+  "ex_rom": "Takallama bi-surʿatin.",
+  "ex_tr": "Hızlı konuştu."
+ },
+ {
+  "w": "بِبُطْءٍ",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "yavaşça"
+  ],
+  "rom": "bi-buṭʾin",
+  "ex": "تَكَلَّمْ بِبُطْءٍ مِنْ فَضْلِكَ.",
+  "ex_rom": "Takallam bi-buṭʾin min faḍlika.",
+  "ex_tr": "Lütfen yavaş konuş."
+ },
+ {
+  "w": "بَعْدُ",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "henüz"
+  ],
+  "rom": "baʿdu",
+  "ex": "لَمْ يَصِلْ بَعْدُ.",
+  "ex_rom": "Lam yaṣil baʿdu.",
+  "ex_tr": "Henüz gelmedi.",
+  "note": "Olumsuz cümlede \"henüz\" anlamı verir."
+ },
+ {
+  "w": "يَوْمِيًّا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "her gün",
+   "günlük olarak"
+  ],
+  "rom": "yawmiyyan",
+  "ex": "أَمْشِي سَاعَةً يَوْمِيًّا.",
+  "ex_rom": "Amshī sāʿatan yawmiyyan.",
+  "ex_tr": "Her gün bir saat yürürüm."
+ },
+ {
+  "w": "صَبَاحًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "sabahleyin",
+   "sabah"
+  ],
+  "rom": "ṣabāḥan",
+  "ex": "أَسْتَيْقِظُ فِي السَّادِسَةِ صَبَاحًا.",
+  "ex_rom": "Astayqiẓu fī s-sādisati ṣabāḥan.",
+  "ex_tr": "Sabah altıda uyanırım."
+ },
+ {
+  "w": "مَسَاءً",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "akşamleyin",
+   "akşam"
+  ],
+  "rom": "masāʾan",
+  "ex": "يَبْدَأُ الْحَفْلُ فِي الثَّامِنَةِ مَسَاءً.",
+  "ex_rom": "Yabdaʾu l-ḥaflu fī th-thāminati masāʾan.",
+  "ex_tr": "Konser akşam sekizde başlıyor."
+ },
+ {
+  "w": "لَيْلًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "geceleyin"
+  ],
+  "rom": "laylan",
+  "ex": "يَعْمَلُ لَيْلًا.",
+  "ex_rom": "Yaʿmalu laylan.",
+  "ex_tr": "Geceleri çalışır."
+ },
+ {
+  "w": "مُبَكِّرًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "erken"
+  ],
+  "rom": "mubakkiran",
+  "ex": "نِمْتُ مُبَكِّرًا أَمْسِ.",
+  "ex_rom": "Nimtu mubakkiran amsi.",
+  "ex_tr": "Dün erken yattım."
+ },
+ {
+  "w": "مُتَأَخِّرًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "geç"
+  ],
+  "rom": "mutaʾakhkhiran",
+  "ex": "وَصَلَ مُتَأَخِّرًا إِلَى الدَّرْسِ.",
+  "ex_rom": "Waṣala mutaʾakhkhiran ilā d-darsi.",
+  "ex_tr": "Derse geç geldi."
+ },
+ {
+  "w": "جَيِّدًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "iyi",
+   "iyice"
+  ],
+  "rom": "jayyidan",
+  "ex": "يَتَكَلَّمُ الْعَرَبِيَّةَ جَيِّدًا.",
+  "ex_rom": "Yatakallamu l-ʿarabiyyata jayyidan.",
+  "ex_tr": "Arapçayı iyi konuşuyor."
+ },
+ {
+  "w": "بِالضَّبْطِ",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "tam olarak",
+   "aynen"
+  ],
+  "rom": "biḍ-ḍabṭi",
+  "ex": "هَذَا بِالضَّبْطِ مَا أُرِيدُ.",
+  "ex_rom": "Hādhā biḍ-ḍabṭi mā urīdu.",
+  "ex_tr": "Tam olarak istediğim bu."
+ },
+ {
+  "w": "خَاصَّةً",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "özellikle"
+  ],
+  "rom": "khāṣṣatan",
+  "ex": "أُحِبُّ الْفَوَاكِهَ، خَاصَّةً التُّفَّاحَ.",
+  "ex_rom": "Uḥibbu l-fawākiha, khāṣṣatan at-tuffāḥa.",
+  "ex_tr": "Meyveleri, özellikle elmayı severim."
+ },
+ {
+  "w": "مَثَلًا",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "örneğin"
+  ],
+  "rom": "mathalan",
+  "ex": "يُمْكِنُكَ أَنْ تَزُورَ مَتْحَفًا، مَثَلًا.",
+  "ex_rom": "Yumkinuka an tazūra matḥafan, mathalan.",
+  "ex_tr": "Örneğin bir müze ziyaret edebilirsin."
+ },
+ {
+  "w": "لِلْأَسَفِ",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "maalesef",
+   "ne yazık ki"
+  ],
+  "rom": "lil-asafi",
+  "ex": "لِلْأَسَفِ، لَا أَسْتَطِيعُ الْحُضُورَ.",
+  "ex_rom": "Lil-asafi, lā astaṭīʿu l-ḥuḍūra.",
+  "ex_tr": "Maalesef katılamıyorum."
+ },
+ {
+  "w": "بِالتَّأْكِيدِ",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "kesinlikle",
+   "elbette"
+  ],
+  "rom": "bit-taʾkīdi",
+  "ex": "سَأَحْضُرُ بِالتَّأْكِيدِ.",
+  "ex_rom": "Sa-aḥḍuru bit-taʾkīdi.",
+  "ex_tr": "Kesinlikle geleceğim."
+ },
+ {
+  "w": "لِذَلِكَ",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "bu yüzden",
+   "bu nedenle"
+  ],
+  "rom": "li-dhālika",
+  "ex": "كُنْتُ مَرِيضًا، لِذَلِكَ لَمْ آتِ.",
+  "ex_rom": "Kuntu marīḍan, li-dhālika lam āti.",
+  "ex_tr": "Hastaydım, bu yüzden gelmedim."
+ },
+ {
+  "w": "إِذَنْ",
+  "pos": "adverb",
+  "l": "A2",
+  "tr": [
+   "o halde",
+   "öyleyse"
+  ],
+  "rom": "idhan",
+  "ex": "إِذَنْ، نَلْتَقِي غَدًا.",
+  "ex_rom": "Idhan, naltaqī ghadan.",
+  "ex_tr": "O halde yarın görüşürüz."
+ },
+ {
+  "w": "أَمَامَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "önünde",
+   "karşısında"
+  ],
+  "rom": "amāma",
+  "ex": "انْتَظِرْنِي أَمَامَ الْبَابِ.",
+  "ex_rom": "Intaẓirnī amāma l-bābi.",
+  "ex_tr": "Beni kapının önünde bekle."
+ },
+ {
+  "w": "خَلْفَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "arkasında"
+  ],
+  "rom": "khalfa",
+  "ex": "الْحَدِيقَةُ خَلْفَ الْبَيْتِ.",
+  "ex_rom": "Al-ḥadīqatu khalfa l-bayti.",
+  "ex_tr": "Bahçe evin arkasında."
+ },
+ {
+  "w": "وَرَاءَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "arkasında",
+   "ardında"
+  ],
+  "rom": "warāʾa",
+  "ex": "اخْتَبَأَ الْقِطُّ وَرَاءَ الْبَابِ.",
+  "ex_rom": "Ikhtabaʾa l-qiṭṭu warāʾa l-bābi.",
+  "ex_tr": "Kedi kapının arkasına saklandı."
+ },
+ {
+  "w": "بَيْنَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "arasında"
+  ],
+  "rom": "bayna",
+  "ex": "الْبَنْكُ بَيْنَ الْمَطْعَمِ وَالصَّيْدَلِيَّةِ.",
+  "ex_rom": "Al-banku bayna l-maṭʿami waṣ-ṣaydaliyyati.",
+  "ex_tr": "Banka restoran ile eczanenin arasında."
+ },
+ {
+  "w": "حَوْلَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "etrafında",
+   "hakkında"
+  ],
+  "rom": "ḥawla",
+  "ex": "جَلَسْنَا حَوْلَ الطَّاوِلَةِ.",
+  "ex_rom": "Jalasnā ḥawla ṭ-ṭāwilati.",
+  "ex_tr": "Masanın etrafında oturduk."
+ },
+ {
+  "w": "دَاخِلَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "içinde"
+  ],
+  "rom": "dākhila",
+  "ex": "الْمِفْتَاحُ دَاخِلَ الْحَقِيبَةِ.",
+  "ex_rom": "Al-miftāḥu dākhila l-ḥaqībati.",
+  "ex_tr": "Anahtar çantanın içinde."
+ },
+ {
+  "w": "خَارِجَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "dışında"
+  ],
+  "rom": "khārija",
+  "ex": "يَسْكُنُ خَارِجَ الْمَدِينَةِ.",
+  "ex_rom": "Yaskunu khārija l-madīnati.",
+  "ex_tr": "Şehrin dışında oturuyor."
+ },
+ {
+  "w": "فَوْقَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "üstünde",
+   "yukarısında"
+  ],
+  "rom": "fawqa",
+  "ex": "الصُّورَةُ فَوْقَ السَّرِيرِ.",
+  "ex_rom": "Aṣ-ṣūratu fawqa s-sarīri.",
+  "ex_tr": "Resim yatağın üstünde."
+ },
+ {
+  "w": "تَحْتَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "altında"
+  ],
+  "rom": "taḥta",
+  "ex": "الْقِطُّ تَحْتَ الطَّاوِلَةِ.",
+  "ex_rom": "Al-qiṭṭu taḥta ṭ-ṭāwilati.",
+  "ex_tr": "Kedi masanın altında."
+ },
+ {
+  "w": "بِجَانِبِ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "yanında"
+  ],
+  "rom": "bi-jānibi",
+  "ex": "اِجْلِسْ بِجَانِبِي.",
+  "ex_rom": "Ijlis bi-jānibī.",
+  "ex_tr": "Yanıma otur."
+ },
+ {
+  "w": "قُرْبَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "yakınında"
+  ],
+  "rom": "qurba",
+  "ex": "يَسْكُنُ قُرْبَ الْجَامِعَةِ.",
+  "ex_rom": "Yaskunu qurba l-jāmiʿati.",
+  "ex_tr": "Üniversitenin yakınında oturuyor."
+ },
+ {
+  "w": "ضِدَّ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "karşı",
+   "-e karşı"
+  ],
+  "rom": "ḍidda",
+  "ex": "لَعِبْنَا ضِدَّ فَرِيقٍ قَوِيٍّ.",
+  "ex_rom": "Laʿibnā ḍidda farīqin qawiyyin.",
+  "ex_tr": "Güçlü bir takıma karşı oynadık."
+ },
+ {
+  "w": "خِلَالَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "boyunca",
+   "sırasında"
+  ],
+  "rom": "khilāla",
+  "ex": "سَأُنْهِي الْعَمَلَ خِلَالَ أُسْبُوعٍ.",
+  "ex_rom": "Sa-unhī l-ʿamala khilāla usbūʿin.",
+  "ex_tr": "İşi bir hafta içinde bitireceğim."
+ },
+ {
+  "w": "أَثْنَاءَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "sırasında",
+   "esnasında"
+  ],
+  "rom": "athnāʾa",
+  "ex": "نَامَ أَثْنَاءَ الْفِيلْمِ.",
+  "ex_rom": "Nāma athnāʾa l-fīlmi.",
+  "ex_tr": "Film sırasında uyudu."
+ },
+ {
+  "w": "مُنْذُ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "-den beri",
+   "önce"
+  ],
+  "rom": "mundhu",
+  "ex": "أَسْكُنُ هُنَا مُنْذُ سَنَتَيْنِ.",
+  "ex_rom": "Askunu hunā mundhu sanatayni.",
+  "ex_tr": "İki yıldır burada oturuyorum."
+ },
+ {
+  "w": "حَتَّى",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "-e kadar"
+  ],
+  "rom": "ḥattā",
+  "ex": "أَعْمَلُ حَتَّى الْخَامِسَةِ.",
+  "ex_rom": "Aʿmalu ḥattā l-khāmisati.",
+  "ex_tr": "Beşe kadar çalışırım."
+ },
+ {
+  "w": "نَحْوَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "-e doğru"
+  ],
+  "rom": "naḥwa",
+  "ex": "مَشَى نَحْوَ الْبَابِ.",
+  "ex_rom": "Mashā naḥwa l-bābi.",
+  "ex_tr": "Kapıya doğru yürüdü."
+ },
+ {
+  "w": "عَبْرَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "üzerinden",
+   "boyunca"
+  ],
+  "rom": "ʿabra",
+  "ex": "تَكَلَّمْنَا عَبْرَ الْإِنْتَرْنِتِ.",
+  "ex_rom": "Takallamnā ʿabra l-intarniti.",
+  "ex_tr": "İnternet üzerinden konuştuk."
+ },
+ {
+  "w": "بِدُونِ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "-sız",
+   "olmadan"
+  ],
+  "rom": "bi-dūni",
+  "ex": "أَشْرَبُ الْقَهْوَةَ بِدُونِ سُكَّرٍ.",
+  "ex_rom": "Ashrabu l-qahwata bi-dūni sukkarin.",
+  "ex_tr": "Kahveyi şekersiz içerim."
+ },
+ {
+  "w": "حَسَبَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "-e göre"
+  ],
+  "rom": "ḥasaba",
+  "ex": "حَسَبَ الْخَرِيطَةِ، الْمَتْحَفُ قَرِيبٌ.",
+  "ex_rom": "Ḥasaba l-kharīṭati, al-matḥafu qarībun.",
+  "ex_tr": "Haritaya göre müze yakın."
+ },
+ {
+  "w": "لَدَى",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "-de",
+   "yanında (resmi)"
+  ],
+  "rom": "ladā",
+  "ex": "لَدَيَّ سُؤَالٌ.",
+  "ex_rom": "Ladayya suʾālun.",
+  "ex_tr": "Bir sorum var.",
+  "note": "عِنْدَ gibi sahiplik bildirir, daha resmidir."
+ },
+ {
+  "w": "مِثْلَ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "gibi"
+  ],
+  "rom": "mithla",
+  "ex": "هُوَ طَوِيلٌ مِثْلَ أَبِيهِ.",
+  "ex_rom": "Huwa ṭawīlun mithla abīhi.",
+  "ex_tr": "Babası gibi uzun."
+ },
+ {
+  "w": "حَوَالَيْ",
+  "pos": "preposition",
+  "l": "A2",
+  "tr": [
+   "yaklaşık",
+   "civarında"
+  ],
+  "rom": "ḥawālay",
+  "ex": "حَضَرَ حَوَالَيْ مِئَةِ شَخْصٍ.",
+  "ex_rom": "Ḥaḍara ḥawālay miʾati shakhṣin.",
+  "ex_tr": "Yaklaşık yüz kişi katıldı."
+ },
+ {
+  "w": "إِلَّا",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "hariç",
+   "-den başka"
+  ],
+  "rom": "illā",
+  "ex": "حَضَرَ الْجَمِيعُ إِلَّا أَحْمَدَ.",
+  "ex_rom": "Ḥaḍara l-jamīʿu illā aḥmada.",
+  "ex_tr": "Ahmet hariç herkes geldi."
+ },
+ {
+  "w": "لِأَنَّ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "çünkü"
+  ],
+  "rom": "li-anna",
+  "ex": "لَمْ أَخْرُجْ لِأَنَّ الْجَوَّ بَارِدٌ.",
+  "ex_rom": "Lam akhruj li-anna l-jawwa bāridun.",
+  "ex_tr": "Dışarı çıkmadım çünkü hava soğuk.",
+  "note": "Ardından gelen isim mansub olur."
+ },
+ {
+  "w": "لَكِنَّ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "ama",
+   "fakat"
+  ],
+  "rom": "lākinna",
+  "ex": "الْبَيْتُ صَغِيرٌ لَكِنَّهُ جَمِيلٌ.",
+  "ex_rom": "Al-baytu ṣaghīrun lākinnahu jamīlun.",
+  "ex_tr": "Ev küçük ama güzel.",
+  "note": "Ardından gelen isim mansub olur; لَكِنْ ise fiille de kullanılır."
+ },
+ {
+  "w": "بَلْ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "aksine",
+   "bilakis"
+  ],
+  "rom": "bal",
+  "ex": "لَيْسَ طَبِيبًا بَلْ مُهَنْدِسٌ.",
+  "ex_rom": "Laysa ṭabīban bal muhandisun.",
+  "ex_tr": "Doktor değil, mühendis."
+ },
+ {
+  "w": "أَمْ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "yoksa",
+   "veya (soruda)"
+  ],
+  "rom": "am",
+  "ex": "أَتُرِيدُ شَايًا أَمْ قَهْوَةً؟",
+  "ex_rom": "A-turīdu shāyan am qahwatan?",
+  "ex_tr": "Çay mı istersin yoksa kahve mi?",
+  "note": "Sadece soru cümlelerinde \"veya\" anlamında."
+ },
+ {
+  "w": "إِذَا",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "eğer",
+   "-se"
+  ],
+  "rom": "idhā",
+  "ex": "إِذَا أَمْطَرَتْ، سَنَبْقَى فِي الْبَيْتِ.",
+  "ex_rom": "Idhā amṭarat, sa-nabqā fī l-bayti.",
+  "ex_tr": "Yağmur yağarsa evde kalacağız."
+ },
+ {
+  "w": "لَوْ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "eğer (farazi)",
+   "keşke"
+  ],
+  "rom": "law",
+  "ex": "لَوْ كَانَ عِنْدِي وَقْتٌ لَسَافَرْتُ.",
+  "ex_rom": "Law kāna ʿindī waqtun la-sāfartu.",
+  "ex_tr": "Vaktim olsaydı seyahat ederdim.",
+  "note": "Gerçekleşmemiş şart için kullanılır."
+ },
+ {
+  "w": "عِنْدَمَا",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "-dığında",
+   "-ınca"
+  ],
+  "rom": "ʿindamā",
+  "ex": "عِنْدَمَا وَصَلْتُ، كَانَ نَائِمًا.",
+  "ex_rom": "ʿIndamā waṣaltu, kāna nāʾiman.",
+  "ex_tr": "Vardığımda uyuyordu."
+ },
+ {
+  "w": "بَيْنَمَا",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "-iken",
+   "oysa"
+  ],
+  "rom": "baynamā",
+  "ex": "قَرَأْتُ بَيْنَمَا كَانَ يَطْبُخُ.",
+  "ex_rom": "Qaraʾtu baynamā kāna yaṭbukhu.",
+  "ex_tr": "O yemek yaparken ben okudum."
+ },
+ {
+  "w": "قَبْلَ أَنْ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "-meden önce"
+  ],
+  "rom": "qabla an",
+  "ex": "اِغْسِلْ يَدَيْكَ قَبْلَ أَنْ تَأْكُلَ.",
+  "ex_rom": "Ighsil yadayka qabla an taʾkula.",
+  "ex_tr": "Yemeden önce ellerini yıka."
+ },
+ {
+  "w": "بَعْدَ أَنْ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "-dikten sonra"
+  ],
+  "rom": "baʿda an",
+  "ex": "خَرَجْنَا بَعْدَ أَنْ تَوَقَّفَ الْمَطَرُ.",
+  "ex_rom": "Kharajnā baʿda an tawaqqafa l-maṭaru.",
+  "ex_tr": "Yağmur durduktan sonra çıktık."
+ },
+ {
+  "w": "لِكَيْ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "-mek için",
+   "-sin diye"
+  ],
+  "rom": "li-kay",
+  "ex": "أَدْرُسُ لِكَيْ أَنْجَحَ.",
+  "ex_rom": "Adrusu li-kay anjaḥa.",
+  "ex_tr": "Başarmak için çalışıyorum.",
+  "note": "Ardından muzari fiil mansub olur."
+ },
+ {
+  "w": "ثُمَّ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "sonra",
+   "ardından"
+  ],
+  "rom": "thumma",
+  "ex": "تَغَدَّيْنَا ثُمَّ نِمْنَا.",
+  "ex_rom": "Taghaddaynā thumma nimnā.",
+  "ex_tr": "Öğle yemeği yedik, sonra uyuduk."
+ },
+ {
+  "w": "إِمَّا … أَوْ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "ya … ya"
+  ],
+  "rom": "immā … aw",
+  "ex": "إِمَّا الْيَوْمَ أَوْ غَدًا.",
+  "ex_rom": "Immā l-yawma aw ghadan.",
+  "ex_tr": "Ya bugün ya yarın."
+ },
+ {
+  "w": "لَا … وَلَا",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "ne … ne"
+  ],
+  "rom": "lā … wa-lā",
+  "ex": "لَا أَشْرَبُ الشَّايَ وَلَا الْقَهْوَةَ.",
+  "ex_rom": "Lā ashrabu sh-shāya wa-lā l-qahwata.",
+  "ex_tr": "Ne çay ne kahve içerim."
+ },
+ {
+  "w": "أَنَّ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "-dığı",
+   "ki"
+  ],
+  "rom": "anna",
+  "ex": "أَعْرِفُ أَنَّكَ مَشْغُولٌ.",
+  "ex_rom": "Aʿrifu annaka mashghūlun.",
+  "ex_tr": "Meşgul olduğunu biliyorum.",
+  "note": "Ardından gelen isim mansub olur."
+ },
+ {
+  "w": "أَنْ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "-mek",
+   "-mesi"
+  ],
+  "rom": "an",
+  "ex": "أُرِيدُ أَنْ أَنَامَ.",
+  "ex_rom": "Urīdu an anāma.",
+  "ex_tr": "Uyumak istiyorum.",
+  "note": "Ardından muzari fiil mansub olur."
+ },
+ {
+  "w": "كَمَا",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "-dığı gibi",
+   "ayrıca"
+  ],
+  "rom": "kamā",
+  "ex": "كَمَا قُلْتُ لَكَ، الْمَحَلُّ مُغْلَقٌ.",
+  "ex_rom": "Kamā qultu laka, al-maḥallu mughlaqun.",
+  "ex_tr": "Sana dediğim gibi dükkân kapalı."
+ },
+ {
+  "w": "مَعَ أَنَّ",
+  "pos": "conjunction",
+  "l": "A2",
+  "tr": [
+   "-e rağmen",
+   "-diği halde"
+  ],
+  "rom": "maʿa anna",
+  "ex": "خَرَجَ مَعَ أَنَّهُ مَرِيضٌ.",
+  "ex_rom": "Kharaja maʿa annahu marīḍun.",
+  "ex_tr": "Hasta olduğu halde dışarı çıktı."
+ },
+ {
+  "w": "سَوْفَ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "-ecek (gelecek)"
+  ],
+  "rom": "sawfa",
+  "ex": "سَوْفَ أُسَافِرُ فِي الصَّيْفِ.",
+  "ex_rom": "Sawfa usāfiru fī ṣ-ṣayfi.",
+  "ex_tr": "Yazın seyahat edeceğim.",
+  "note": "Muzari fiilden önce gelir; kısa hâli سَـ."
+ },
+ {
+  "w": "سَـ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "-ecek (yakın gelecek)"
+  ],
+  "rom": "sa-",
+  "ex": "سَأَتَّصِلُ بِكَ غَدًا.",
+  "ex_rom": "Sa-attaṣilu bika ghadan.",
+  "ex_tr": "Yarın seni arayacağım.",
+  "note": "Muzari fiilin başına bitişik yazılır."
+ },
+ {
+  "w": "قَدْ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "-mış (zaten)",
+   "belki"
+  ],
+  "rom": "qad",
+  "ex": "قَدْ وَصَلَ الضُّيُوفُ.",
+  "ex_rom": "Qad waṣala ḍ-ḍuyūfu.",
+  "ex_tr": "Misafirler gelmiş bulunuyor.",
+  "note": "Mazi ile \"kesinlik/zaten\", muzari ile \"belki\" anlamı verir."
+ },
+ {
+  "w": "لَنْ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "-meyecek"
+  ],
+  "rom": "lan",
+  "ex": "لَنْ أَنْسَاكَ.",
+  "ex_rom": "Lan ansāka.",
+  "ex_tr": "Seni unutmayacağım.",
+  "note": "Geleceği olumsuz yapar; muzari fiil mansub olur."
+ },
+ {
+  "w": "لَمْ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "-medi"
+  ],
+  "rom": "lam",
+  "ex": "لَمْ أَفْهَمِ السُّؤَالَ.",
+  "ex_rom": "Lam afhami s-suʾāla.",
+  "ex_tr": "Soruyu anlamadım.",
+  "note": "Geçmişi olumsuz yapar; ardından muzari fiil meczum olur."
+ },
+ {
+  "w": "مَا",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "-medi (olumsuzluk)"
+  ],
+  "rom": "mā",
+  "ex": "مَا رَأَيْتُهُ الْيَوْمَ.",
+  "ex_rom": "Mā raʾaytuhu l-yawma.",
+  "ex_tr": "Onu bugün görmedim.",
+  "note": "Mazi fiili olumsuz yapar."
+ },
+ {
+  "w": "أَ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "mı (soru eki)"
+  ],
+  "rom": "a-",
+  "ex": "أَأَنْتَ طَالِبٌ؟",
+  "ex_rom": "A-anta ṭālibun?",
+  "ex_tr": "Sen öğrenci misin?",
+  "note": "هَلْ gibi evet/hayır sorusu yapar, kelimeye bitişir."
+ },
+ {
+  "w": "بَلَى",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "evet (olumsuz soruya)"
+  ],
+  "rom": "balā",
+  "ex": "أَلَمْ تَأْكُلْ؟ بَلَى، أَكَلْتُ.",
+  "ex_rom": "A-lam taʾkul? Balā, akaltu.",
+  "ex_tr": "Yemedin mi? Yedim, evet.",
+  "note": "Olumsuz soruya olumlu cevap verir."
+ },
+ {
+  "w": "إِنَّ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "şüphesiz",
+   "gerçekten"
+  ],
+  "rom": "inna",
+  "ex": "إِنَّ الصِّحَّةَ مُهِمَّةٌ.",
+  "ex_rom": "Inna ṣ-ṣiḥḥata muhimmatun.",
+  "ex_tr": "Sağlık gerçekten önemlidir.",
+  "note": "Ardından gelen isim mansub olur."
+ },
+ {
+  "w": "لَيْتَ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "keşke"
+  ],
+  "rom": "layta",
+  "ex": "لَيْتَنِي أَعْرِفُ الْجَوَابَ.",
+  "ex_rom": "Laytanī aʿrifu l-jawāba.",
+  "ex_tr": "Keşke cevabı bilsem."
+ },
+ {
+  "w": "لَعَلَّ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "umarım",
+   "belki"
+  ],
+  "rom": "laʿalla",
+  "ex": "لَعَلَّكَ بِخَيْرٍ.",
+  "ex_rom": "Laʿallaka bi-khayrin.",
+  "ex_tr": "Umarım iyisindir."
+ },
+ {
+  "w": "كَأَنَّ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "sanki"
+  ],
+  "rom": "kaʾanna",
+  "ex": "كَأَنَّهُ لَمْ يَسْمَعْ.",
+  "ex_rom": "Kaʾannahu lam yasmaʿ.",
+  "ex_tr": "Sanki duymamış gibi."
+ },
+ {
+  "w": "فَـ",
+  "pos": "particle",
+  "l": "A2",
+  "tr": [
+   "böylece",
+   "ve hemen"
+  ],
+  "rom": "fa-",
+  "ex": "دَخَلَ فَجَلَسَ.",
+  "ex_rom": "Dakhala fa-jalasa.",
+  "ex_tr": "Girdi ve hemen oturdu.",
+  "note": "Kelimeye bitişik yazılır; ardışıklık veya sonuç bildirir."
+ },
+ {
+  "w": "هَؤُلَاءِ",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "bunlar"
+  ],
+  "rom": "hāʾulāʾi",
+  "ex": "هَؤُلَاءِ أَصْدِقَائِي.",
+  "ex_rom": "Hāʾulāʾi aṣdiqāʾī.",
+  "ex_tr": "Bunlar arkadaşlarım.",
+  "note": "Akıllı varlıklar için çoğul."
+ },
+ {
+  "w": "أُولَئِكَ",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "şunlar",
+   "onlar"
+  ],
+  "rom": "ulāʾika",
+  "ex": "أُولَئِكَ الطُّلَّابُ مِنْ مِصْرَ.",
+  "ex_rom": "Ulāʾika ṭ-ṭullābu min miṣra.",
+  "ex_tr": "O öğrenciler Mısır'dan."
+ },
+ {
+  "w": "تِلْكَ",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "şu",
+   "o (dişil)"
+  ],
+  "rom": "tilka",
+  "ex": "تِلْكَ سَيَّارَتِي.",
+  "ex_rom": "Tilka sayyāratī.",
+  "ex_tr": "Şu benim arabam.",
+  "note": "Eril karşılığı: ذَلِكَ."
+ },
+ {
+  "w": "هُمَا",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "onlar (ikisi)"
+  ],
+  "rom": "humā",
+  "ex": "هُمَا أَخَوَانِ.",
+  "ex_rom": "Humā akhawāni.",
+  "ex_tr": "Onlar iki kardeş.",
+  "note": "İkil (müsenna) zamiri."
+ },
+ {
+  "w": "أَنْتُمَا",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "siz (ikiniz)"
+  ],
+  "rom": "antumā",
+  "ex": "أَنْتُمَا صَدِيقَانِ.",
+  "ex_rom": "Antumā ṣadīqāni.",
+  "ex_tr": "Siz ikiniz arkadaşsınız.",
+  "note": "İkil (müsenna) zamiri."
+ },
+ {
+  "w": "أَنْتُنَّ",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "siz (kadınlar)"
+  ],
+  "rom": "antunna",
+  "ex": "أَنْتُنَّ طَالِبَاتٌ مُجْتَهِدَاتٌ.",
+  "ex_rom": "Antunna ṭālibātun mujtahidātun.",
+  "ex_tr": "Siz çalışkan öğrencilersiniz.",
+  "note": "Dişil çoğul zamir."
+ },
+ {
+  "w": "هُنَّ",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "onlar (kadınlar)"
+  ],
+  "rom": "hunna",
+  "ex": "هُنَّ مُمَرِّضَاتٌ.",
+  "ex_rom": "Hunna mumarriḍātun.",
+  "ex_tr": "Onlar hemşire.",
+  "note": "Dişil çoğul zamir."
+ },
+ {
+  "w": "الَّذِي",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "ki o",
+   "-an (eril)"
+  ],
+  "rom": "alladhī",
+  "ex": "الرَّجُلُ الَّذِي يَعْمَلُ هُنَا لَطِيفٌ.",
+  "ex_rom": "Ar-rajulu lladhī yaʿmalu hunā laṭīfun.",
+  "ex_tr": "Burada çalışan adam nazik.",
+  "note": "İlgi zamiri; dişili الَّتِي."
+ },
+ {
+  "w": "الَّتِي",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "ki o",
+   "-an (dişil)"
+  ],
+  "rom": "allatī",
+  "ex": "الْبِنْتُ الَّتِي تُغَنِّي أُخْتِي.",
+  "ex_rom": "Al-bintu llatī tughannī ukhtī.",
+  "ex_tr": "Şarkı söyleyen kız benim kız kardeşim.",
+  "note": "İlgi zamiri."
+ },
+ {
+  "w": "الَّذِينَ",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "ki onlar",
+   "-anlar"
+  ],
+  "rom": "alladhīna",
+  "ex": "الطُّلَّابُ الَّذِينَ نَجَحُوا سُعَدَاءُ.",
+  "ex_rom": "Aṭ-ṭullābu lladhīna najaḥū suʿadāʾu.",
+  "ex_tr": "Geçen öğrenciler mutlu.",
+  "note": "Eril çoğul ilgi zamiri."
+ },
+ {
+  "w": "مَنْ",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "-an kişi",
+   "kim ki"
+  ],
+  "rom": "man",
+  "ex": "مَنْ يَدْرُسْ يَنْجَحْ.",
+  "ex_rom": "Man yadrus yanjaḥ.",
+  "ex_tr": "Çalışan kazanır.",
+  "note": "Soru dışında \"-an kişi\" anlamında da kullanılır."
+ },
+ {
+  "w": "بَعْض",
+  "pos": "determiner",
+  "l": "A2",
+  "tr": [
+   "bazı",
+   "biraz"
+  ],
+  "rom": "baʿḍ",
+  "ex": "بَعْضُ الطُّلَّابِ غَائِبُونَ.",
+  "ex_rom": "Baʿḍu ṭ-ṭullābi ghāʾibūna.",
+  "ex_tr": "Bazı öğrenciler yok."
+ },
+ {
+  "w": "أَيّ",
+  "pos": "determiner",
+  "l": "A2",
+  "tr": [
+   "herhangi",
+   "hangi"
+  ],
+  "rom": "ayy",
+  "ex": "اِخْتَرْ أَيَّ كِتَابٍ.",
+  "ex_rom": "Ikhtar ayya kitābin.",
+  "ex_tr": "Herhangi bir kitap seç."
+ },
+ {
+  "w": "نَفْس",
+  "pos": "determiner",
+  "l": "A2",
+  "tr": [
+   "aynı",
+   "kendi"
+  ],
+  "rom": "nafs",
+  "ex": "نَسْكُنُ فِي نَفْسِ الشَّارِعِ.",
+  "ex_rom": "Naskunu fī nafsi sh-shāriʿi.",
+  "ex_tr": "Aynı sokakta oturuyoruz."
+ },
+ {
+  "w": "جَمِيع",
+  "pos": "determiner",
+  "l": "A2",
+  "tr": [
+   "bütün",
+   "tüm"
+  ],
+  "rom": "jamīʿ",
+  "ex": "جَمِيعُ الْمَحَلَّاتِ مُغْلَقَةٌ.",
+  "ex_rom": "Jamīʿu l-maḥallāti mughlaqatun.",
+  "ex_tr": "Bütün dükkânlar kapalı."
+ },
+ {
+  "w": "عِدَّة",
+  "pos": "determiner",
+  "l": "A2",
+  "tr": [
+   "birkaç",
+   "çeşitli"
+  ],
+  "rom": "ʿidda",
+  "ex": "زُرْتُ عِدَّةَ مُدُنٍ.",
+  "ex_rom": "Zurtu ʿiddata mudunin.",
+  "ex_tr": "Birkaç şehir ziyaret ettim."
+ },
+ {
+  "w": "مُعْظَم",
+  "pos": "determiner",
+  "l": "A2",
+  "tr": [
+   "çoğu"
+  ],
+  "rom": "muʿẓam",
+  "ex": "مُعْظَمُ النَّاسِ يُحِبُّونَ الصَّيْفَ.",
+  "ex_rom": "Muʿẓamu n-nāsi yuḥibbūna ṣ-ṣayfa.",
+  "ex_tr": "İnsanların çoğu yazı sever."
+ },
+ {
+  "w": "كِلَا",
+  "pos": "determiner",
+  "l": "A2",
+  "tr": [
+   "her ikisi"
+  ],
+  "rom": "kilā",
+  "ex": "كِلَا الْوَلَدَيْنِ ذَكِيٌّ.",
+  "ex_rom": "Kilā l-waladayni dhakiyyun.",
+  "ex_tr": "Her iki çocuk da zeki.",
+  "note": "Dişili: كِلْتَا (kiltā)."
+ },
+ {
+  "w": "غَيْر",
+  "pos": "determiner",
+  "l": "A2",
+  "tr": [
+   "başka",
+   "-sız (olumsuzluk)"
+  ],
+  "rom": "ghayr",
+  "ex": "هَذَا غَيْرُ مُمْكِنٍ.",
+  "ex_rom": "Hādhā ghayru mumkinin.",
+  "ex_tr": "Bu mümkün değil.",
+  "note": "Sıfatın önünde \"olmayan\" anlamı verir."
+ },
+ {
+  "w": "أَحَد",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "biri",
+   "hiç kimse (olumsuzda)"
+  ],
+  "rom": "aḥad",
+  "ex": "لَا أَعْرِفُ أَحَدًا هُنَا.",
+  "ex_rom": "Lā aʿrifu aḥadan hunā.",
+  "ex_tr": "Burada kimseyi tanımıyorum.",
+  "note": "Olumsuz cümlede \"hiç kimse\" anlamı verir."
+ },
+ {
+  "w": "لَا شَيْءَ",
+  "pos": "pronoun",
+  "l": "A2",
+  "tr": [
+   "hiçbir şey"
+  ],
+  "rom": "lā shayʾa",
+  "ex": "لَا شَيْءَ فِي الثَّلَّاجَةِ.",
+  "ex_rom": "Lā shayʾa fī th-thallājati.",
+  "ex_tr": "Buzdolabında hiçbir şey yok."
+ },
+ {
+  "w": "أَوَّل",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "birinci",
+   "ilk"
+  ],
+  "rom": "awwal",
+  "ex": "هَذِهِ أَوَّلُ زِيَارَةٍ لِي.",
+  "ex_rom": "Hādhihi awwalu ziyāratin lī.",
+  "ex_tr": "Bu benim ilk ziyaretim.",
+  "note": "Dişili: أُولَى (ūlā)."
+ },
+ {
+  "w": "ثَانٍ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "ikinci"
+  ],
+  "rom": "thānin",
+  "ex": "أَسْكُنُ فِي الطَّابِقِ الثَّانِي.",
+  "ex_rom": "Askunu fī ṭ-ṭābiqi th-thānī.",
+  "ex_tr": "İkinci katta oturuyorum.",
+  "note": "Belirli hâli: الثَّانِي; dişili: ثَانِيَة."
+ }
+]

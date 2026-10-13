@@ -7,6 +7,7 @@ import { FilterBar } from '../components/FilterBar'
 import { ItemList } from '../components/ItemList'
 import { PageHead } from '../components/ProgressBar'
 import { GrammarCards } from '../components/GrammarCards'
+import { AlphabetCards } from '../components/AlphabetCards'
 import { DetailModal } from '../components/DetailModal'
 import { TONE, DEFAULT_TONE } from '../core/palette'
 import type { LangContext } from './LanguageShell'
@@ -95,6 +96,8 @@ export function CategoryPage({ ctx, categoryId }: { ctx: LangContext; categoryId
 
       {category.kind === 'grammar' ? (
         <GrammarCards items={visible} learned={progress.learned} onInfo={setOpen} emptyText={emptyText} />
+      ) : category.kind === 'alphabet' ? (
+        <AlphabetCards items={visible} learned={progress.learned} onInfo={setOpen} emptyText={emptyText} />
       ) : (
         <ItemList items={visible} learned={progress.learned} onInfo={setOpen} emptyText={emptyText} />
       )}

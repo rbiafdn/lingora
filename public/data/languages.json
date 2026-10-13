@@ -1,7 +1,13 @@
 [
-  { "id": "en", "name": "English", "nativeName": "English", "active": true },
-  { "id": "de", "name": "German", "nativeName": "Deutsch", "active": false },
-  { "id": "es", "name": "Spanish", "nativeName": "Español", "active": false },
-  { "id": "fr", "name": "French", "nativeName": "Français", "active": false },
-  { "id": "it", "name": "Italian", "nativeName": "Italiano", "active": false }
+  { "id": "en", "name": "English", "nativeName": "English", "trName": "İngilizce", "active": true },
+  { "id": "es", "name": "Spanish", "nativeName": "Español", "trName": "İspanyolca", "active": false },
+  { "id": "de", "name": "German", "nativeName": "Deutsch", "trName": "Almanca", "active": false },
+  { "id": "fr", "name": "French", "nativeName": "Français", "trName": "Fransızca", "active": false },
+  { "id": "it", "name": "Italian", "nativeName": "Italiano", "trName": "İtalyanca", "active": false },
+  { "id": "pt", "name": "Portuguese", "nativeName": "Português", "trName": "Portekizce", "active": false },
+  { "id": "ru", "name": "Russian", "nativeName": "Русский", "trName": "Rusça", "active": false },
+  { "id": "ar", "name": "Arabic", "nativeName": "العربية", "trName": "Arapça", "active": false },
+  { "id": "ja", "name": "Japanese", "nativeName": "日本語", "trName": "Japonca", "active": false },
+  { "id": "ko", "name": "Korean", "nativeName": "한국어", "trName": "Korece", "active": false },
+  { "id": "hi", "name": "Hindi", "nativeName": "हिन्दी", "trName": "Hintçe", "active": false }
 ]

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "languageId": "ja",
+  "categories": [
+    {
+      "id": "alphabet",
+      "label": "Alfabe ve Okunuş",
+      "shortLabel": "Alfabe",
+      "kind": "alphabet",
+      "glyph": "あ",
+      "files": []
+    },
+    {
+      "id": "words",
+      "label": "Kelimeler",
+      "shortLabel": "Kelimeler",
+      "kind": "lexical",
+      "levels": true,
+      "files": []
+    },
+    {
+      "id": "idioms",
+      "label": "Deyimler",
+      "shortLabel": "Deyimler",
+      "kind": "lexical",
+      "files": []
+    },
+    {
+      "id": "expressions",
+      "label": "Kalıplaşmış İfadeler",
+      "shortLabel": "İfadeler",
+      "kind": "lexical",
+      "files": []
+    },
+    {
+      "id": "collocations",
+      "label": "Kalıplaşmış",
+      "shortLabel": "Kalıplaşmış",
+      "kind": "lexical",
+      "files": []
+    },
+    {
+      "id": "proverbs",
+      "label": "Atasözleri",
+      "shortLabel": "Atasözleri",
+      "kind": "lexical",
+      "files": []
+    },
+    {
+      "id": "abbreviations",
+      "label": "Kısaltmalar",
+      "shortLabel": "Kısaltmalar",
+      "kind": "lexical",
+      "files": []
+    },
+    {
+      "id": "daily",
+      "label": "Günlük Konuşma",
+      "shortLabel": "Günlük",
+      "kind": "lexical",
+      "files": []
+    },
+    {
+      "id": "slang",
+      "label": "Argo",
+      "shortLabel": "Argo",
+      "kind": "lexical",
+      "files": []
+    },
+    {
+      "id": "grammar",
+      "label": "Dilbilgisi",
+      "shortLabel": "Dilbilgisi",
+      "kind": "grammar",
+      "files": []
+    }
+  ]
+}

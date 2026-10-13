@@ -58,9 +58,10 @@ const GrammarCard = memo(function GrammarCard({
       </label>
       {/* The whole card opens the detail popup; the checkbox sits above it. */}
       <button type="button" className="gc-open" onClick={() => onInfo(item)}>
-        <span className="gc-title-text" lang={item.languageId}>
+        <span className="gc-title-text" lang={item.languageId} dir="auto">
           {item.sourceText}
         </span>
+        {item.details?.reading && <span className="gc-reading">{item.details.reading}</span>}
         <span className="gc-sub">{(item.translations[UI_LANG] ?? [])[0]}</span>
       </button>
     </article>

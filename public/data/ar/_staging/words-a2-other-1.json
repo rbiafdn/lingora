@@ -1,0 +1,2002 @@
+[
+ {
+  "w": "اِسْتَيْقَظَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "uyanmak"
+  ],
+  "rom": "istayqaẓa",
+  "ex": "اِسْتَيْقَظْتُ مُبَكِّرًا الْيَوْمَ.",
+  "ex_rom": "Istayqaẓtu mubakkiran al-yawma.",
+  "ex_tr": "Bugün erken uyandım.",
+  "note": "Muzari: يَسْتَيْقِظُ (yastayqiẓu). Kök: ي-ق-ظ."
+ },
+ {
+  "w": "اِغْتَسَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "yıkanmak"
+  ],
+  "rom": "ightasala",
+  "ex": "اِغْتَسَلَ قَبْلَ الصَّلَاةِ.",
+  "ex_rom": "Ightasala qabla ṣ-ṣalāti.",
+  "ex_tr": "Namazdan önce yıkandı.",
+  "note": "Muzari: يَغْتَسِلُ (yaghtasilu). Kök: غ-س-ل."
+ },
+ {
+  "w": "لَبِسَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "giymek"
+  ],
+  "rom": "labisa",
+  "ex": "لَبِسَتْ فُسْتَانًا جَمِيلًا.",
+  "ex_rom": "Labisat fustānan jamīlan.",
+  "ex_tr": "Güzel bir elbise giydi.",
+  "note": "Muzari: يَلْبَسُ (yalbasu). Kök: ل-ب-س."
+ },
+ {
+  "w": "خَلَعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "çıkarmak (giysi)"
+  ],
+  "rom": "khalaʿa",
+  "ex": "اِخْلَعْ حِذَاءَكَ هُنَا.",
+  "ex_rom": "Ikhlaʿ ḥidhāʾaka hunā.",
+  "ex_tr": "Ayakkabını burada çıkar.",
+  "note": "Muzari: يَخْلَعُ (yakhlaʿu). Kök: خ-ل-ع."
+ },
+ {
+  "w": "طَبَخَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "pişirmek",
+   "yemek yapmak"
+  ],
+  "rom": "ṭabakha",
+  "ex": "طَبَخَتْ أُمِّي الْأَرُزَّ.",
+  "ex_rom": "Ṭabakhat ummī al-aruzza.",
+  "ex_tr": "Annem pilav pişirdi.",
+  "note": "Muzari: يَطْبُخُ (yaṭbukhu). Kök: ط-ب-خ."
+ },
+ {
+  "w": "غَسَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "yıkamak"
+  ],
+  "rom": "ghasala",
+  "ex": "غَسَلْتُ الصُّحُونَ بَعْدَ الْعَشَاءِ.",
+  "ex_rom": "Ghasaltu ṣ-ṣuḥūna baʿda l-ʿashāʾi.",
+  "ex_tr": "Akşam yemeğinden sonra bulaşıkları yıkadım.",
+  "note": "Muzari: يَغْسِلُ (yaghsilu). Kök: غ-س-ل."
+ },
+ {
+  "w": "نَظَّفَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "temizlemek"
+  ],
+  "rom": "naẓẓafa",
+  "ex": "نُنَظِّفُ الْبَيْتَ يَوْمَ الْجُمُعَةِ.",
+  "ex_rom": "Nunaẓẓifu l-bayta yawma l-jumuʿati.",
+  "ex_tr": "Evi cuma günü temizleriz.",
+  "note": "Muzari: يُنَظِّفُ (yunaẓẓifu). Kök: ن-ظ-ف."
+ },
+ {
+  "w": "رَتَّبَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "düzenlemek",
+   "toplamak"
+  ],
+  "rom": "rattaba",
+  "ex": "رَتِّبْ غُرْفَتَكَ مِنْ فَضْلِكَ.",
+  "ex_rom": "Rattib ghurfataka min faḍlika.",
+  "ex_tr": "Lütfen odanı topla.",
+  "note": "Muzari: يُرَتِّبُ (yurattibu). Kök: ر-ت-ب."
+ },
+ {
+  "w": "اِسْتَحَمَّ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "duş almak",
+   "banyo yapmak"
+  ],
+  "rom": "istaḥamma",
+  "ex": "أَسْتَحِمُّ كُلَّ صَبَاحٍ.",
+  "ex_rom": "Astaḥimmu kulla ṣabāḥin.",
+  "ex_tr": "Her sabah duş alırım.",
+  "note": "Muzari: يَسْتَحِمُّ (yastaḥimmu). Kök: ح-م-م."
+ },
+ {
+  "w": "اِنْتَظَرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "beklemek"
+  ],
+  "rom": "intaẓara",
+  "ex": "اِنْتَظَرْتُكَ سَاعَةً.",
+  "ex_rom": "Intaẓartuka sāʿatan.",
+  "ex_tr": "Seni bir saat bekledim.",
+  "note": "Muzari: يَنْتَظِرُ (yantaẓiru). Kök: ن-ظ-ر."
+ },
+ {
+  "w": "وَصَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "varmak",
+   "ulaşmak"
+  ],
+  "rom": "waṣala",
+  "ex": "وَصَلَ الْقِطَارُ فِي الْمَوْعِدِ.",
+  "ex_rom": "Waṣala l-qiṭāru fī l-mawʿidi.",
+  "ex_tr": "Tren zamanında vardı.",
+  "note": "Muzari: يَصِلُ (yaṣilu). Kök: و-ص-ل."
+ },
+ {
+  "w": "غَادَرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "ayrılmak",
+   "terk etmek"
+  ],
+  "rom": "ghādara",
+  "ex": "غَادَرْنَا الْفُنْدُقَ صَبَاحًا.",
+  "ex_rom": "Ghādarnā l-funduqa ṣabāḥan.",
+  "ex_tr": "Otelden sabah ayrıldık.",
+  "note": "Muzari: يُغَادِرُ (yughādiru). Kök: غ-د-ر."
+ },
+ {
+  "w": "رَكِبَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "binmek"
+  ],
+  "rom": "rakiba",
+  "ex": "رَكِبْتُ الْحَافِلَةَ إِلَى الْعَمَلِ.",
+  "ex_rom": "Rakibtu l-ḥāfilata ilā l-ʿamali.",
+  "ex_tr": "İşe otobüsle gittim.",
+  "note": "Muzari: يَرْكَبُ (yarkabu). Kök: ر-ك-ب."
+ },
+ {
+  "w": "نَزَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "inmek"
+  ],
+  "rom": "nazala",
+  "ex": "نَزَلْنَا مِنَ السَّيَّارَةِ.",
+  "ex_rom": "Nazalnā mina s-sayyārati.",
+  "ex_tr": "Arabadan indik.",
+  "note": "Muzari: يَنْزِلُ (yanzilu). Kök: ن-ز-ل."
+ },
+ {
+  "w": "صَعِدَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "çıkmak (yukarı)"
+  ],
+  "rom": "ṣaʿida",
+  "ex": "صَعِدَ الدَّرَجَ بِسُرْعَةٍ.",
+  "ex_rom": "Ṣaʿida d-daraja bi-surʿatin.",
+  "ex_tr": "Merdiveni hızla çıktı.",
+  "note": "Muzari: يَصْعَدُ (yaṣʿadu). Kök: ص-ع-د."
+ },
+ {
+  "w": "قَادَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "sürmek (araç)",
+   "yönetmek"
+  ],
+  "rom": "qāda",
+  "ex": "يَقُودُ أَبِي السَّيَّارَةَ بِحَذَرٍ.",
+  "ex_rom": "Yaqūdu abī s-sayyārata bi-ḥadharin.",
+  "ex_tr": "Babam arabayı dikkatli sürer.",
+  "note": "Muzari: يَقُودُ (yaqūdu). Kök: ق-و-د."
+ },
+ {
+  "w": "مَشَى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "yürümek"
+  ],
+  "rom": "mashā",
+  "ex": "نَمْشِي فِي الْحَدِيقَةِ كُلَّ مَسَاءٍ.",
+  "ex_rom": "Namshī fī l-ḥadīqati kulla masāʾin.",
+  "ex_tr": "Her akşam parkta yürürüz.",
+  "note": "Muzari: يَمْشِي (yamshī). Kök: م-ش-ي."
+ },
+ {
+  "w": "رَكَضَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "koşmak"
+  ],
+  "rom": "rakaḍa",
+  "ex": "رَكَضَ الْوَلَدُ إِلَى أُمِّهِ.",
+  "ex_rom": "Rakaḍa l-waladu ilā ummihi.",
+  "ex_tr": "Çocuk annesine koştu.",
+  "note": "Muzari: يَرْكُضُ (yarkuḍu). Kök: ر-ك-ض."
+ },
+ {
+  "w": "سَبَحَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "yüzmek"
+  ],
+  "rom": "sabaḥa",
+  "ex": "نَسْبَحُ فِي الْبَحْرِ صَيْفًا.",
+  "ex_rom": "Nasbaḥu fī l-baḥri ṣayfan.",
+  "ex_tr": "Yazın denizde yüzeriz.",
+  "note": "Muzari: يَسْبَحُ (yasbaḥu). Kök: س-ب-ح."
+ },
+ {
+  "w": "رَقَصَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "dans etmek"
+  ],
+  "rom": "raqaṣa",
+  "ex": "رَقَصُوا فِي الْحَفْلَةِ.",
+  "ex_rom": "Raqaṣū fī l-ḥaflati.",
+  "ex_tr": "Partide dans ettiler.",
+  "note": "Muzari: يَرْقُصُ (yarquṣu). Kök: ر-ق-ص."
+ },
+ {
+  "w": "غَنَّى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "şarkı söylemek"
+  ],
+  "rom": "ghannā",
+  "ex": "تُغَنِّي أُخْتِي بِصَوْتٍ جَمِيلٍ.",
+  "ex_rom": "Tughannī ukhtī bi-ṣawtin jamīlin.",
+  "ex_tr": "Kız kardeşim güzel bir sesle şarkı söyler.",
+  "note": "Muzari: يُغَنِّي (yughannī). Kök: غ-ن-ي."
+ },
+ {
+  "w": "رَسَمَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "resim yapmak",
+   "çizmek"
+  ],
+  "rom": "rasama",
+  "ex": "رَسَمَ الطِّفْلُ بَيْتًا.",
+  "ex_rom": "Rasama ṭ-ṭiflu baytan.",
+  "ex_tr": "Çocuk bir ev çizdi.",
+  "note": "Muzari: يَرْسُمُ (yarsumu). Kök: ر-س-م."
+ },
+ {
+  "w": "ضَحِكَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "gülmek"
+  ],
+  "rom": "ḍaḥika",
+  "ex": "ضَحِكْنَا كَثِيرًا أَمْسِ.",
+  "ex_rom": "Ḍaḥiknā kathīran amsi.",
+  "ex_tr": "Dün çok güldük.",
+  "note": "Muzari: يَضْحَكُ (yaḍḥaku). Kök: ض-ح-ك."
+ },
+ {
+  "w": "بَكَى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "ağlamak"
+  ],
+  "rom": "bakā",
+  "ex": "بَكَتِ الطِّفْلَةُ طَوَالَ اللَّيْلِ.",
+  "ex_rom": "Bakati ṭ-ṭiflatu ṭawāla l-layli.",
+  "ex_tr": "Kız bebek bütün gece ağladı.",
+  "note": "Muzari: يَبْكِي (yabkī). Kök: ب-ك-ي."
+ },
+ {
+  "w": "اِبْتَسَمَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "gülümsemek"
+  ],
+  "rom": "ibtasama",
+  "ex": "اِبْتَسَمَتْ لِي الْمُعَلِّمَةُ.",
+  "ex_rom": "Ibtasamat lī l-muʿallimatu.",
+  "ex_tr": "Öğretmen bana gülümsedi.",
+  "note": "Muzari: يَبْتَسِمُ (yabtasimu). Kök: ب-س-م."
+ },
+ {
+  "w": "سَأَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "sormak"
+  ],
+  "rom": "saʾala",
+  "ex": "سَأَلْتُ الشُّرْطِيَّ عَنِ الطَّرِيقِ.",
+  "ex_rom": "Saʾaltu sh-shurṭiyya ʿani ṭ-ṭarīqi.",
+  "ex_tr": "Polise yolu sordum.",
+  "note": "Muzari: يَسْأَلُ (yasʾalu). Kök: س-أ-ل. \"Birine bir şeyi sormak\": سَأَلَ + kişi + عَنْ."
+ },
+ {
+  "w": "أَجَابَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "cevap vermek"
+  ],
+  "rom": "ajāba",
+  "ex": "أَجَابَ الطَّالِبُ عَنِ السُّؤَالِ.",
+  "ex_rom": "Ajāba ṭ-ṭālibu ʿani s-suʾāli.",
+  "ex_tr": "Öğrenci soruyu cevapladı.",
+  "note": "Muzari: يُجِيبُ (yujību). Kök: ج-و-ب."
+ },
+ {
+  "w": "شَرَحَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "açıklamak",
+   "anlatmak"
+  ],
+  "rom": "sharaḥa",
+  "ex": "شَرَحَ الْمُعَلِّمُ الدَّرْسَ.",
+  "ex_rom": "Sharaḥa l-muʿallimu d-darsa.",
+  "ex_tr": "Öğretmen dersi anlattı.",
+  "note": "Muzari: يَشْرَحُ (yashraḥu). Kök: ش-ر-ح."
+ },
+ {
+  "w": "تَذَكَّرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "hatırlamak"
+  ],
+  "rom": "tadhakkara",
+  "ex": "هَلْ تَتَذَكَّرُ اسْمَهُ؟",
+  "ex_rom": "Hal tatadhakkaru smahu?",
+  "ex_tr": "Adını hatırlıyor musun?",
+  "note": "Muzari: يَتَذَكَّرُ (yatadhakkaru). Kök: ذ-ك-ر."
+ },
+ {
+  "w": "نَسِيَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "unutmak"
+  ],
+  "rom": "nasiya",
+  "ex": "نَسِيتُ مِفْتَاحِي فِي الْبَيْتِ.",
+  "ex_rom": "Nasītu miftāḥī fī l-bayti.",
+  "ex_tr": "Anahtarımı evde unuttum.",
+  "note": "Muzari: يَنْسَى (yansā). Kök: ن-س-ي."
+ },
+ {
+  "w": "ظَنَّ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "sanmak",
+   "zannetmek"
+  ],
+  "rom": "ẓanna",
+  "ex": "ظَنَنْتُ أَنَّكَ مُسَافِرٌ.",
+  "ex_rom": "Ẓanantu annaka musāfirun.",
+  "ex_tr": "Seni yolculukta sanmıştım.",
+  "note": "Muzari: يَظُنُّ (yaẓunnu). Kök: ظ-ن-ن."
+ },
+ {
+  "w": "اِعْتَقَدَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "inanmak",
+   "sanmak"
+  ],
+  "rom": "iʿtaqada",
+  "ex": "أَعْتَقِدُ أَنَّ الْفِكْرَةَ جَيِّدَةٌ.",
+  "ex_rom": "Aʿtaqidu anna l-fikrata jayyidatun.",
+  "ex_tr": "Bence fikir iyi.",
+  "note": "Muzari: يَعْتَقِدُ (yaʿtaqidu). Kök: ع-ق-د."
+ },
+ {
+  "w": "فَكَّرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "düşünmek"
+  ],
+  "rom": "fakkara",
+  "ex": "أُفَكِّرُ فِي السَّفَرِ إِلَى مِصْرَ.",
+  "ex_rom": "Ufakkiru fī s-safari ilā miṣra.",
+  "ex_tr": "Mısır'a gitmeyi düşünüyorum.",
+  "note": "Muzari: يُفَكِّرُ (yufakkiru). Kök: ف-ك-ر. \"Bir şeyi düşünmek\": فَكَّرَ فِي."
+ },
+ {
+  "w": "قَرَّرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "karar vermek"
+  ],
+  "rom": "qarrara",
+  "ex": "قَرَّرْتُ أَنْ أَتَعَلَّمَ الْعَرَبِيَّةَ.",
+  "ex_rom": "Qarrartu an ataʿallama l-ʿarabiyyata.",
+  "ex_tr": "Arapça öğrenmeye karar verdim.",
+  "note": "Muzari: يُقَرِّرُ (yuqarriru). Kök: ق-ر-ر."
+ },
+ {
+  "w": "اِخْتَارَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "seçmek"
+  ],
+  "rom": "ikhtāra",
+  "ex": "اِخْتَرْ لَوْنًا تُحِبُّهُ.",
+  "ex_rom": "Ikhtar lawnan tuḥibbuhu.",
+  "ex_tr": "Sevdiğin bir renk seç.",
+  "note": "Muzari: يَخْتَارُ (yakhtāru). Kök: خ-ي-ر."
+ },
+ {
+  "w": "فَضَّلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "tercih etmek"
+  ],
+  "rom": "faḍḍala",
+  "ex": "أُفَضِّلُ الشَّايَ عَلَى الْقَهْوَةِ.",
+  "ex_rom": "Ufaḍḍilu sh-shāya ʿalā l-qahwati.",
+  "ex_tr": "Çayı kahveye tercih ederim.",
+  "note": "Muzari: يُفَضِّلُ (yufaḍḍilu). Kök: ف-ض-ل. \"A'yı B'ye tercih etmek\": فَضَّلَ A عَلَى B."
+ },
+ {
+  "w": "حَاوَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "denemek",
+   "çalışmak (-meye)"
+  ],
+  "rom": "ḥāwala",
+  "ex": "حَاوَلْتُ أَنْ أَتَّصِلَ بِكَ.",
+  "ex_rom": "Ḥāwaltu an attaṣila bika.",
+  "ex_tr": "Seni aramaya çalıştım.",
+  "note": "Muzari: يُحَاوِلُ (yuḥāwilu). Kök: ح-و-ل."
+ },
+ {
+  "w": "اِسْتَطَاعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "-ebilmek",
+   "gücü yetmek"
+  ],
+  "rom": "istaṭāʿa",
+  "ex": "لَا أَسْتَطِيعُ أَنْ أَنَامَ.",
+  "ex_rom": "Lā astaṭīʿu an anāma.",
+  "ex_tr": "Uyuyamıyorum.",
+  "note": "Muzari: يَسْتَطِيعُ (yastaṭīʿu). Kök: ط-و-ع."
+ },
+ {
+  "w": "نَجَحَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "başarılı olmak",
+   "sınavı geçmek"
+  ],
+  "rom": "najaḥa",
+  "ex": "نَجَحَ أَخِي فِي الِامْتِحَانِ.",
+  "ex_rom": "Najaḥa akhī fī l-imtiḥāni.",
+  "ex_tr": "Kardeşim sınavı geçti.",
+  "note": "Muzari: يَنْجَحُ (yanjaḥu). Kök: ن-ج-ح."
+ },
+ {
+  "w": "فَشِلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "başarısız olmak"
+  ],
+  "rom": "fashila",
+  "ex": "فَشِلَتِ الْخُطَّةُ.",
+  "ex_rom": "Fashilati l-khuṭṭatu.",
+  "ex_tr": "Plan başarısız oldu.",
+  "note": "Muzari: يَفْشَلُ (yafshalu). Kök: ف-ش-ل."
+ },
+ {
+  "w": "رَسَبَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "sınıfta kalmak",
+   "sınavdan kalmak"
+  ],
+  "rom": "rasaba",
+  "ex": "رَسَبَ فِي امْتِحَانِ الرِّيَاضِيَّاتِ.",
+  "ex_rom": "Rasaba fī mtiḥāni r-riyāḍiyyāti.",
+  "ex_tr": "Matematik sınavından kaldı.",
+  "note": "Muzari: يَرْسُبُ (yarsubu). Kök: ر-س-ب."
+ },
+ {
+  "w": "بَدَأَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "başlamak"
+  ],
+  "rom": "badaʾa",
+  "ex": "يَبْدَأُ الدَّرْسُ فِي التَّاسِعَةِ.",
+  "ex_rom": "Yabdaʾu d-darsu fī t-tāsiʿati.",
+  "ex_tr": "Ders dokuzda başlıyor.",
+  "note": "Muzari: يَبْدَأُ (yabdaʾu). Kök: ب-د-أ."
+ },
+ {
+  "w": "اِنْتَهَى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "bitmek",
+   "sona ermek"
+  ],
+  "rom": "intahā",
+  "ex": "اِنْتَهَى الْفِيلْمُ مُتَأَخِّرًا.",
+  "ex_rom": "Intahā l-fīlmu mutaʾakhkhiran.",
+  "ex_tr": "Film geç bitti.",
+  "note": "Muzari: يَنْتَهِي (yantahī). Kök: ن-ه-ي."
+ },
+ {
+  "w": "أَنْهَى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "bitirmek"
+  ],
+  "rom": "anhā",
+  "ex": "أَنْهَيْتُ وَاجِبِي.",
+  "ex_rom": "Anhaytu wājibī.",
+  "ex_tr": "Ödevimi bitirdim.",
+  "note": "Muzari: يُنْهِي (yunhī). Kök: ن-ه-ي."
+ },
+ {
+  "w": "اِسْتَمَرَّ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "devam etmek",
+   "sürmek"
+  ],
+  "rom": "istamarra",
+  "ex": "اِسْتَمَرَّ الْمَطَرُ يَوْمَيْنِ.",
+  "ex_rom": "Istamarra l-maṭaru yawmayni.",
+  "ex_tr": "Yağmur iki gün sürdü.",
+  "note": "Muzari: يَسْتَمِرُّ (yastamirru). Kök: م-ر-ر."
+ },
+ {
+  "w": "تَوَقَّفَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "durmak"
+  ],
+  "rom": "tawaqqafa",
+  "ex": "تَوَقَّفَتِ السَّيَّارَةُ أَمَامَ الْبَيْتِ.",
+  "ex_rom": "Tawaqqafati s-sayyāratu amāma l-bayti.",
+  "ex_tr": "Araba evin önünde durdu.",
+  "note": "Muzari: يَتَوَقَّفُ (yatawaqqafu). Kök: و-ق-ف."
+ },
+ {
+  "w": "أَوْقَفَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "durdurmak",
+   "park etmek"
+  ],
+  "rom": "awqafa",
+  "ex": "أَوْقَفْتُ السَّيَّارَةَ هُنَا.",
+  "ex_rom": "Awqaftu s-sayyārata hunā.",
+  "ex_tr": "Arabayı buraya park ettim.",
+  "note": "Muzari: يُوقِفُ (yūqifu). Kök: و-ق-ف."
+ },
+ {
+  "w": "وَقَفَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "ayağa kalkmak",
+   "ayakta durmak"
+  ],
+  "rom": "waqafa",
+  "ex": "وَقَفَ الطُّلَّابُ لِلْمُدِيرِ.",
+  "ex_rom": "Waqafa ṭ-ṭullābu lil-mudīri.",
+  "ex_tr": "Öğrenciler müdür için ayağa kalktı.",
+  "note": "Muzari: يَقِفُ (yaqifu). Kök: و-ق-ف."
+ },
+ {
+  "w": "اِسْتَرَاحَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "dinlenmek"
+  ],
+  "rom": "istarāḥa",
+  "ex": "اِسْتَرِحْ قَلِيلًا.",
+  "ex_rom": "Istariḥ qalīlan.",
+  "ex_tr": "Biraz dinlen.",
+  "note": "Muzari: يَسْتَرِيحُ (yastarīḥu). Kök: ر-و-ح."
+ },
+ {
+  "w": "تَعِبَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "yorulmak"
+  ],
+  "rom": "taʿiba",
+  "ex": "تَعِبْتُ مِنَ الْمَشْيِ.",
+  "ex_rom": "Taʿibtu mina l-mashyi.",
+  "ex_tr": "Yürümekten yoruldum.",
+  "note": "Muzari: يَتْعَبُ (yatʿabu). Kök: ت-ع-ب."
+ },
+ {
+  "w": "مَرِضَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "hastalanmak"
+  ],
+  "rom": "mariḍa",
+  "ex": "مَرِضَ ابْنِي أَمْسِ.",
+  "ex_rom": "Mariḍa bnī amsi.",
+  "ex_tr": "Oğlum dün hastalandı.",
+  "note": "Muzari: يَمْرَضُ (yamraḍu). Kök: م-ر-ض."
+ },
+ {
+  "w": "شَعَرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "hissetmek"
+  ],
+  "rom": "shaʿara",
+  "ex": "أَشْعُرُ بِالْبَرْدِ.",
+  "ex_rom": "Ashʿuru bil-bardi.",
+  "ex_tr": "Üşüyorum.",
+  "note": "Muzari: يَشْعُرُ (yashʿuru). Kök: ش-ع-ر. بِـ edatıyla kullanılır: شَعَرَ بِـ."
+ },
+ {
+  "w": "خَافَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "korkmak"
+  ],
+  "rom": "khāfa",
+  "ex": "يَخَافُ أَخِي مِنَ الْكِلَابِ.",
+  "ex_rom": "Yakhāfu akhī mina l-kilābi.",
+  "ex_tr": "Kardeşim köpeklerden korkar.",
+  "note": "Muzari: يَخَافُ (yakhāfu). Kök: خ-و-ف. مِنْ edatıyla kullanılır."
+ },
+ {
+  "w": "فَرِحَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "sevinmek"
+  ],
+  "rom": "fariḥa",
+  "ex": "فَرِحْنَا بِالْخَبَرِ.",
+  "ex_rom": "Fariḥnā bil-khabari.",
+  "ex_tr": "Habere sevindik.",
+  "note": "Muzari: يَفْرَحُ (yafraḥu). Kök: ف-ر-ح."
+ },
+ {
+  "w": "حَزِنَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "üzülmek"
+  ],
+  "rom": "ḥazina",
+  "ex": "حَزِنَ لِأَنَّهُ خَسِرَ.",
+  "ex_rom": "Ḥazina li-annahu khasira.",
+  "ex_tr": "Kaybettiği için üzüldü.",
+  "note": "Muzari: يَحْزَنُ (yaḥzanu). Kök: ح-ز-ن."
+ },
+ {
+  "w": "غَضِبَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "kızmak",
+   "sinirlenmek"
+  ],
+  "rom": "ghaḍiba",
+  "ex": "غَضِبَ الْمُدِيرُ مِنَ التَّأْخِيرِ.",
+  "ex_rom": "Ghaḍiba l-mudīru mina t-taʾkhīri.",
+  "ex_tr": "Müdür gecikmeye kızdı.",
+  "note": "Muzari: يَغْضَبُ (yaghḍabu). Kök: غ-ض-ب."
+ },
+ {
+  "w": "كَرِهَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "nefret etmek",
+   "sevmemek"
+  ],
+  "rom": "kariha",
+  "ex": "أَكْرَهُ الِانْتِظَارَ.",
+  "ex_rom": "Akrahu l-intiẓāra.",
+  "ex_tr": "Beklemekten nefret ederim.",
+  "note": "Muzari: يَكْرَهُ (yakrahu). Kök: ك-ر-ه."
+ },
+ {
+  "w": "تَمَنَّى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "dilemek",
+   "istemek"
+  ],
+  "rom": "tamannā",
+  "ex": "أَتَمَنَّى لَكَ يَوْمًا سَعِيدًا.",
+  "ex_rom": "Atamannā laka yawman saʿīdan.",
+  "ex_tr": "Sana iyi günler dilerim.",
+  "note": "Muzari: يَتَمَنَّى (yatamannā). Kök: م-ن-ي."
+ },
+ {
+  "w": "اِحْتَاجَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "ihtiyaç duymak"
+  ],
+  "rom": "iḥtāja",
+  "ex": "أَحْتَاجُ إِلَى مُسَاعَدَتِكَ.",
+  "ex_rom": "Aḥtāju ilā musāʿadatika.",
+  "ex_tr": "Yardımına ihtiyacım var.",
+  "note": "Muzari: يَحْتَاجُ (yaḥtāju). Kök: ح-و-ج. إِلَى edatıyla kullanılır."
+ },
+ {
+  "w": "وَجَدَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "bulmak"
+  ],
+  "rom": "wajada",
+  "ex": "وَجَدْتُ مِحْفَظَتِي تَحْتَ السَّرِيرِ.",
+  "ex_rom": "Wajadtu miḥfaẓatī taḥta s-sarīri.",
+  "ex_tr": "Cüzdanımı yatağın altında buldum.",
+  "note": "Muzari: يَجِدُ (yajidu). Kök: و-ج-د."
+ },
+ {
+  "w": "فَقَدَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "kaybetmek"
+  ],
+  "rom": "faqada",
+  "ex": "فَقَدَ جَوَازَ سَفَرِهِ.",
+  "ex_rom": "Faqada jawāza safarihi.",
+  "ex_tr": "Pasaportunu kaybetti.",
+  "note": "Muzari: يَفْقِدُ (yafqidu). Kök: ف-ق-د."
+ },
+ {
+  "w": "بَحَثَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "aramak"
+  ],
+  "rom": "baḥatha",
+  "ex": "أَبْحَثُ عَنْ عَمَلٍ جَدِيدٍ.",
+  "ex_rom": "Abḥathu ʿan ʿamalin jadīdin.",
+  "ex_tr": "Yeni bir iş arıyorum.",
+  "note": "Muzari: يَبْحَثُ (yabḥathu). Kök: ب-ح-ث. \"Bir şeyi aramak\": بَحَثَ عَنْ."
+ },
+ {
+  "w": "أَرْسَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "göndermek"
+  ],
+  "rom": "arsala",
+  "ex": "أَرْسَلْتُ لَكَ رِسَالَةً.",
+  "ex_rom": "Arsaltu laka risālatan.",
+  "ex_tr": "Sana bir mesaj gönderdim.",
+  "note": "Muzari: يُرْسِلُ (yursilu). Kök: ر-س-ل."
+ },
+ {
+  "w": "اِسْتَلَمَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "teslim almak"
+  ],
+  "rom": "istalama",
+  "ex": "اِسْتَلَمْتُ الطَّرْدَ الْيَوْمَ.",
+  "ex_rom": "Istalamtu ṭ-ṭarda l-yawma.",
+  "ex_tr": "Paketi bugün teslim aldım.",
+  "note": "Muzari: يَسْتَلِمُ (yastalimu). Kök: س-ل-م."
+ },
+ {
+  "w": "حَمَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "taşımak"
+  ],
+  "rom": "ḥamala",
+  "ex": "حَمَلَ الْحَقِيبَةَ الثَّقِيلَةَ.",
+  "ex_rom": "Ḥamala l-ḥaqībata th-thaqīlata.",
+  "ex_tr": "Ağır çantayı taşıdı.",
+  "note": "Muzari: يَحْمِلُ (yaḥmilu). Kök: ح-م-ل."
+ },
+ {
+  "w": "وَضَعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "koymak"
+  ],
+  "rom": "waḍaʿa",
+  "ex": "ضَعِ الْكِتَابَ عَلَى الطَّاوِلَةِ.",
+  "ex_rom": "Ḍaʿi l-kitāba ʿalā ṭ-ṭāwilati.",
+  "ex_tr": "Kitabı masaya koy.",
+  "note": "Muzari: يَضَعُ (yaḍaʿu). Kök: و-ض-ع."
+ },
+ {
+  "w": "رَمَى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "atmak"
+  ],
+  "rom": "ramā",
+  "ex": "لَا تَرْمِ الْقُمَامَةَ فِي الشَّارِعِ.",
+  "ex_rom": "Lā tarmi l-qumāmata fī sh-shāriʿi.",
+  "ex_tr": "Çöpü sokağa atma.",
+  "note": "Muzari: يَرْمِي (yarmī). Kök: ر-م-ي."
+ },
+ {
+  "w": "دَفَعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "ödemek",
+   "itmek"
+  ],
+  "rom": "dafaʿa",
+  "ex": "دَفَعْتُ الْحِسَابَ نَقْدًا.",
+  "ex_rom": "Dafaʿtu l-ḥisāba naqdan.",
+  "ex_tr": "Hesabı nakit ödedim.",
+  "note": "Muzari: يَدْفَعُ (yadfaʿu). Kök: د-ف-ع."
+ },
+ {
+  "w": "سَحَبَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "çekmek"
+  ],
+  "rom": "saḥaba",
+  "ex": "سَحَبْتُ مَالًا مِنَ الْبَنْكِ.",
+  "ex_rom": "Saḥabtu mālan mina l-banki.",
+  "ex_tr": "Bankadan para çektim.",
+  "note": "Muzari: يَسْحَبُ (yasḥabu). Kök: س-ح-ب."
+ },
+ {
+  "w": "بَاعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "satmak"
+  ],
+  "rom": "bāʿa",
+  "ex": "بَاعَ سَيَّارَتَهُ الْقَدِيمَةَ.",
+  "ex_rom": "Bāʿa sayyāratahu l-qadīmata.",
+  "ex_tr": "Eski arabasını sattı.",
+  "note": "Muzari: يَبِيعُ (yabīʿu). Kök: ب-ي-ع."
+ },
+ {
+  "w": "اِسْتَأْجَرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "kiralamak"
+  ],
+  "rom": "istaʾjara",
+  "ex": "اِسْتَأْجَرْنَا شَقَّةً قُرْبَ الْبَحْرِ.",
+  "ex_rom": "Istaʾjarnā shaqqatan qurba l-baḥri.",
+  "ex_tr": "Deniz yakınında bir daire kiraladık.",
+  "note": "Muzari: يَسْتَأْجِرُ (yastaʾjiru). Kök: أ-ج-ر."
+ },
+ {
+  "w": "حَجَزَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "rezervasyon yapmak",
+   "ayırtmak"
+  ],
+  "rom": "ḥajaza",
+  "ex": "حَجَزْتُ غُرْفَةً فِي الْفُنْدُقِ.",
+  "ex_rom": "Ḥajaztu ghurfatan fī l-funduqi.",
+  "ex_tr": "Otelde bir oda ayırttım.",
+  "note": "Muzari: يَحْجِزُ (yaḥjizu). Kök: ح-ج-ز."
+ },
+ {
+  "w": "كَلَّفَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "mal olmak"
+  ],
+  "rom": "kallafa",
+  "ex": "كَمْ كَلَّفَتْكَ الرِّحْلَةُ؟",
+  "ex_rom": "Kam kallafatka r-riḥlatu?",
+  "ex_tr": "Yolculuk sana kaça mal oldu?",
+  "note": "Muzari: يُكَلِّفُ (yukallifu). Kök: ك-ل-ف."
+ },
+ {
+  "w": "وَفَّرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "biriktirmek",
+   "tasarruf etmek"
+  ],
+  "rom": "waffara",
+  "ex": "أُوَفِّرُ الْمَالَ لِلسَّفَرِ.",
+  "ex_rom": "Uwaffiru l-māla lis-safari.",
+  "ex_tr": "Seyahat için para biriktiriyorum.",
+  "note": "Muzari: يُوَفِّرُ (yuwaffiru). Kök: و-ف-ر."
+ },
+ {
+  "w": "صَرَفَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "harcamak"
+  ],
+  "rom": "ṣarafa",
+  "ex": "صَرَفَ كُلَّ رَاتِبِهِ.",
+  "ex_rom": "Ṣarafa kulla rātibihi.",
+  "ex_tr": "Bütün maaşını harcadı.",
+  "note": "Muzari: يَصْرِفُ (yaṣrifu). Kök: ص-ر-ف."
+ },
+ {
+  "w": "اِقْتَرَضَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "borç almak"
+  ],
+  "rom": "iqtaraḍa",
+  "ex": "اِقْتَرَضْتُ مَالًا مِنْ صَدِيقِي.",
+  "ex_rom": "Iqtaraḍtu mālan min ṣadīqī.",
+  "ex_tr": "Arkadaşımdan borç para aldım.",
+  "note": "Muzari: يَقْتَرِضُ (yaqtariḍu). Kök: ق-ر-ض."
+ },
+ {
+  "w": "اِتَّصَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "aramak (telefonla)"
+  ],
+  "rom": "ittaṣala",
+  "ex": "اِتَّصِلْ بِي غَدًا.",
+  "ex_rom": "Ittaṣil bī ghadan.",
+  "ex_tr": "Yarın beni ara.",
+  "note": "Muzari: يَتَّصِلُ (yattaṣilu). Kök: و-ص-ل. بِـ edatıyla kullanılır: اِتَّصَلَ بِـ."
+ },
+ {
+  "w": "أَخْبَرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "haber vermek",
+   "söylemek"
+  ],
+  "rom": "akhbara",
+  "ex": "أَخْبَرَنِي بِالْحَقِيقَةِ.",
+  "ex_rom": "Akhbaranī bil-ḥaqīqati.",
+  "ex_tr": "Bana gerçeği söyledi.",
+  "note": "Muzari: يُخْبِرُ (yukhbiru). Kök: خ-ب-ر."
+ },
+ {
+  "w": "دَعَا",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "davet etmek",
+   "çağırmak"
+  ],
+  "rom": "daʿā",
+  "ex": "دَعَانَا إِلَى الْعَشَاءِ.",
+  "ex_rom": "Daʿānā ilā l-ʿashāʾi.",
+  "ex_tr": "Bizi akşam yemeğine davet etti.",
+  "note": "Muzari: يَدْعُو (yadʿū). Kök: د-ع-و."
+ },
+ {
+  "w": "زَارَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "ziyaret etmek"
+  ],
+  "rom": "zāra",
+  "ex": "زُرْتُ جَدَّتِي فِي الْعُطْلَةِ.",
+  "ex_rom": "Zurtu jaddatī fī l-ʿuṭlati.",
+  "ex_tr": "Tatilde büyükannemi ziyaret ettim.",
+  "note": "Muzari: يَزُورُ (yazūru). Kök: ز-و-ر."
+ },
+ {
+  "w": "قَابَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "buluşmak",
+   "görüşmek"
+  ],
+  "rom": "qābala",
+  "ex": "قَابَلْتُ صَدِيقًا قَدِيمًا.",
+  "ex_rom": "Qābaltu ṣadīqan qadīman.",
+  "ex_tr": "Eski bir arkadaşla karşılaştım.",
+  "note": "Muzari: يُقَابِلُ (yuqābilu). Kök: ق-ب-ل."
+ },
+ {
+  "w": "اِلْتَقَى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "karşılaşmak",
+   "buluşmak"
+  ],
+  "rom": "iltaqā",
+  "ex": "نَلْتَقِي أَمَامَ الْمَكْتَبَةِ.",
+  "ex_rom": "Naltaqī amāma l-maktabati.",
+  "ex_tr": "Kütüphanenin önünde buluşuyoruz.",
+  "note": "Muzari: يَلْتَقِي (yaltaqī). Kök: ل-ق-ي."
+ },
+ {
+  "w": "رَحَّبَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "karşılamak",
+   "hoş geldin demek"
+  ],
+  "rom": "raḥḥaba",
+  "ex": "رَحَّبَتْ بِنَا الْعَائِلَةُ.",
+  "ex_rom": "Raḥḥabat binā l-ʿāʾilatu.",
+  "ex_tr": "Aile bizi sıcak karşıladı.",
+  "note": "Muzari: يُرَحِّبُ (yuraḥḥibu). Kök: ر-ح-ب."
+ },
+ {
+  "w": "شَكَرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "teşekkür etmek"
+  ],
+  "rom": "shakara",
+  "ex": "شَكَرْتُهُ عَلَى الْهَدِيَّةِ.",
+  "ex_rom": "Shakartuhu ʿalā l-hadiyyati.",
+  "ex_tr": "Hediye için ona teşekkür ettim.",
+  "note": "Muzari: يَشْكُرُ (yashkuru). Kök: ش-ك-ر."
+ },
+ {
+  "w": "اِعْتَذَرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "özür dilemek"
+  ],
+  "rom": "iʿtadhara",
+  "ex": "اِعْتَذَرَ عَنِ التَّأْخِيرِ.",
+  "ex_rom": "Iʿtadhara ʿani t-taʾkhīri.",
+  "ex_tr": "Gecikme için özür diledi.",
+  "note": "Muzari: يَعْتَذِرُ (yaʿtadhiru). Kök: ع-ذ-ر."
+ },
+ {
+  "w": "سَاعَدَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "yardım etmek"
+  ],
+  "rom": "sāʿada",
+  "ex": "سَاعَدَنِي فِي الْوَاجِبِ.",
+  "ex_rom": "Sāʿadanī fī l-wājibi.",
+  "ex_tr": "Ödevde bana yardım etti.",
+  "note": "Muzari: يُسَاعِدُ (yusāʿidu). Kök: س-ع-د."
+ },
+ {
+  "w": "طَلَبَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "istemek",
+   "sipariş etmek"
+  ],
+  "rom": "ṭalaba",
+  "ex": "طَلَبْنَا بِيتْزَا.",
+  "ex_rom": "Ṭalabnā bītzā.",
+  "ex_tr": "Pizza sipariş ettik.",
+  "note": "Muzari: يَطْلُبُ (yaṭlubu). Kök: ط-ل-ب."
+ },
+ {
+  "w": "وَافَقَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "onaylamak",
+   "katılmak (fikre)"
+  ],
+  "rom": "wāfaqa",
+  "ex": "وَافَقَ أَبِي عَلَى الْفِكْرَةِ.",
+  "ex_rom": "Wāfaqa abī ʿalā l-fikrati.",
+  "ex_tr": "Babam fikri onayladı.",
+  "note": "Muzari: يُوَافِقُ (yuwāfiqu). Kök: و-ف-ق. عَلَى edatıyla kullanılır."
+ },
+ {
+  "w": "رَفَضَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "reddetmek"
+  ],
+  "rom": "rafaḍa",
+  "ex": "رَفَضَ الدَّعْوَةَ.",
+  "ex_rom": "Rafaḍa d-daʿwata.",
+  "ex_tr": "Daveti reddetti.",
+  "note": "Muzari: يَرْفُضُ (yarfuḍu). Kök: ر-ف-ض."
+ },
+ {
+  "w": "قَبِلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "kabul etmek"
+  ],
+  "rom": "qabila",
+  "ex": "قَبِلَتِ الْجَامِعَةُ طَلَبِي.",
+  "ex_rom": "Qabilati l-jāmiʿatu ṭalabī.",
+  "ex_tr": "Üniversite başvurumu kabul etti.",
+  "note": "Muzari: يَقْبَلُ (yaqbalu). Kök: ق-ب-ل."
+ },
+ {
+  "w": "سَمَحَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "izin vermek"
+  ],
+  "rom": "samaḥa",
+  "ex": "هَلْ تَسْمَحُ لِي بِالدُّخُولِ؟",
+  "ex_rom": "Hal tasmaḥu lī bid-dukhūli?",
+  "ex_tr": "Girmeme izin verir misin?",
+  "note": "Muzari: يَسْمَحُ (yasmaḥu). Kök: س-م-ح."
+ },
+ {
+  "w": "مَنَعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "engellemek",
+   "yasaklamak"
+  ],
+  "rom": "manaʿa",
+  "ex": "مَنَعَنِي الْمَطَرُ مِنَ الْخُرُوجِ.",
+  "ex_rom": "Manaʿanī l-maṭaru mina l-khurūji.",
+  "ex_tr": "Yağmur dışarı çıkmamı engelledi.",
+  "note": "Muzari: يَمْنَعُ (yamnaʿu). Kök: م-ن-ع."
+ },
+ {
+  "w": "وَعَدَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "söz vermek"
+  ],
+  "rom": "waʿada",
+  "ex": "وَعَدْتُهُ بِالْمُسَاعَدَةِ.",
+  "ex_rom": "Waʿadtuhu bil-musāʿadati.",
+  "ex_tr": "Ona yardım sözü verdim.",
+  "note": "Muzari: يَعِدُ (yaʿidu). Kök: و-ع-د."
+ },
+ {
+  "w": "اِتَّفَقَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "anlaşmak"
+  ],
+  "rom": "ittafaqa",
+  "ex": "اِتَّفَقْنَا عَلَى الْمَوْعِدِ.",
+  "ex_rom": "Ittafaqnā ʿalā l-mawʿidi.",
+  "ex_tr": "Randevu saatinde anlaştık.",
+  "note": "Muzari: يَتَّفِقُ (yattafiqu). Kök: و-ف-ق."
+ },
+ {
+  "w": "نَاقَشَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "tartışmak",
+   "görüşmek"
+  ],
+  "rom": "nāqasha",
+  "ex": "نَاقَشْنَا الْمَوْضُوعَ فِي الِاجْتِمَاعِ.",
+  "ex_rom": "Nāqashnā l-mawḍūʿa fī l-ijtimāʿi.",
+  "ex_tr": "Konuyu toplantıda görüştük.",
+  "note": "Muzari: يُنَاقِشُ (yunāqishu). Kök: ن-ق-ش."
+ },
+ {
+  "w": "تَحَدَّثَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "konuşmak"
+  ],
+  "rom": "taḥaddatha",
+  "ex": "تَحَدَّثْتُ مَعَ الطَّبِيبِ.",
+  "ex_rom": "Taḥaddathtu maʿa ṭ-ṭabībi.",
+  "ex_tr": "Doktorla konuştum.",
+  "note": "Muzari: يَتَحَدَّثُ (yataḥaddathu). Kök: ح-د-ث."
+ },
+ {
+  "w": "صَرَخَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "bağırmak"
+  ],
+  "rom": "ṣarakha",
+  "ex": "لَا تَصْرُخْ، أَنَا أَسْمَعُكَ.",
+  "ex_rom": "Lā taṣrukh, anā asmaʿuka.",
+  "ex_tr": "Bağırma, seni duyuyorum.",
+  "note": "Muzari: يَصْرُخُ (yaṣrukhu). Kök: ص-ر-خ."
+ },
+ {
+  "w": "ضَرَبَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "vurmak"
+  ],
+  "rom": "ḍaraba",
+  "ex": "ضَرَبَ اللَّاعِبُ الْكُرَةَ بِقُوَّةٍ.",
+  "ex_rom": "Ḍaraba l-lāʿibu l-kurata bi-quwwatin.",
+  "ex_tr": "Oyuncu topa güçlü vurdu.",
+  "note": "Muzari: يَضْرِبُ (yaḍribu). Kök: ض-ر-ب."
+ },
+ {
+  "w": "كَسَرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "kırmak"
+  ],
+  "rom": "kasara",
+  "ex": "كَسَرَ الْوَلَدُ النَّافِذَةَ.",
+  "ex_rom": "Kasara l-waladu n-nāfidhata.",
+  "ex_tr": "Çocuk pencereyi kırdı.",
+  "note": "Muzari: يَكْسِرُ (yaksiru). Kök: ك-س-ر."
+ },
+ {
+  "w": "أَصْلَحَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "tamir etmek",
+   "onarmak"
+  ],
+  "rom": "aṣlaḥa",
+  "ex": "أَصْلَحَ الْمِيكَانِيكِيُّ السَّيَّارَةَ.",
+  "ex_rom": "Aṣlaḥa l-mīkānīkiyyu s-sayyārata.",
+  "ex_tr": "Tamirci arabayı onardı.",
+  "note": "Muzari: يُصْلِحُ (yuṣliḥu). Kök: ص-ل-ح."
+ },
+ {
+  "w": "قَطَعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "kesmek"
+  ],
+  "rom": "qaṭaʿa",
+  "ex": "اِقْطَعِ الْخُبْزَ بِالسِّكِّينِ.",
+  "ex_rom": "Iqṭaʿi l-khubza bis-sikkīni.",
+  "ex_tr": "Ekmeği bıçakla kes.",
+  "note": "Muzari: يَقْطَعُ (yaqṭaʿu). Kök: ق-ط-ع."
+ },
+ {
+  "w": "جَمَعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "toplamak",
+   "biriktirmek"
+  ],
+  "rom": "jamaʿa",
+  "ex": "يَجْمَعُ الطَّوَابِعَ.",
+  "ex_rom": "Yajmaʿu ṭ-ṭawābiʿa.",
+  "ex_tr": "Pul biriktirir.",
+  "note": "Muzari: يَجْمَعُ (yajmaʿu). Kök: ج-م-ع."
+ },
+ {
+  "w": "اِسْتَخْدَمَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "kullanmak"
+  ],
+  "rom": "istakhdama",
+  "ex": "أَسْتَخْدِمُ الْحَاسُوبَ كُلَّ يَوْمٍ.",
+  "ex_rom": "Astakhdimu l-ḥāsūba kulla yawmin.",
+  "ex_tr": "Bilgisayarı her gün kullanırım.",
+  "note": "Muzari: يَسْتَخْدِمُ (yastakhdimu). Kök: خ-د-م."
+ },
+ {
+  "w": "أَعَدَّ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "hazırlamak"
+  ],
+  "rom": "aʿadda",
+  "ex": "أَعَدَّتِ الْأُمُّ الْفُطُورَ.",
+  "ex_rom": "Aʿaddati l-ummu l-fuṭūra.",
+  "ex_tr": "Anne kahvaltıyı hazırladı.",
+  "note": "Muzari: يُعِدُّ (yuʿiddu). Kök: ع-د-د."
+ },
+ {
+  "w": "حَضَرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "katılmak (toplantı vb.)",
+   "gelmek"
+  ],
+  "rom": "ḥaḍara",
+  "ex": "حَضَرْتُ حَفْلَ الزِّفَافِ.",
+  "ex_rom": "Ḥaḍartu ḥafla z-zifāfi.",
+  "ex_tr": "Düğüne katıldım.",
+  "note": "Muzari: يَحْضُرُ (yaḥḍuru). Kök: ح-ض-ر."
+ },
+ {
+  "w": "شَارَكَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "katılmak",
+   "paylaşmak"
+  ],
+  "rom": "shāraka",
+  "ex": "شَارَكَ فِي الْمُسَابَقَةِ.",
+  "ex_rom": "Shāraka fī l-musābaqati.",
+  "ex_tr": "Yarışmaya katıldı.",
+  "note": "Muzari: يُشَارِكُ (yushāriku). Kök: ش-ر-ك."
+ },
+ {
+  "w": "عَلَّمَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "öğretmek"
+  ],
+  "rom": "ʿallama",
+  "ex": "عَلَّمَنِي أَبِي السِّبَاحَةَ.",
+  "ex_rom": "ʿAllamanī abī s-sibāḥata.",
+  "ex_tr": "Babam bana yüzmeyi öğretti.",
+  "note": "Muzari: يُعَلِّمُ (yuʿallimu). Kök: ع-ل-م."
+ },
+ {
+  "w": "تَرْجَمَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "çevirmek (dil)"
+  ],
+  "rom": "tarjama",
+  "ex": "تَرْجَمْتُ الرِّسَالَةَ إِلَى التُّرْكِيَّةِ.",
+  "ex_rom": "Tarjamtu r-risālata ilā t-turkiyyati.",
+  "ex_tr": "Mektubu Türkçeye çevirdim.",
+  "note": "Muzari: يُتَرْجِمُ (yutarjimu). Kök: ت-ر-ج-م. Dört harfli kök."
+ },
+ {
+  "w": "كَرَّرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "tekrarlamak"
+  ],
+  "rom": "karrara",
+  "ex": "كَرِّرْ مِنْ فَضْلِكَ.",
+  "ex_rom": "Karrir min faḍlika.",
+  "ex_tr": "Tekrar eder misin lütfen.",
+  "note": "Muzari: يُكَرِّرُ (yukarriru). Kök: ك-ر-ر."
+ },
+ {
+  "w": "حَفِظَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "ezberlemek",
+   "korumak"
+  ],
+  "rom": "ḥafiẓa",
+  "ex": "حَفِظْتُ الْكَلِمَاتِ الْجَدِيدَةَ.",
+  "ex_rom": "Ḥafiẓtu l-kalimāti l-jadīdata.",
+  "ex_tr": "Yeni kelimeleri ezberledim.",
+  "note": "Muzari: يَحْفَظُ (yaḥfaẓu). Kök: ح-ف-ظ."
+ },
+ {
+  "w": "سَجَّلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "kaydetmek",
+   "kaydolmak"
+  ],
+  "rom": "sajjala",
+  "ex": "سَجَّلْتُ فِي دَوْرَةِ اللُّغَةِ.",
+  "ex_rom": "Sajjaltu fī dawrati l-lughati.",
+  "ex_tr": "Dil kursuna kaydoldum.",
+  "note": "Muzari: يُسَجِّلُ (yusajjilu). Kök: س-ج-ل."
+ },
+ {
+  "w": "مَلَأَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "doldurmak"
+  ],
+  "rom": "malaʾa",
+  "ex": "اِمْلَأِ الِاسْتِمَارَةَ مِنْ فَضْلِكَ.",
+  "ex_rom": "Imlaʾi l-istimārata min faḍlika.",
+  "ex_tr": "Lütfen formu doldur.",
+  "note": "Muzari: يَمْلَأُ (yamlaʾu). Kök: م-ل-أ."
+ },
+ {
+  "w": "وَقَّعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "imzalamak"
+  ],
+  "rom": "waqqaʿa",
+  "ex": "وَقِّعْ هُنَا.",
+  "ex_rom": "Waqqiʿ hunā.",
+  "ex_tr": "Buraya imzala.",
+  "note": "Muzari: يُوَقِّعُ (yuwaqqiʿu). Kök: و-ق-ع."
+ },
+ {
+  "w": "اِخْتَلَفَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "farklı olmak",
+   "anlaşamamak"
+  ],
+  "rom": "ikhtalafa",
+  "ex": "تَخْتَلِفُ الْأَسْعَارُ مِنْ مَحَلٍّ إِلَى آخَرَ.",
+  "ex_rom": "Takhtalifu l-asʿāru min maḥallin ilā ākhara.",
+  "ex_tr": "Fiyatlar dükkândan dükkâna değişir.",
+  "note": "Muzari: يَخْتَلِفُ (yakhtalifu). Kök: خ-ل-ف."
+ },
+ {
+  "w": "تَغَيَّرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "değişmek"
+  ],
+  "rom": "taghayyara",
+  "ex": "تَغَيَّرَتِ الْمَدِينَةُ كَثِيرًا.",
+  "ex_rom": "Taghayyarati l-madīnatu kathīran.",
+  "ex_tr": "Şehir çok değişti.",
+  "note": "Muzari: يَتَغَيَّرُ (yataghayyaru). Kök: غ-ي-ر."
+ },
+ {
+  "w": "غَيَّرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "değiştirmek"
+  ],
+  "rom": "ghayyara",
+  "ex": "غَيَّرْتُ رَأْيِي.",
+  "ex_rom": "Ghayyartu raʾyī.",
+  "ex_tr": "Fikrimi değiştirdim.",
+  "note": "Muzari: يُغَيِّرُ (yughayyiru). Kök: غ-ي-ر."
+ },
+ {
+  "w": "اِنْتَقَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "taşınmak",
+   "geçmek"
+  ],
+  "rom": "intaqala",
+  "ex": "اِنْتَقَلْنَا إِلَى بَيْتٍ جَدِيدٍ.",
+  "ex_rom": "Intaqalnā ilā baytin jadīdin.",
+  "ex_tr": "Yeni bir eve taşındık.",
+  "note": "Muzari: يَنْتَقِلُ (yantaqilu). Kök: ن-ق-ل."
+ },
+ {
+  "w": "عَاشَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "yaşamak"
+  ],
+  "rom": "ʿāsha",
+  "ex": "عَاشَ جَدِّي فِي قَرْيَةٍ.",
+  "ex_rom": "ʿĀsha jaddī fī qaryatin.",
+  "ex_tr": "Dedem bir köyde yaşadı.",
+  "note": "Muzari: يَعِيشُ (yaʿīshu). Kök: ع-ي-ش."
+ },
+ {
+  "w": "مَاتَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "ölmek"
+  ],
+  "rom": "māta",
+  "ex": "مَاتَ الْكَلْبُ الْعَجُوزُ.",
+  "ex_rom": "Māta l-kalbu l-ʿajūzu.",
+  "ex_tr": "Yaşlı köpek öldü.",
+  "note": "Muzari: يَمُوتُ (yamūtu). Kök: م-و-ت."
+ },
+ {
+  "w": "وُلِدَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "doğmak"
+  ],
+  "rom": "wulida",
+  "ex": "وُلِدْتُ فِي إِسْطَنْبُولَ.",
+  "ex_rom": "Wulidtu fī isṭanbūla.",
+  "ex_tr": "İstanbul'da doğdum.",
+  "note": "Muzari: يُولَدُ (yūladu). Kök: و-ل-د. Edilgen kalıpta kullanılır."
+ },
+ {
+  "w": "تَزَوَّجَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "evlenmek"
+  ],
+  "rom": "tazawwaja",
+  "ex": "تَزَوَّجَ أَخِي السَّنَةَ الْمَاضِيَةَ.",
+  "ex_rom": "Tazawwaja akhī s-sanata l-māḍiyata.",
+  "ex_tr": "Ağabeyim geçen yıl evlendi.",
+  "note": "Muzari: يَتَزَوَّجُ (yatazawwaju). Kök: ز-و-ج."
+ },
+ {
+  "w": "كَبُرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "büyümek"
+  ],
+  "rom": "kabura",
+  "ex": "كَبُرَ الْأَطْفَالُ بِسُرْعَةٍ.",
+  "ex_rom": "Kabura l-aṭfālu bi-surʿatin.",
+  "ex_tr": "Çocuklar hızla büyüdü.",
+  "note": "Muzari: يَكْبُرُ (yakburu). Kök: ك-ب-ر."
+ },
+ {
+  "w": "زَادَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "artmak",
+   "artırmak"
+  ],
+  "rom": "zāda",
+  "ex": "زَادَتِ الْأَسْعَارُ هَذَا الشَّهْرَ.",
+  "ex_rom": "Zādati l-asʿāru hādhā sh-shahra.",
+  "ex_tr": "Bu ay fiyatlar arttı.",
+  "note": "Muzari: يَزِيدُ (yazīdu). Kök: ز-ي-د."
+ },
+ {
+  "w": "قَلَّ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "azalmak"
+  ],
+  "rom": "qalla",
+  "ex": "قَلَّ عَدَدُ الزُّوَّارِ.",
+  "ex_rom": "Qalla ʿadadu z-zuwwāri.",
+  "ex_tr": "Ziyaretçi sayısı azaldı.",
+  "note": "Muzari: يَقِلُّ (yaqillu). Kök: ق-ل-ل."
+ },
+ {
+  "w": "صَارَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "olmak",
+   "dönüşmek"
+  ],
+  "rom": "ṣāra",
+  "ex": "صَارَ الْجَوُّ بَارِدًا.",
+  "ex_rom": "Ṣāra l-jawwu bāridan.",
+  "ex_tr": "Hava soğuk oldu.",
+  "note": "Muzari: يَصِيرُ (yaṣīru). Kök: ص-ي-ر. كَانَ gibi haberini mansub yapar."
+ },
+ {
+  "w": "أَصْبَحَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "olmak",
+   "hâline gelmek"
+  ],
+  "rom": "aṣbaḥa",
+  "ex": "أَصْبَحَ طَبِيبًا مَشْهُورًا.",
+  "ex_rom": "Aṣbaḥa ṭabīban mashhūran.",
+  "ex_tr": "Ünlü bir doktor oldu.",
+  "note": "Muzari: يُصْبِحُ (yuṣbiḥu). Kök: ص-ب-ح. كَانَ gibi haberini mansub yapar."
+ },
+ {
+  "w": "ظَلَّ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "-mekte devam etmek",
+   "kalmak"
+  ],
+  "rom": "ẓalla",
+  "ex": "ظَلَّ صَامِتًا طَوَالَ الْوَقْتِ.",
+  "ex_rom": "Ẓalla ṣāmitan ṭawāla l-waqti.",
+  "ex_tr": "Bütün zaman sessiz kaldı.",
+  "note": "Muzari: يَظَلُّ (yaẓallu). Kök: ظ-ل-ل. كَانَ gibi haberini mansub yapar."
+ },
+ {
+  "w": "مَا زَالَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "hâlâ (-mekte)"
+  ],
+  "rom": "mā zāla",
+  "ex": "مَا زَالَ يَعْمَلُ فِي الْبَنْكِ.",
+  "ex_rom": "Mā zāla yaʿmalu fī l-banki.",
+  "ex_tr": "Hâlâ bankada çalışıyor.",
+  "note": "Muzari: لَا يَزَالُ (lā yazālu). Kök: ز-و-ل. Hep olumsuz kalıpla kullanılır."
+ },
+ {
+  "w": "اِحْتَفَلَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "kutlamak"
+  ],
+  "rom": "iḥtafala",
+  "ex": "اِحْتَفَلْنَا بِعِيدِ مِيلَادِهَا.",
+  "ex_rom": "Iḥtafalnā bi-ʿīdi mīlādihā.",
+  "ex_tr": "Doğum gününü kutladık.",
+  "note": "Muzari: يَحْتَفِلُ (yaḥtafilu). Kök: ح-ف-ل. بِـ edatıyla kullanılır."
+ },
+ {
+  "w": "هَنَّأَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "tebrik etmek"
+  ],
+  "rom": "hannaʾa",
+  "ex": "هَنَّأْتُهُ بِالنَّجَاحِ.",
+  "ex_rom": "Hannaʾtuhu bin-najāḥi.",
+  "ex_tr": "Onu başarısından dolayı tebrik ettim.",
+  "note": "Muzari: يُهَنِّئُ (yuhanniʾu). Kök: ه-ن-أ."
+ },
+ {
+  "w": "أَهْدَى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "hediye etmek"
+  ],
+  "rom": "ahdā",
+  "ex": "أَهْدَتْنِي سَاعَةً.",
+  "ex_rom": "Ahdatnī sāʿatan.",
+  "ex_tr": "Bana bir saat hediye etti.",
+  "note": "Muzari: يُهْدِي (yuhdī). Kök: ه-د-ي."
+ },
+ {
+  "w": "صَلَّى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "namaz kılmak",
+   "dua etmek"
+  ],
+  "rom": "ṣallā",
+  "ex": "صَلَّى فِي الْمَسْجِدِ.",
+  "ex_rom": "Ṣallā fī l-masjidi.",
+  "ex_tr": "Camide namaz kıldı.",
+  "note": "Muzari: يُصَلِّي (yuṣallī). Kök: ص-ل-و."
+ },
+ {
+  "w": "صَامَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "oruç tutmak"
+  ],
+  "rom": "ṣāma",
+  "ex": "نَصُومُ فِي رَمَضَانَ.",
+  "ex_rom": "Naṣūmu fī ramaḍāna.",
+  "ex_tr": "Ramazanda oruç tutarız.",
+  "note": "Muzari: يَصُومُ (yaṣūmu). Kök: ص-و-م."
+ },
+ {
+  "w": "اِسْتَمَعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "dinlemek"
+  ],
+  "rom": "istamaʿa",
+  "ex": "أَسْتَمِعُ إِلَى الْمُوسِيقَى فِي السَّيَّارَةِ.",
+  "ex_rom": "Astamiʿu ilā l-mūsīqā fī s-sayyārati.",
+  "ex_tr": "Arabada müzik dinlerim.",
+  "note": "Muzari: يَسْتَمِعُ (yastamiʿu). Kök: س-م-ع. إِلَى edatıyla kullanılır."
+ },
+ {
+  "w": "شَاهَدَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "izlemek",
+   "seyretmek"
+  ],
+  "rom": "shāhada",
+  "ex": "شَاهَدْنَا مُبَارَاةَ كُرَةِ الْقَدَمِ.",
+  "ex_rom": "Shāhadnā mubārāta kurati l-qadami.",
+  "ex_tr": "Futbol maçını izledik.",
+  "note": "Muzari: يُشَاهِدُ (yushāhidu). Kök: ش-ه-د."
+ },
+ {
+  "w": "نَظَرَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "bakmak"
+  ],
+  "rom": "naẓara",
+  "ex": "اُنْظُرْ إِلَى السَّمَاءِ!",
+  "ex_rom": "Unẓur ilā s-samāʾi!",
+  "ex_tr": "Gökyüzüne bak!",
+  "note": "Muzari: يَنْظُرُ (yanẓuru). Kök: ن-ظ-ر. إِلَى edatıyla kullanılır."
+ },
+ {
+  "w": "لَاحَظَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "fark etmek"
+  ],
+  "rom": "lāḥaẓa",
+  "ex": "لَاحَظْتُ أَنَّهُ حَزِينٌ.",
+  "ex_rom": "Lāḥaẓtu annahu ḥazīnun.",
+  "ex_tr": "Onun üzgün olduğunu fark ettim.",
+  "note": "Muzari: يُلَاحِظُ (yulāḥiẓu). Kök: ل-ح-ظ."
+ },
+ {
+  "w": "عَرَضَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "sunmak",
+   "göstermek"
+  ],
+  "rom": "ʿaraḍa",
+  "ex": "عَرَضَ عَلَيْنَا الْمُسَاعَدَةَ.",
+  "ex_rom": "ʿAraḍa ʿalaynā l-musāʿadata.",
+  "ex_tr": "Bize yardım teklif etti.",
+  "note": "Muzari: يَعْرِضُ (yaʿriḍu). Kök: ع-ر-ض."
+ },
+ {
+  "w": "اِكْتَشَفَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "keşfetmek"
+  ],
+  "rom": "iktashafa",
+  "ex": "اِكْتَشَفْنَا مَطْعَمًا رَائِعًا.",
+  "ex_rom": "Iktashafnā maṭʿaman rāʾiʿan.",
+  "ex_tr": "Harika bir restoran keşfettik.",
+  "note": "Muzari: يَكْتَشِفُ (yaktashifu). Kök: ك-ش-ف."
+ },
+ {
+  "w": "صَدَّقَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "inanmak (birine/söze)"
+  ],
+  "rom": "ṣaddaqa",
+  "ex": "لَا أُصَدِّقُ مَا حَدَثَ.",
+  "ex_rom": "Lā uṣaddiqu mā ḥadatha.",
+  "ex_tr": "Olanlara inanamıyorum.",
+  "note": "Muzari: يُصَدِّقُ (yuṣaddiqu). Kök: ص-د-ق."
+ },
+ {
+  "w": "كَذَبَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "yalan söylemek"
+  ],
+  "rom": "kadhaba",
+  "ex": "لَا تَكْذِبْ عَلَيَّ.",
+  "ex_rom": "Lā takdhib ʿalayya.",
+  "ex_tr": "Bana yalan söyleme.",
+  "note": "Muzari: يَكْذِبُ (yakdhibu). Kök: ك-ذ-ب."
+ },
+ {
+  "w": "ضَاعَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "kaybolmak"
+  ],
+  "rom": "ḍāʿa",
+  "ex": "ضَاعَ الطِّفْلُ فِي السُّوقِ.",
+  "ex_rom": "Ḍāʿa ṭ-ṭiflu fī s-sūqi.",
+  "ex_tr": "Çocuk çarşıda kayboldu.",
+  "note": "Muzari: يَضِيعُ (yaḍīʿu). Kök: ض-ي-ع."
+ },
+ {
+  "w": "سَرَقَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "çalmak (hırsızlık)"
+  ],
+  "rom": "saraqa",
+  "ex": "سَرَقَ اللِّصُّ الْهَاتِفَ.",
+  "ex_rom": "Saraqa l-liṣṣu l-hātifa.",
+  "ex_tr": "Hırsız telefonu çaldı.",
+  "note": "Muzari: يَسْرِقُ (yasriqu). Kök: س-ر-ق."
+ },
+ {
+  "w": "سَقَطَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "düşmek"
+  ],
+  "rom": "saqaṭa",
+  "ex": "سَقَطَ الْكُوبُ عَلَى الْأَرْضِ.",
+  "ex_rom": "Saqaṭa l-kūbu ʿalā l-arḍi.",
+  "ex_tr": "Bardak yere düştü.",
+  "note": "Muzari: يَسْقُطُ (yasquṭu). Kök: س-ق-ط."
+ },
+ {
+  "w": "اِهْتَمَّ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "ilgilenmek"
+  ],
+  "rom": "ihtamma",
+  "ex": "يَهْتَمُّ بِالتَّارِيخِ.",
+  "ex_rom": "Yahtammu bit-tārīkhi.",
+  "ex_tr": "Tarihle ilgilenir.",
+  "note": "Muzari: يَهْتَمُّ (yahtammu). Kök: ه-م-م. بِـ edatıyla kullanılır."
+ },
+ {
+  "w": "اِعْتَنَى",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "bakmak",
+   "özen göstermek"
+  ],
+  "rom": "iʿtanā",
+  "ex": "تَعْتَنِي بِأَطْفَالِهَا جَيِّدًا.",
+  "ex_rom": "Taʿtanī bi-aṭfālihā jayyidan.",
+  "ex_tr": "Çocuklarına iyi bakar.",
+  "note": "Muzari: يَعْتَنِي (yaʿtanī). Kök: ع-ن-ي. بِـ edatıyla kullanılır."
+ },
+ {
+  "w": "اِنْتَبَهَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "dikkat etmek"
+  ],
+  "rom": "intabaha",
+  "ex": "اِنْتَبِهْ إِلَى الطَّرِيقِ!",
+  "ex_rom": "Intabih ilā ṭ-ṭarīqi!",
+  "ex_tr": "Yola dikkat et!",
+  "note": "Muzari: يَنْتَبِهُ (yantabihu). Kök: ن-ب-ه. إِلَى edatıyla kullanılır."
+ },
+ {
+  "w": "حَدَثَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "olmak",
+   "meydana gelmek"
+  ],
+  "rom": "ḥadatha",
+  "ex": "مَاذَا حَدَثَ؟",
+  "ex_rom": "Mādhā ḥadatha?",
+  "ex_tr": "Ne oldu?",
+  "note": "Muzari: يَحْدُثُ (yaḥduthu). Kök: ح-د-ث."
+ },
+ {
+  "w": "أَضَافَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "eklemek"
+  ],
+  "rom": "aḍāfa",
+  "ex": "أَضِفْ قَلِيلًا مِنَ الْمِلْحِ.",
+  "ex_rom": "Aḍif qalīlan mina l-milḥi.",
+  "ex_tr": "Biraz tuz ekle.",
+  "note": "Muzari: يُضِيفُ (yuḍīfu). Kök: ض-ي-ف."
+ },
+ {
+  "w": "خَلَطَ",
+  "pos": "verb",
+  "l": "A2",
+  "tr": [
+   "karıştırmak"
+  ],
+  "rom": "khalaṭa",
+  "ex": "اِخْلِطِ السُّكَّرَ مَعَ الْحَلِيبِ.",
+  "ex_rom": "Ikhliṭi s-sukkara maʿa l-ḥalībi.",
+  "ex_tr": "Şekeri sütle karıştır.",
+  "note": "Muzari: يَخْلِطُ (yakhliṭu). Kök: خ-ل-ط."
+ }
+]

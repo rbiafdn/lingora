@@ -95,6 +95,8 @@ const ItemCard = memo(function ItemCard({
   const isGrammar = !!item.grammar
   const meaning = (item.translations[UI_LANG] ?? []).join(', ')
   const [pop, setPop] = useState(false)
+  // Non-Latin scripts: show how to read it (kana and/or Latin letters).
+  const reading = [item.details?.kana, item.details?.reading].filter(Boolean).join(' ')
   return (
     <div className={`item-card${known ? ' is-known' : ''}`} role="listitem">
       {/* Only the checkbox toggles "known": tapping the text does nothing, so a
@@ -115,9 +117,10 @@ const ItemCard = memo(function ItemCard({
         </span>
       </label>
       <span className="item-text">
-        <span className="item-source" lang={item.languageId}>
+        <span className="item-source" lang={item.languageId} dir="auto">
           {item.sourceText}
         </span>
+        {reading && <span className="item-reading">{reading}</span>}
         {meaning && (
           <>
             <span className="item-sep">{isGrammar ? ' · ' : ' : '}</span>

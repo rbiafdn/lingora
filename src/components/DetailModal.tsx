@@ -27,9 +27,17 @@ export function DetailModal({
   return (
     <Modal onClose={onClose} labelledBy="detail-title" wide={isGrammar}>
       <header className="detail-head">
-        <h2 id="detail-title" className={isGrammar ? 'grammar-title' : undefined} lang={item.languageId}>
+        <h2 id="detail-title" className={isGrammar ? 'grammar-title' : undefined} lang={item.languageId} dir="auto">
           {item.sourceText}
         </h2>
+        {(d.kana || d.reading) && (
+          <div className="detail-reading">
+            {d.kana && <span lang={item.languageId}>{d.kana}</span>}
+            {d.kana && d.reading && <span className="muted"> · </span>}
+            {d.reading}
+            {d.letterName && <span className="muted"> · adı: {d.letterName}</span>}
+          </div>
+        )}
         {d.expansion && (
           <div className="detail-expansion" lang={item.languageId}>
             {d.expansion}
@@ -72,9 +80,10 @@ function Examples({ examples, lang }: { examples: Example[]; lang: string }) {
     <div className="examples">
       {examples.map((ex, i) => (
         <div className="example" key={i}>
-          <div className="example-src" lang={lang}>
+          <div className="example-src" lang={lang} dir="auto">
             <MarkedText text={ex.text} />
           </div>
+          {ex.reading && <div className="example-reading">{ex.reading}</div>}
           {ex.tr && <div className="example-tr">{ex.tr}</div>}
         </div>
       ))}
@@ -112,6 +121,11 @@ function LexicalBody({ item }: { item: ContentItem }) {
         <Field label="Örnek">
           <Examples examples={[example]} lang={item.languageId} />
         </Field>
+      )}
+      {d.ipa && (
+        <p className="detail-pron" lang={item.languageId}>
+          <b>IPA</b> {d.ipa}
+        </p>
       )}
       {(d.pronunciation?.uk || d.pronunciation?.us) && (
         <p className="detail-pron" lang={item.languageId}>
@@ -229,7 +243,7 @@ function GrammarBlock({ section, lang }: { section: GrammarSection; lang: string
             <b>TR</b> {section.formula.map((p) => p.tr).join(' + ')}
           </div>
           <div lang={lang}>
-            <b>EN</b> {section.formula.map((p) => p.en).join(' + ')}
+            <b>{lang.toUpperCase()}</b> {section.formula.map((p) => p.en).join(' + ')}
           </div>
         </div>
       )}

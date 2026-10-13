@@ -1,0 +1,364 @@
+[
+ {
+  "w": "ثَالِث",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "üçüncü"
+  ],
+  "rom": "thālith",
+  "ex": "هَذَا الدَّرْسُ الثَّالِثُ.",
+  "ex_rom": "Hādhā d-darsu th-thālithu.",
+  "ex_tr": "Bu üçüncü ders."
+ },
+ {
+  "w": "رَابِع",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "dördüncü"
+  ],
+  "rom": "rābiʿ",
+  "ex": "الْمَكْتَبُ فِي الطَّابِقِ الرَّابِعِ.",
+  "ex_rom": "Al-maktabu fī ṭ-ṭābiqi r-rābiʿi.",
+  "ex_tr": "Ofis dördüncü katta."
+ },
+ {
+  "w": "خَامِس",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "beşinci"
+  ],
+  "rom": "khāmis",
+  "ex": "الْيَوْمُ الْخَامِسُ مِنَ الشَّهْرِ.",
+  "ex_rom": "Al-yawmu l-khāmisu mina sh-shahri.",
+  "ex_tr": "Ayın beşinci günü."
+ },
+ {
+  "w": "سَادِس",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "altıncı"
+  ],
+  "rom": "sādis",
+  "ex": "هُوَ فِي الصَّفِّ السَّادِسِ.",
+  "ex_rom": "Huwa fī ṣ-ṣaffi s-sādisi.",
+  "ex_tr": "O altıncı sınıfta."
+ },
+ {
+  "w": "سَابِع",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "yedinci"
+  ],
+  "rom": "sābiʿ",
+  "ex": "الْبَابُ السَّابِعُ عَلَى الْيَسَارِ.",
+  "ex_rom": "Al-bābu s-sābiʿu ʿalā l-yasāri.",
+  "ex_tr": "Yedinci kapı solda."
+ },
+ {
+  "w": "ثَامِن",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "sekizinci"
+  ],
+  "rom": "thāmin",
+  "ex": "احْتَفَلَ بِعِيدِ مِيلَادِهِ الثَّامِنِ.",
+  "ex_rom": "Iḥtafala bi-ʿīdi mīlādihi th-thāmini.",
+  "ex_tr": "Sekizinci doğum gününü kutladı."
+ },
+ {
+  "w": "تَاسِع",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "dokuzuncu"
+  ],
+  "rom": "tāsiʿ",
+  "ex": "الْفَصْلُ التَّاسِعُ صَعْبٌ.",
+  "ex_rom": "Al-faṣlu t-tāsiʿu ṣaʿbun.",
+  "ex_tr": "Dokuzuncu bölüm zor."
+ },
+ {
+  "w": "عَاشِر",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "onuncu"
+  ],
+  "rom": "ʿāshir",
+  "ex": "وَصَلَ فِي الْمَرْكَزِ الْعَاشِرِ.",
+  "ex_rom": "Waṣala fī l-markazi l-ʿāshiri.",
+  "ex_tr": "Onuncu sırada geldi."
+ },
+ {
+  "w": "أَحَدَ عَشَرَ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "on bir"
+  ],
+  "rom": "aḥada ʿashara",
+  "ex": "فِي الصَّفِّ أَحَدَ عَشَرَ طَالِبًا.",
+  "ex_rom": "Fī ṣ-ṣaffi aḥada ʿashara ṭāliban.",
+  "ex_tr": "Sınıfta on bir öğrenci var.",
+  "note": "Dişil sayılanla: إِحْدَى عَشْرَةَ."
+ },
+ {
+  "w": "اِثْنَا عَشَرَ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "on iki"
+  ],
+  "rom": "ithnā ʿashara",
+  "ex": "فِي السَّنَةِ اثْنَا عَشَرَ شَهْرًا.",
+  "ex_rom": "Fī s-sanati thnā ʿashara shahran.",
+  "ex_tr": "Bir yılda on iki ay vardır.",
+  "note": "Dişil sayılanla: اِثْنَتَا عَشْرَةَ."
+ },
+ {
+  "w": "عِشْرُونَ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "yirmi"
+  ],
+  "rom": "ʿishrūna",
+  "ex": "عُمْرِي عِشْرُونَ سَنَةً.",
+  "ex_rom": "ʿUmrī ʿishrūna sanatan.",
+  "ex_tr": "Yirmi yaşındayım."
+ },
+ {
+  "w": "ثَلَاثُونَ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "otuz"
+  ],
+  "rom": "thalāthūna",
+  "ex": "فِي الشَّهْرِ ثَلَاثُونَ يَوْمًا.",
+  "ex_rom": "Fī sh-shahri thalāthūna yawman.",
+  "ex_tr": "Bir ayda otuz gün vardır."
+ },
+ {
+  "w": "أَرْبَعُونَ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "kırk"
+  ],
+  "rom": "arbaʿūna",
+  "ex": "انْتَظَرْنَا أَرْبَعِينَ دَقِيقَةً.",
+  "ex_rom": "Intaẓarnā arbaʿīna daqīqatan.",
+  "ex_tr": "Kırk dakika bekledik.",
+  "note": "Mansub/mecrur hâli: أَرْبَعِينَ."
+ },
+ {
+  "w": "خَمْسُونَ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "elli"
+  ],
+  "rom": "khamsūna",
+  "ex": "السِّعْرُ خَمْسُونَ دِرْهَمًا.",
+  "ex_rom": "As-siʿru khamsūna dirhaman.",
+  "ex_tr": "Fiyat elli dirhem."
+ },
+ {
+  "w": "سِتُّونَ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "altmış"
+  ],
+  "rom": "sittūna",
+  "ex": "فِي السَّاعَةِ سِتُّونَ دَقِيقَةً.",
+  "ex_rom": "Fī s-sāʿati sittūna daqīqatan.",
+  "ex_tr": "Bir saatte altmış dakika vardır."
+ },
+ {
+  "w": "سَبْعُونَ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "yetmiş"
+  ],
+  "rom": "sabʿūna",
+  "ex": "جَدِّي عُمْرُهُ سَبْعُونَ سَنَةً.",
+  "ex_rom": "Jaddī ʿumruhu sabʿūna sanatan.",
+  "ex_tr": "Dedem yetmiş yaşında."
+ },
+ {
+  "w": "ثَمَانُونَ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "seksen"
+  ],
+  "rom": "thamānūna",
+  "ex": "قَرَأْتُ ثَمَانِينَ صَفْحَةً.",
+  "ex_rom": "Qaraʾtu thamānīna ṣafḥatan.",
+  "ex_tr": "Seksen sayfa okudum.",
+  "note": "Mansub/mecrur hâli: ثَمَانِينَ."
+ },
+ {
+  "w": "تِسْعُونَ",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "doksan"
+  ],
+  "rom": "tisʿūna",
+  "ex": "حَصَلْتُ عَلَى تِسْعِينَ دَرَجَةً.",
+  "ex_rom": "Ḥaṣaltu ʿalā tisʿīna darajatan.",
+  "ex_tr": "Doksan puan aldım.",
+  "note": "Mansub/mecrur hâli: تِسْعِينَ."
+ },
+ {
+  "w": "مِئَة",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "yüz"
+  ],
+  "rom": "miʾa",
+  "ex": "فِي الْقَاعَةِ مِئَةُ كُرْسِيٍّ.",
+  "ex_rom": "Fī l-qāʿati miʾatu kursiyyin.",
+  "ex_tr": "Salonda yüz sandalye var.",
+  "note": "Bazen مِائَة diye de yazılır."
+ },
+ {
+  "w": "أَلْف",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "bin"
+  ],
+  "rom": "alf",
+  "ex": "السِّعْرُ أَلْفُ رِيَالٍ.",
+  "ex_rom": "As-siʿru alfu riyālin.",
+  "ex_tr": "Fiyat bin riyal."
+ },
+ {
+  "w": "مِلْيُون",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "milyon"
+  ],
+  "rom": "milyūn",
+  "ex": "يَسْكُنُ فِي الْمَدِينَةِ مِلْيُونُ شَخْصٍ.",
+  "ex_rom": "Yaskunu fī l-madīnati milyūnu shakhṣin.",
+  "ex_tr": "Şehirde bir milyon kişi yaşıyor."
+ },
+ {
+  "w": "نِصْف",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "yarım",
+   "yarı"
+  ],
+  "rom": "niṣf",
+  "ex": "انْتَظَرْتُ نِصْفَ سَاعَةٍ.",
+  "ex_rom": "Intaẓartu niṣfa sāʿatin.",
+  "ex_tr": "Yarım saat bekledim."
+ },
+ {
+  "w": "رُبْع",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "çeyrek",
+   "dörtte bir"
+  ],
+  "rom": "rubʿ",
+  "ex": "السَّاعَةُ الثَّالِثَةُ إِلَّا رُبْعًا.",
+  "ex_rom": "As-sāʿatu th-thālithatu illā rubʿan.",
+  "ex_tr": "Saat üçe çeyrek var."
+ },
+ {
+  "w": "ثُلْث",
+  "pos": "numeral",
+  "l": "A2",
+  "tr": [
+   "üçte bir"
+  ],
+  "rom": "thulth",
+  "ex": "أَكَلْتُ ثُلْثَ الْكَعْكَةِ.",
+  "ex_rom": "Akaltu thultha l-kaʿkati.",
+  "ex_tr": "Pastanın üçte birini yedim."
+ },
+ {
+  "w": "مَبْرُوك",
+  "pos": "interjection",
+  "l": "A2",
+  "tr": [
+   "tebrikler",
+   "hayırlı olsun"
+  ],
+  "rom": "mabrūk",
+  "ex": "نَجَحْتَ؟ مَبْرُوك!",
+  "ex_rom": "Najaḥta? Mabrūk!",
+  "ex_tr": "Geçtin mi? Tebrikler!",
+  "note": "Cevabı: اللّٰهُ يُبَارِكُ فِيكَ."
+ },
+ {
+  "w": "هَيَّا",
+  "pos": "interjection",
+  "l": "A2",
+  "tr": [
+   "haydi"
+  ],
+  "rom": "hayyā",
+  "ex": "هَيَّا بِنَا!",
+  "ex_rom": "Hayyā binā!",
+  "ex_tr": "Haydi gidelim!"
+ },
+ {
+  "w": "حَسَنًا",
+  "pos": "interjection",
+  "l": "A2",
+  "tr": [
+   "peki",
+   "tamam"
+  ],
+  "rom": "ḥasanan",
+  "ex": "حَسَنًا، سَأَنْتَظِرُ.",
+  "ex_rom": "Ḥasanan, sa-antaẓiru.",
+  "ex_tr": "Peki, bekleyeceğim."
+ },
+ {
+  "w": "آه",
+  "pos": "interjection",
+  "l": "A2",
+  "tr": [
+   "ah",
+   "of"
+  ],
+  "rom": "āh",
+  "ex": "آه، رَأْسِي يُؤْلِمُنِي!",
+  "ex_rom": "Āh, raʾsī yuʾlimunī!",
+  "ex_tr": "Ah, başım ağrıyor!"
+ },
+ {
+  "w": "يَا لَهُ مِنْ",
+  "pos": "interjection",
+  "l": "A2",
+  "tr": [
+   "ne kadar",
+   "ne … !"
+  ],
+  "rom": "yā lahu min",
+  "ex": "يَا لَهُ مِنْ يَوْمٍ جَمِيلٍ!",
+  "ex_rom": "Yā lahu min yawmin jamīlin!",
+  "ex_tr": "Ne güzel bir gün!",
+  "note": "Hayranlık/şaşkınlık bildirir; dişili يَا لَهَا مِنْ."
+ }
+]

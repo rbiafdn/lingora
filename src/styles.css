@@ -4241,3 +4241,110 @@ body {
 .orbit-level .orbit-bubble {
   border-color: color-mix(in srgb, var(--c) 80%, #fff 20%);
 }
+
+/* ==========================================================
+   NEW LANGUAGES — readings, alphabet tiles
+   ========================================================== */
+.item-reading {
+  margin-left: 6px;
+  font-size: 0.78rem;
+  color: var(--text-3);
+}
+.gc-reading,
+.example-reading {
+  font-size: 0.8rem;
+  color: var(--text-3);
+}
+.detail-reading {
+  margin-top: 2px;
+  font-size: 0.95rem;
+  color: var(--accent-text);
+}
+
+.alphabet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(118px, 1fr));
+  gap: 10px;
+}
+.letter-card {
+  position: relative;
+  display: flex;
+  background: rgba(16, 33, 61, 0.78);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: inset 0 3px 0 color-mix(in srgb, var(--cat, #8fb3dc) 26%, transparent);
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s, translate 0.2s;
+  animation: card-in 0.45s cubic-bezier(0.2, 0.8, 0.3, 1) backwards;
+  animation-delay: calc(var(--i, 0) * 22ms);
+}
+.letter-card:hover {
+  translate: 0 -2px;
+  border-color: color-mix(in srgb, var(--cat, #8fb3dc) 40%, transparent);
+  box-shadow:
+    inset 0 3px 0 color-mix(in srgb, var(--cat, #8fb3dc) 50%, transparent),
+    0 10px 28px -14px rgba(0, 0, 0, 0.8);
+}
+.letter-card.is-known {
+  background: color-mix(in srgb, var(--cat, #8fb3dc) 8%, rgba(16, 33, 61, 0.82));
+  border-color: color-mix(in srgb, var(--cat, #8fb3dc) 30%, transparent);
+}
+.letter-card .gc-known,
+.letter-card.is-known .gc-known {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 1;
+  width: 36px;
+  height: 36px;
+  margin: 0;
+}
+.letter-open {
+  flex: 1;
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  padding: 22px 8px 14px;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.letter-glyph {
+  font-size: 2.1rem;
+  line-height: 1.15;
+  font-weight: 600;
+  color: var(--text);
+}
+.letter-reading {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: color-mix(in srgb, var(--cat, #8fb3dc) 65%, #fff);
+}
+.letter-sound {
+  font-size: 0.75rem;
+  color: var(--text-3);
+  text-align: center;
+}
+@media (prefers-reduced-motion: reduce) {
+  .letter-card {
+    animation: none;
+  }
+}
+/* Category orbs that show a letter (alphabet) */
+.orbit-cat .orbit-text {
+  font-size: calc(var(--node) * 0.4);
+  font-weight: 700;
+  line-height: 1;
+}
+.lang-name {
+  display: grid;
+}
+.lang-tr {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-3);
+}
+.lang-grid {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr));
+}

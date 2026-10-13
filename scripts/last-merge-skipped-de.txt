@@ -1,0 +1,18 @@
+cross-category: "am Wochenende" (expressions) already in collocations
+cross-category: "Lust haben" (expressions) already in collocations
+cross-category: "recht haben" (expressions) already in collocations
+cross-category: "Bescheid sagen" (expressions) already in collocations
+cross-category: "Bescheid wissen" (expressions) already in collocations
+cross-category: "Na und?" (slang) already in expressions
+cross-category: "keinen Bock haben" (slang) already in idioms
+cross-category: "Hals- und Beinbruch!" (daily) already in idioms
+cross-category: "zur Verfügung stehen" (expressions) already in collocations
+cross-category: "den Nagel auf den Kopf treffen" (idioms) already in collocations
+cross-category: "Abwarten und Tee trinken." (proverbs) already in idioms
+cross-category: "blau sein" (slang) already in idioms
+cross-category: "das Eis brechen" (collocations) already in idioms
+cross-category: "in Kraft treten" (expressions) already in collocations
+cross-category: "zur Kenntnis nehmen" (expressions) already in collocations
+cross-category: "in Frage stellen" (expressions) already in collocations
+cross-category: "zum Ausdruck bringen" (expressions) already in collocations
+cross-category: "Fuß fassen" (idioms) already in collocations

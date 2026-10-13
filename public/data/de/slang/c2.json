@@ -1,0 +1,5 @@
+[
+  {"id":"de-slang-warmduscher","languageId":"de","category":"slang","level":"C2","sourceText":"Warmduscher","translations":{"tr":["hanım evladı","yumuşak"]},"details":{"usage":"Konforunu sevip zorluktan kaçan erkek için alay.","register":"offensive"},"examples":[{"text":"Nur ein Warmduscher fährt bei dem Wetter nicht Rad.","tr":"Bu havada bisiklete binmeyen hanım evladıdır."}]},
+  {"id":"de-slang-piefke","languageId":"de","category":"slang","level":"C2","sourceText":"Piefke","translations":{"tr":["Alman (Avusturya argosunda)"]},"details":{"usage":"Avusturyalıların Almanlara alaycı adı.","register":"offensive"},"examples":[{"text":"Im Sommer kommen viele Piefkes nach Tirol.","tr":"Yazın Tirol'e bir sürü Alman geliyor."}]},
+  {"id":"de-slang-muffensausen","languageId":"de","category":"slang","level":"C2","sourceText":"Muffensausen","translations":{"tr":["korku","heyecandan titreme"]},"details":{"usage":"'Muffensausen haben' = çok korkmak.","register":"informal"},"examples":[{"text":"Vor dem Fallschirmsprung hatte ich Muffensausen.","tr":"Paraşütle atlamadan önce ödüm patlıyordu."}]}
+]

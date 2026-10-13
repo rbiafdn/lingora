@@ -12,6 +12,8 @@ export const TONE: Record<string, string> = {
   slang: '#f0628f', // street, edgy: hot pink
   grammar: '#6fcf97', // rules and structure: green
   favorites: '#f5cf4a', // star: yellow
+  alphabet: '#f2e6c9', // first steps, letters on paper: warm ivory
+  'verb-pairs': '#4fd1c5', // Russian aspect pairs, verbs like phrasal verbs: teal
 }
 
 export const DEFAULT_TONE = '#8fb3dc'

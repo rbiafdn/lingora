@@ -22,10 +22,17 @@ async function storeWith(backend = memoryBackend()) {
 }
 
 describe('content data', () => {
-  it('passes schema validation (unique stable ids, required fields, grammar standard)', () => {
-    const { errors } = validateLanguage(manifest, files)
-    expect(errors).toEqual([])
-  })
+  const languages: { id: string }[] = JSON.parse(readFileSync('public/data/languages.json', 'utf8'))
+  for (const { id } of languages) {
+    it(`${id}: passes schema validation (unique stable ids, required fields, grammar standard)`, () => {
+      const d = `public/data/${id}/`
+      const m: LanguageManifest = JSON.parse(readFileSync(d + 'manifest.json', 'utf8'))
+      const f = Object.fromEntries(
+        m.categories.flatMap((c) => c.files).map((x) => [x, JSON.parse(readFileSync(d + x, 'utf8'))]),
+      )
+      expect(validateLanguage(m, f).errors).toEqual([])
+    })
+  }
 })
 
 describe('progress store', () => {

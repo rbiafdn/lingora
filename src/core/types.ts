@@ -11,10 +11,12 @@ export interface Language {
   id: string
   name: string
   nativeName: string
+  /** Turkish name of the language (İspanyolca). */
+  trName?: string
   active: boolean
 }
 
-export type CategoryKind = 'lexical' | 'grammar'
+export type CategoryKind = 'lexical' | 'grammar' | 'alphabet'
 
 export interface CategoryDef {
   id: string
@@ -26,6 +28,8 @@ export interface CategoryDef {
   levels?: boolean
   /** Learning order of item ids; items not listed follow in data order. */
   order?: string[]
+  /** Shown inside the dashboard orb instead of an icon (e.g. "あ" for the alphabet). */
+  glyph?: string
   /** One or more data files; large categories can be split (e.g. by level). */
   files: string[]
 }
@@ -40,6 +44,8 @@ export interface LanguageManifest {
 
 export interface Example {
   text: string
+  /** Latin-letter reading of the example (non-Latin scripts). */
+  reading?: string
   tr?: string
 }
 
@@ -48,6 +54,14 @@ export type Register = 'formal' | 'neutral' | 'informal' | 'slang' | 'offensive'
 export interface ItemDetails {
   expansion?: string
   pronunciation?: { uk?: string; us?: string }
+  /** IPA for languages without a UK/US split, e.g. "/ˈkasa/". */
+  ipa?: string
+  /** Latin-letter reading for non-Latin scripts (privet, konnichiwa, namaste). */
+  reading?: string
+  /** Japanese kana reading of a word written with kanji. */
+  kana?: string
+  /** Alphabet: the letter's name (e.g. "be" for Б). */
+  letterName?: string
   literal?: string
   meaning?: string
   explanation?: string

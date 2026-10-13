@@ -25,6 +25,9 @@ const P: Record<string, string> = {
   favorites: 'm12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.7l5.9-.9L12 3.5Z',
 }
 
+// Categories that reuse another category's icon.
+const ALIAS: Record<string, string> = { 'verb-pairs': 'phrasal-verbs' }
+
 export function DashIcon({ name, className }: { name: string; className?: string }) {
   if (name === 'abbreviations')
     return (
@@ -35,7 +38,7 @@ export function DashIcon({ name, className }: { name: string; className?: string
   return (
     <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
       <path
-        d={P[name] ?? P.words}
+        d={P[name] ?? P[ALIAS[name]] ?? P.words}
         fill="none"
         stroke="currentColor"
         strokeWidth="1.6"

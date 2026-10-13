@@ -16,7 +16,10 @@ export function Welcome() {
             l.active ? (
               <a key={l.id} className="lang-card" href={href(l.id)}>
                 <span className="lang-code">{l.id.toUpperCase()}</span>
-                <span className="lang-name">{l.name}</span>
+                <span className="lang-name" lang={l.id}>
+                  {l.nativeName}
+                  {l.trName && <small className="lang-tr">{l.trName}</small>}
+                </span>
                 <span className="lang-go" aria-hidden="true">
                   →
                 </span>
@@ -24,7 +27,10 @@ export function Welcome() {
             ) : (
               <div key={l.id} className="lang-card is-disabled" aria-disabled="true">
                 <span className="lang-code">{l.id.toUpperCase()}</span>
-                <span className="lang-name">{l.nativeName}</span>
+                <span className="lang-name" lang={l.id}>
+                  {l.nativeName}
+                  {l.trName && <small className="lang-tr">{l.trName}</small>}
+                </span>
                 <span className="soon">Yakında</span>
               </div>
             ),

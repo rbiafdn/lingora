@@ -14,9 +14,11 @@ const ID_PREFIX: Record<string, string> = {
   daily: 'daily',
   slang: 'slang',
   grammar: 'gr',
+  alphabet: 'abc',
+  'verb-pairs': 'vp',
 }
 const SLUG = '[a-z0-9]+(?:-[a-z0-9]+)*'
-const POS = new Set(['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'determiner', 'interjection'])
+const POS = new Set(['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'determiner', 'interjection', 'particle', 'numeral'])
 const REGISTERS = new Set(['formal', 'neutral', 'informal', 'slang', 'offensive', 'vulgar'])
 const ROLES = new Set(['s', 'a', 'v', 'o', 'q', 'x'])
 
